@@ -520,3 +520,20 @@ h1 {
     border-left-color: #f59e0b;
     background: rgba(245, 158, 11, 0.1);
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    body {
+        overflow-y: auto !important;
+        align-items: flex-start;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: auto;
+    }
+
+    .container {
+        height: auto;
+        aspect-ratio: auto;
+        margin-bottom: 2rem;
+    }
+}
