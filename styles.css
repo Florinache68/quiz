@@ -1,4 +1,4 @@
-:root {
+﻿:root {
     --primary: #6366f1;
     --primary-dark: #4f46e5;
     --secondary: #ec4899;
@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-y: auto;
     position: relative;
 }
 
@@ -537,3 +537,5 @@ h1 {
         margin-bottom: 2rem;
     }
 }
+
+.skip-btn { background: transparent; border: 2px solid var(--text-muted); color: var(--text-muted); margin-right: 1rem; } .skip-btn:hover { border-color: var(--text); color: var(--text); background: rgba(255, 255, 255, 0.1); transform: translateY(-2px); } @media (max-width: 480px) { .quiz-footer { flex-direction: column-reverse; gap: 1rem; } .skip-btn { margin-right: 0; width: 100%; } }

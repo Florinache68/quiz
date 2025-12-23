@@ -15,6 +15,7 @@ const quizScreen = document.getElementById('quiz-screen');
 const resultScreen = document.getElementById('result-screen');
 const startBtn = document.getElementById('start-btn');
 const nextBtn = document.getElementById('next-btn');
+const skipBtn = document.getElementById('skip-btn');
 const restartBtn = document.getElementById('restart-btn');
 const questionText = document.getElementById('question-text');
 const optionsContainer = document.getElementById('options-container');
@@ -34,6 +35,7 @@ const timerDisplay = document.getElementById('timer-display');
 // Init
 startBtn.addEventListener('click', startQuiz);
 nextBtn.addEventListener('click', nextQuestion);
+skipBtn.addEventListener('click', skipQuestion);
 restartBtn.addEventListener('click', restartQuiz);
 updateBestGradeDisplay(); // Load stored best score on init
 
@@ -258,78 +260,88 @@ function renderDoubleDropdown(question) {
     if (!userAnswers[question.id]) userAnswers[question.id] = [null, null];
 
     // Options are embedded as [ [optList1], [optList2] ]
-    // Use shuffledOptionsMap to store an array of 2 shuffled lists
-    if (!shuffledOptionsMap[question.id]) {
-        const list1 = question.options[0].map((opt, i) => ({ originalIndex: i, text: opt }));
-        const list2 = question.options[1].map((opt, i) => ({ originalIndex: i, text: opt }));
-        shuffleArray(list1);
-        shuffleArray(list2);
-        shuffledOptionsMap[question.id] = [list1, list2];
+    const [opts1, opts2] = question.options;
+
+    // Create container for double dropdowns if not exists
+    let ddContainer = document.getElementById(`dd-container-${question.id}`);
+    if (!ddContainer) {
+        ddContainer = document.createElement('div');
+        ddContainer.id = `dd-container-${question.id}`;
+        ddContainer.className = 'double-dropdown-container';
+        optionsContainer.appendChild(ddContainer);
+    } else {
+        ddContainer.innerHTML = '';
     }
 
-    const [shuffledList1, shuffledList2] = shuffledOptionsMap[question.id];
+    // Dropdown 1
+    const select1 = createSelect(opts1, 0, question);
+    ddContainer.appendChild(select1);
 
-    // Container for layout
-    const wrapper = document.createElement('div');
-    wrapper.style.display = 'flex';
-    wrapper.style.flexDirection = 'column';
-    wrapper.style.gap = '1rem';
-
-    // Create Select 1
-    const select1 = createSelect(shuffledList1, 0, question.id);
-    // Create Select 2
-    const select2 = createSelect(shuffledList2, 1, question.id);
-
-    wrapper.appendChild(select1);
-    wrapper.appendChild(select2);
-    optionsContainer.appendChild(wrapper);
-
-    checkDoubleDropdownComplete(question.id);
+    // Dropdown 2
+    const select2 = createSelect(opts2, 1, question);
+    ddContainer.appendChild(select2);
 }
 
-function createSelect(shuffledOptions, indexInAnswer, questionId) {
+function createSelect(options, indexInAnswer, question) {
     const select = document.createElement('select');
     select.className = 'quiz-select';
 
     const defaultOption = document.createElement('option');
-    defaultOption.textContent = `Opțiunea ${indexInAnswer + 1}...`;
+    defaultOption.textContent = 'Alege...';
     defaultOption.value = '';
     defaultOption.disabled = true;
 
-    // Check if current slot is null
-    if (userAnswers[questionId][indexInAnswer] === null) {
+    // Check if we have a saved answer for this index
+    const savedVal = userAnswers[question.id][indexInAnswer];
+    if (savedVal === null) {
         defaultOption.selected = true;
     }
     select.appendChild(defaultOption);
 
-    shuffledOptions.forEach((optObj) => {
+    options.forEach((optText, i) => {
         const option = document.createElement('option');
-        option.value = optObj.originalIndex;
-        option.textContent = optObj.text;
-
-        if (userAnswers[questionId][indexInAnswer] === optObj.originalIndex) {
+        option.value = i;
+        option.textContent = optText;
+        if (savedVal === i) {
             option.selected = true;
         }
         select.appendChild(option);
     });
 
     select.onchange = (e) => {
-        userAnswers[questionId][indexInAnswer] = parseInt(e.target.value);
-        checkDoubleDropdownComplete(questionId);
+        userAnswers[question.id][indexInAnswer] = parseInt(e.target.value);
+        checkDoubleDropdownComplete(question.id);
     };
 
     return select;
 }
 
-function checkDoubleDropdownComplete(questionId) {
-    const answers = userAnswers[questionId];
-    // Next enabled only if both slots are filled (not null)
-    if (answers && answers[0] !== null && answers[1] !== null) {
+function checkDoubleDropdownComplete(qid) {
+    const ans = userAnswers[qid];
+    // Enable next if both parts are non-null
+    if (ans[0] !== null && ans[1] !== null) {
         nextBtn.disabled = false;
     } else {
         nextBtn.disabled = true;
     }
 }
+
+// Skip Question Logic
+function skipQuestion() {
+    if (assignedQuestions.length <= 1) return; // Don't skip if it's the only question
+
+    const skipped = assignedQuestions[currentQuestionIndex];
+
+    // Remove current question
+    assignedQuestions.splice(currentQuestionIndex, 1);
+
+    // Move to end of queue
+    assignedQuestions.push(skipped);
+
+    // Re-render current index (which now holds the next question)
+    renderQuestion();
+}
+
 
 function nextQuestion() {
     currentQuestionIndex++;
