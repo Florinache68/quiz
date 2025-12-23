@@ -95,5 +95,27 @@
             "Arhivare"
         ],
         "correctAnswer": 1
+    },
+    {
+        "id": 8,
+        "type": "double-dropdown",
+        "question": "Criptarea ___ folosește o singură cheie, iar cea ___ folosește o pereche de chei.",
+        "points": 2,
+        "options": [
+            [
+                "Simetrică",
+                "Asimetrică",
+                "Hash"
+            ],
+            [
+                "Simetrică",
+                "Asimetrică",
+                "Hibridă"
+            ]
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
     }
 ]

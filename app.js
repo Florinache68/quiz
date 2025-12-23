@@ -160,6 +160,8 @@ function renderQuestion() {
         renderMultipleChoice(question, currentShuffledOptions);
     } else if (question.type === 'dropdown') {
         renderDropdown(question, currentShuffledOptions);
+    } else if (question.type === 'double-dropdown') {
+        renderDoubleDropdown(question);
     }
 }
 
@@ -248,6 +250,84 @@ function renderDropdown(question, options) {
     optionsContainer.appendChild(select);
 }
 
+function renderDoubleDropdown(question) {
+    // Check/Init user answer array
+    if (!userAnswers[question.id]) userAnswers[question.id] = [null, null];
+
+    // Options are embedded as [ [optList1], [optList2] ]
+    // Use shuffledOptionsMap to store an array of 2 shuffled lists
+    if (!shuffledOptionsMap[question.id]) {
+        const list1 = question.options[0].map((opt, i) => ({ originalIndex: i, text: opt }));
+        const list2 = question.options[1].map((opt, i) => ({ originalIndex: i, text: opt }));
+        shuffleArray(list1);
+        shuffleArray(list2);
+        shuffledOptionsMap[question.id] = [list1, list2];
+    }
+
+    const [shuffledList1, shuffledList2] = shuffledOptionsMap[question.id];
+
+    // Container for layout
+    const wrapper = document.createElement('div');
+    wrapper.style.display = 'flex';
+    wrapper.style.flexDirection = 'column';
+    wrapper.style.gap = '1rem';
+
+    // Create Select 1
+    const select1 = createSelect(shuffledList1, 0, question.id);
+    // Create Select 2
+    const select2 = createSelect(shuffledList2, 1, question.id);
+
+    wrapper.appendChild(select1);
+    wrapper.appendChild(select2);
+    optionsContainer.appendChild(wrapper);
+
+    checkDoubleDropdownComplete(question.id);
+}
+
+function createSelect(shuffledOptions, indexInAnswer, questionId) {
+    const select = document.createElement('select');
+    select.className = 'quiz-select';
+
+    const defaultOption = document.createElement('option');
+    defaultOption.textContent = `Opțiunea ${indexInAnswer + 1}...`;
+    defaultOption.value = '';
+    defaultOption.disabled = true;
+
+    // Check if current slot is null
+    if (userAnswers[questionId][indexInAnswer] === null) {
+        defaultOption.selected = true;
+    }
+    select.appendChild(defaultOption);
+
+    shuffledOptions.forEach((optObj) => {
+        const option = document.createElement('option');
+        option.value = optObj.originalIndex;
+        option.textContent = optObj.text;
+
+        if (userAnswers[questionId][indexInAnswer] === optObj.originalIndex) {
+            option.selected = true;
+        }
+        select.appendChild(option);
+    });
+
+    select.onchange = (e) => {
+        userAnswers[questionId][indexInAnswer] = parseInt(e.target.value);
+        checkDoubleDropdownComplete(questionId);
+    };
+
+    return select;
+}
+
+function checkDoubleDropdownComplete(questionId) {
+    const answers = userAnswers[questionId];
+    // Next enabled only if both slots are filled (not null)
+    if (answers && answers[0] !== null && answers[1] !== null) {
+        nextBtn.disabled = false;
+    } else {
+        nextBtn.disabled = true;
+    }
+}
+
 function nextQuestion() {
     currentQuestionIndex++;
     if (currentQuestionIndex < assignedQuestions.length) {
@@ -311,12 +391,18 @@ function calculateScore() {
         const questionValue = q.points || 1; // Default to 1 if not set
         let points = 0;
         let status = 'wrong'; // correct, partial, wrong
-
         if (userAnswer === undefined || (Array.isArray(userAnswer) && userAnswer.length === 0)) {
             // No answer
             points = 0;
             status = 'wrong';
-        } else {
+        }
+        // Handle undefined array elements inside user answer (e.g., [1, null]) for double dropdown
+        else if (Array.isArray(userAnswer) && (userAnswer.includes(null) || userAnswer.includes(undefined))) {
+            // Treat as incomplete/wrong for now
+            points = 0;
+            status = 'wrong';
+        }
+        else {
             if (q.type === 'single' || q.type === 'dropdown') {
                 if (userAnswer === q.correctAnswer) {
                     points = questionValue;
@@ -325,6 +411,21 @@ function calculateScore() {
                     points = 0;
                     status = 'wrong';
                 }
+            } else if (q.type === 'double-dropdown') {
+                const userArr = userAnswer || [null, null];
+                const correctArr = q.correctAnswer;
+
+                let matches = 0;
+                if (userArr[0] === correctArr[0]) matches++;
+                if (userArr[1] === correctArr[1]) matches++;
+
+                // Simple ratio: matches / 2
+                const ratio = matches / 2;
+                points = ratio * questionValue;
+
+                if (ratio === 1) status = 'correct';
+                else if (ratio > 0) status = 'partial';
+                else status = 'wrong';
             } else if (q.type === 'multiple') {
                 // Partial scoring logic
                 const correctOptions = q.correctAnswer; // Array of correct indices
@@ -410,6 +511,10 @@ function getUserAnswerText(q, answer) {
         return opt;
     } else if (q.type === 'multiple') {
         return answer.map(idx => q.options[idx]).join(', ');
+    } else if (q.type === 'double-dropdown') {
+        const val1 = (answer[0] !== null && answer[0] !== undefined) ? q.options[0][answer[0]] : "_";
+        const val2 = (answer[1] !== null && answer[1] !== undefined) ? q.options[1][answer[1]] : "_";
+        return `${val1}, ${val2}`;
     }
     return "";
 }
@@ -419,6 +524,10 @@ function getCorrectAnswerText(q) {
         return q.options[q.correctAnswer];
     } else if (q.type === 'multiple') {
         return q.correctAnswer.map(idx => q.options[idx]).join(', ');
+    } else if (q.type === 'double-dropdown') {
+        const val1 = q.options[0][q.correctAnswer[0]];
+        const val2 = q.options[1][q.correctAnswer[1]];
+        return `${val1}, ${val2}`;
     }
     return "";
 }
