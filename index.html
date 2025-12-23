@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Criptografie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+        <div class="globe globe-3"></div>
+    </div>
+
+    <div class="container">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <h1>Test Criptografie</h1>
+            <p class="subtitle">Testează-ți cunoștințele înainte de examen</p>
+            <div class="info-card">
+                <div class="info-item">
+                    <span class="label">Întrebări</span>
+                    <span class="value">21</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Timp</span>
+                    <span class="value">Nelimitat</span>
+                </div>
+            </div>
+            <button id="start-btn" class="btn primary-btn">Începe Testul</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen hidden">
+            <div class="quiz-header">
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                <span id="question-count">Întrebarea 1 / 21</span>
+            </div>
+
+            <div class="question-container">
+                <h2 id="question-text">Întrebare...</h2>
+                <div id="options-container" class="options-grid">
+                    <!-- Dynamic Options -->
+                </div>
+            </div>
+
+            <div class="quiz-footer">
+                <button id="next-btn" class="btn secondary-btn" disabled>Următoarea</button>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen hidden">
+            <div class="result-content">
+                <h2>Test Completat!</h2>
+                <div class="score-circle">
+                    <span id="final-score">0</span>
+                    <span class="total">/ 21</span>
+                </div>
+                <p id="feedback-text">Felicitări!</p>
+                <div id="review-container" class="hidden">
+                    <h3>Rezumat Test</h3>
+                    <div id="review-list"></div>
+                </div>
+                <div class="result-actions">
+                    <button id="restart-btn" class="btn primary-btn">Reia Testul</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

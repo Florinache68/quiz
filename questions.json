@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "type": "single",
+        "question": "Care este capitala României?",
+        "options": [
+            "Cluj",
+            "Iași",
+            "București",
+            "Timișoara"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 2,
+        "type": "single",
+        "question": "2 + 2 = ?",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "22"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 3,
+        "type": "multiple",
+        "question": "Selectează numerele prime din lista de mai jos:",
+        "options": [
+            "2",
+            "9",
+            "13",
+            "15"
+        ],
+        "correctAnswer": [
+            0,
+            2
+        ]
+    },
+    {
+        "id": 4,
+        "type": "dropdown",
+        "question": "Completează propoziția: 'Criptografia este știința ___ informațiilor.'",
+        "options": [
+            "distrugerii",
+            "publicării",
+            "securizării",
+            "ignoriării"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 5,
+        "type": "single",
+        "question": "Ce algoritm este considerat simetric?",
+        "options": [
+            "RSA",
+            "AES",
+            "ECC",
+            "Diffie-Hellman"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 6,
+        "type": "multiple",
+        "question": "Care dintre următoarele sunt funcții hash?",
+        "options": [
+            "SHA-256",
+            "AES-256",
+            "MD5",
+            "RSA"
+        ],
+        "correctAnswer": [
+            0,
+            2
+        ]
+    },
+    {
+        "id": 7,
+        "type": "dropdown",
+        "question": "În criptografia asimetrică, cheia publică este folosită pentru:",
+        "options": [
+            "Decriptare",
+            "Criptare",
+            "Ștergere",
+            "Arhivare"
+        ],
+        "correctAnswer": 1
+    }
+]
