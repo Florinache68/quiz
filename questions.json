@@ -2,86 +2,76 @@
     {
         "id": 1,
         "type": "single",
-        "question": "Care este capitala României?",
+        "question": "Ce presupune tehnica steganografică LSB",
         "points": 1,
         "options": [
-            "Cluj",
-            "Iași",
-            "București",
-            "Timișoara"
+            "plasează mesajul secret în header-ul mesajului purtător",
+            "adaugă mesajul secret în secvențele de biți 0 din mesajul purtător",
+            "folosește cele mai puțin semnificative poziții binare ale mesajului purtător pentru a stoca mesajul secret, dar fără a modifica natura mesajului purtător"
         ],
-        "correctAnswer": 2
+        "correctAnswer": 1
     },
     {
         "id": 2,
         "type": "single",
-        "question": "2 + 2 = ?",
+        "question": "Ce metodă de criptare poate obține 'criptarea perfectă'?",
         "points": 1,
         "options": [
-            "3",
-            "4",
-            "5",
-            "22"
+            "one-time pad",
+            "cifruri de transpoziție",
+            "cifrul Playfair",
+            "cifrul Cezar"
         ],
-        "correctAnswer": 1
+        "correctAnswer": 0
     },
     {
         "id": 3,
-        "type": "multiple",
-        "question": "Selectează numerele prime din lista de mai jos:",
+        "type": "single",
+        "question": "Care este ordinea corecta a pașilor de urmat în cazul utilizării criptării simetrice pentru trimiterea unui mesaj? \n 1.Alice criptează mesajul folosind cheia secretă, mesaj pe care îl trimite lui Bob. \n 2.Alice și Bob cad de acord asupra unui sistem criptografic simetric (cu cheie secretă) și asupra unei chei (cunoscută dinainte sau primită printr-un canal securizat de comunicație). \n 3. Bob decriptează mesajul lui Alice, folosind cheia secretă.",
         "points": 2,
         "options": [
-            "2",
-            "9",
-            "13",
-            "15"
+            "2-1-3",
+            "1-3-2",
+            "1-2-3",
+            "2-3-1"
         ],
-        "correctAnswer": [
-            0,
-            2
-        ]
+        "correctAnswer": 0
     },
     {
         "id": 4,
-        "type": "dropdown",
-        "question": "Completează propoziția: 'Criptografia este știința ___ informațiilor.'",
+        "type": "single",
+        "question": "Care este operația logică folosită de algoritmii de criptare simetrică?",
         "points": 1,
         "options": [
-            "distrugerii",
-            "publicării",
-            "securizării",
-            "ignoriării"
+            "ȘI",
+            "SAU-EXCLUSIV",
+            "SAU"
         ],
-        "correctAnswer": 2
+        "correctAnswer": 1
     },
     {
         "id": 5,
         "type": "single",
-        "question": "Ce algoritm este considerat simetric?",
+        "question": "Ce fel de transformări utilizează un criptosistem simetric bazat pe o rețea Feistel?",
         "points": 1,
         "options": [
-            "RSA",
-            "AES",
-            "ECC",
-            "Diffie-Hellman"
+            "P-Box, S-Box și XOR",
+            "SubBytes și MixColumns",
+            "RC6 și MARS"
         ],
-        "correctAnswer": 1
+        "correctAnswer": 0
     },
     {
         "id": 6,
-        "type": "multiple",
-        "question": "Care dintre următoarele sunt funcții hash?",
-        "points": 2,
+        "type": "single",
+        "question": "Ce problemă a modului de operare ECB (electronic codebook) rezolvă modul de operare CBC (cipher block chaining)?",
+        "points": 1,
         "options": [
-            "SHA-256",
-            "AES-256",
-            "MD5",
-            "RSA"
+            "ultimul bloc necesită padding",
+            "același bloc de text se va cripta întotdeauna în același bloc de criptotext",
+            "nu se poate folosi operația XOR"
         ],
-        "correctAnswer": [
-            0,
-            2
-        ]
+        "correctAnswer": 1
     },
     {
         "id": 7,
@@ -99,7 +89,7 @@
     {
         "id": 8,
         "type": "double-dropdown",
-        "question": "Oferiți conexiunea dintre concepte și definiții: cifru de substituție în care un simbol din textul în clar poate fi înlocuit cu diferite simboluri cifrate de-a lungul procesului de criptare(______), cifru de substituție în care un simbol din textul în clar este înlocuit cu un alt simbol(cifrat) pe întreaga durată a procesului de criptare(______)",
+        "question": "Oferiți conexiunea dintre concepte și definiții: \n cifru de substituție în care un simbol din textul în clar poate fi înlocuit cu diferite simboluri cifrate de-a lungul procesului de criptare(______), \n cifru de substituție în care un simbol din textul în clar este înlocuit cu un alt simbol(cifrat) pe întreaga durată a procesului de criptare(______)",
         "points": 1,
         "options": [
             [
@@ -117,5 +107,196 @@
             2,
             0
         ]
+    },
+    {
+        "id": 9,
+        "type": "single",
+        "question": "Care este un dezavantaj al criptosistemelor simetrice?",
+        "points": 1,
+        "options": [
+            "cheile sunt la fel de valoroase ca și mesajele",
+            "criptarea simetrică este lentă",
+            "mesajul nu poate fi decodat complet"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 10,
+        "type": "single",
+        "question": "Care este un dezavantaj al criptosistemelor asimetrice?",
+        "points": 1,
+        "options": [
+            "mesajul nu poate fi decodat complet",
+            "gestiunea cheilor este mai dificilă decât în cazul criptării simetrice",
+            "criptarea asimetrică este lentă"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 11,
+        "type": "single",
+        "question": "Câte pre-imagini pot corespunde unei valori hash?",
+        "points": 1,
+        "options": [
+            "oricâte",
+            "una",
+            "cel mult două"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 12,
+        "type": "single",
+        "question": "Care este ordinea corectă a pașilor de urmat în cazul utilizării criptării hibride pentru trimiterea unui mesaj? \n 1.Alice generează o cheie de sesiune, pe care o criptează cu cheia publică a lui Bob, după care o trimite acestuia. \n 2. Comunicația între cei doi este, în continuare, criptată simetric cu ajutorul cheii de sesiune. \n 3. Bob decriptează mesajul lui Alice folosind cheia lui privată, pentru a recupera cheia de sesiune. \n 4. Bob îi trimite lui Alice cheia lui publică.",
+        "points": 2,
+        "options": [
+            "1-3-4-2",
+            "4-1-3-2",
+            "1-2-4-3",
+            "4-2-1-3"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 13,
+        "type": "single",
+        "question": "Cum funcționează schimbul de chei Diffie-Hellman?",
+        "points": 2,
+        "options": [
+            "presupune existența unei entități terțe care să gestioneze cheile secrete",
+            "utilizează criptarea simetrică pentru protecția cheii secrete",
+            "determină cele două părți participante la comunicație să genereze aceeași cheie, fără necesitatea transmiterii ei"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 14,
+        "type": "single",
+        "question": "Care este metoda prin care poate fi asigurată nerepudierea mesajelor?",
+        "points": 1,
+        "options": [
+            "semnătura electronică",
+            "criptarea simetrică",
+            "cifrul Playfair"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 15,
+        "type": "single",
+        "question": "Ce presupune schema de padding PKCS#5?",
+        "points": 1,
+        "options": [
+            "completarea ultimului bloc cu octeți cu valoarea egală cu numărul de octeți adăugați",
+            "completarea ultimului bloc cu octeți cu valoarea 0, cu excepția ultimului octet, care memorează numărul de octeți adăugați",
+            "completarea ultimului bloc cu octeți cu valoarea 0"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 16,
+        "type": "single",
+        "question": "Codurile MAC sunt utilizate pentru:",
+        "points": 1,
+        "options": [
+            "modificarea unui mesaj aflat în tranzit",
+            "autentificarea unui mesaj",
+            "criptarea asimetrică a unui mesaj"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 17,
+        "type": "single",
+        "question": "Care este scopul principal al infrastructurii PKI?",
+        "points": 1,
+        "options": [
+            "leagă într-un mod sigur o cheie publică de o persoană, serviciu sau lucru",
+            "să ofere semnătura digitală pentru contracte comerciale",
+            "să protejeze valorile hash ale mesajelor"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 18,
+        "type": "single",
+        "question": "Cu ajutorul cărui mecanism se păstrează consensul în cazul criptomonedelor?",
+        "points": 1,
+        "options": [
+            "MD5",
+            "blockchain",
+            "consensul nu este posibil"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 19,
+        "type": "multiple",
+        "question": "Care sunt componentele unui criptosistem?",
+        "points": 3,
+        "options": [
+            "Algoritmi de tip hash",
+            "S-Box",
+            "Algoritm de sortare",
+            "Algoritm de generare a cheilor",
+            "P-Box",
+            "Algoritm de decriptare",
+            "Rețea Feistel",
+            "Algoritm de criptare"
+        ],
+        "correctAnswer": [
+            3,
+            5,
+            7
+        ]
+    },
+    {
+        "id": 20,
+        "type": "single",
+        "question": "Ce presupune construcția de tip Merkle-Damgård a funcțiilor de tip hash?",
+        "points": 2,
+        "options": [
+            "Fiecare 2 caractere din mesajul sursă sunt înlocuite cu o pereche obținută din concatenarea următoarelor 2 grupuri de caractere cu ajutorul operațiilor SI și SAU",
+            "Mesajul sursă este spart în blocuri de lungime fixă (ultimul bloc este completat, dacă este necesar). Pe aceste blocuri este aplicată o funcție de compresie, iar rezultatele sunt însumate, rezultând mesajul de hash",
+            "Mesajul sursă este spart în blocuri de dimensiuni aleatoare care sunt combinate folosind numai operația SAU EXCLUSIV. Blocurile rezultante sunt însumate cu un vector de inițializare (IV)"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 21,
+        "type": "single",
+        "question": "Ce este riscul?",
+        "points": 1,
+        "options": [
+            "o slăbiciune asociată resurselor (specifică mediului, personalului, managementului, administrației, etc.) care poate cauza distrugeri",
+            "o potențială pierdere pentru o organizație atunci când o amenințare exploatează o vulnerabilitate",
+            "o cuantificare financiară a atacurilor dintr-o perioadă scurtă de timp"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 22,
+        "type": "single",
+        "question": "HMAC folosește în calcule:",
+        "points": 1,
+        "options": [
+            "funcții hash",
+            "operații bloc",
+            "creioane colorate",
+            "criptare asimetrică"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 23,
+        "type": "single",
+        "question": "Ce presupune mecanismul proof-of-work în criptomonede?",
+        "points": 1,
+        "options": [
+            "este o metodă de limitare a cantității de criptomonedă nou creată prin alegerea determinării a validatorului unui bloc, pe baza bogăției acestuia",
+            "nu este utilizat în cazul criptomonedelor",
+            "este o metodă de limitare a cantității de criptomonedă nou creată prin utilizarea unor probleme criptografice dificil de rezolvat, dar cu soluție ușor de verificat"
+        ],
+        "correctAnswer": 2
     }
 ]
