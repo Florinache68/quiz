@@ -99,23 +99,23 @@
     {
         "id": 8,
         "type": "double-dropdown",
-        "question": "Criptarea ___ folosește o singură cheie, iar cea ___ folosește o pereche de chei.",
-        "points": 2,
+        "question": "Oferiți conexiunea dintre concepte și definiții: cifru de substituție în care un simbol din textul în clar poate fi înlocuit cu diferite simboluri cifrate de-a lungul procesului de criptare(______), cifru de substituție în care un simbol din textul în clar este înlocuit cu un alt simbol(cifrat) pe întreaga durată a procesului de criptare(______)",
+        "points": 1,
         "options": [
             [
-                "Simetrică",
-                "Asimetrică",
-                "Hash"
+                "cifru monoalfabetic",
+                "cifru marmotic",
+                "cifru polialfabetic"
             ],
             [
-                "Simetrică",
-                "Asimetrică",
-                "Hibridă"
+                "cifru monoalfabetic",
+                "cifru marmotic",
+                "cifru polialfabetic"
             ]
         ],
         "correctAnswer": [
-            0,
-            1
+            2,
+            0
         ]
     }
 ]
