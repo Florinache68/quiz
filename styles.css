@@ -153,10 +153,7 @@ h1 {
     margin-bottom: 0.5rem;
     color: #ffffff !important;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-<<<<<<< HEAD
     -webkit-text-fill-color: initial !important;
-=======
->>>>>>> 9e654ac414a5f7434642e5e02ca7dbb46993c072
     background: none !important;
 }
 
@@ -449,12 +446,70 @@ h1 {
     border-left-color: var(--danger);
     background: rgba(239, 68, 68, 0.1);
 }
-<<<<<<< HEAD
 
 .review-result-icon {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     display: block;
 }
-=======
->>>>>>> 9e654ac414a5f7434642e5e02ca7dbb46993c072
+
+/* Timer & Settings Styles */
+.settings-container {
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.settings-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.5rem;
+    height: 30px;
+}
+
+.timer-badge {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 1.1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.timer-badge.warning {
+    background: rgba(239, 68, 68, 0.2);
+    border-color: var(--danger);
+    color: var(--danger);
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.timer-badge.hidden {
+    display: none;
+}

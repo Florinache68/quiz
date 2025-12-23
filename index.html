@@ -23,6 +23,16 @@
         <div id="start-screen" class="screen active">
             <h1>Test Criptografie</h1>
             <p class="subtitle">Testează-ți cunoștințele înainte de examen</p>
+
+            <div class="settings-container">
+                <label for="time-select">Selectează Timpul:</label>
+                <select id="time-select" class="quiz-select">
+                    <option value="0">Nelimitat</option>
+                    <option value="600">10 Minute</option>
+                    <option value="900">15 Minute</option>
+                </select>
+            </div>
+
             <div class="info-card">
                 <div class="info-item">
                     <span class="label">Întrebări</span>
@@ -30,7 +40,7 @@
                 </div>
                 <div class="info-item">
                     <span class="label">Timp</span>
-                    <span class="value">Nelimitat</span>
+                    <span class="value" id="time-display-info">Nelimitat</span>
                 </div>
             </div>
             <button id="start-btn" class="btn primary-btn">Începe Testul</button>
@@ -39,6 +49,11 @@
         <!-- Quiz Screen -->
         <div id="quiz-screen" class="screen hidden">
             <div class="quiz-header">
+                <div class="header-top">
+                    <div class="timer-badge hidden" id="timer-badge">
+                        ⏳ <span id="timer-display">00:00</span>
+                    </div>
+                </div>
                 <div class="progress-container">
                     <div class="progress-bar" id="progress-bar"></div>
                 </div>
