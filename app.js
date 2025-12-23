@@ -270,8 +270,10 @@ function finishQuiz() {
     finalScore.textContent = parseFloat(score.toFixed(2));
 
     // Calculate Grade (1-10)
-    // Formula: (Points / TotalPoints) * 9 + 1
-    const maxPoints = assignedQuestions.length;
+    // Formula: (Points / TotalMaxPoints) * 9 + 1
+    // Calculate max possible points for the assigned questions
+    const maxPoints = assignedQuestions.reduce((sum, q) => sum + (q.points || 1), 0);
+
     let grade = 1;
     if (maxPoints > 0) {
         grade = (score / maxPoints) * 9 + 1;
@@ -306,6 +308,7 @@ function calculateScore() {
 
     assignedQuestions.forEach(q => {
         const userAnswer = userAnswers[q.id];
+        const questionValue = q.points || 1; // Default to 1 if not set
         let points = 0;
         let status = 'wrong'; // correct, partial, wrong
 
@@ -316,7 +319,7 @@ function calculateScore() {
         } else {
             if (q.type === 'single' || q.type === 'dropdown') {
                 if (userAnswer === q.correctAnswer) {
-                    points = 1;
+                    points = questionValue;
                     status = 'correct';
                 } else {
                     points = 0;
@@ -338,11 +341,13 @@ function calculateScore() {
 
                 // Algorithm: (Matches - Mistakes) / TotalCorrect
                 // Clamped at 0
-                const raw = (matches - mistakes) / correctOptions.length;
-                points = Math.max(0, raw);
+                const rawRatio = (matches - mistakes) / correctOptions.length;
+                const ratio = Math.max(0, rawRatio);
 
-                if (points === 1) status = 'correct';
-                else if (points > 0) status = 'partial';
+                points = ratio * questionValue;
+
+                if (ratio === 1) status = 'correct';
+                else if (ratio > 0) status = 'partial';
                 else status = 'wrong';
             }
         }
@@ -353,6 +358,7 @@ function calculateScore() {
             question: q,
             userAnswer: userAnswer,
             points: points,
+            maxPoints: questionValue,
             status: status
         });
     });
@@ -379,7 +385,7 @@ function calculateScore() {
 
         const icon = document.createElement('span');
         icon.className = 'review-result-icon';
-        icon.textContent = `${iconChar} (${parseFloat(res.points.toFixed(2))}p)`;
+        icon.textContent = `${iconChar} (${parseFloat(res.points.toFixed(2))} / ${res.maxPoints}p)`;
 
         let userText = getUserAnswerText(res.question, res.userAnswer);
         let correctText = getCorrectAnswerText(res.question);

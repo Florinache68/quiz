@@ -3,6 +3,7 @@
         "id": 1,
         "type": "single",
         "question": "Care este capitala României?",
+        "points": 1,
         "options": [
             "Cluj",
             "Iași",
@@ -15,6 +16,7 @@
         "id": 2,
         "type": "single",
         "question": "2 + 2 = ?",
+        "points": 1,
         "options": [
             "3",
             "4",
@@ -27,6 +29,7 @@
         "id": 3,
         "type": "multiple",
         "question": "Selectează numerele prime din lista de mai jos:",
+        "points": 2,
         "options": [
             "2",
             "9",
@@ -42,6 +45,7 @@
         "id": 4,
         "type": "dropdown",
         "question": "Completează propoziția: 'Criptografia este știința ___ informațiilor.'",
+        "points": 1,
         "options": [
             "distrugerii",
             "publicării",
@@ -54,6 +58,7 @@
         "id": 5,
         "type": "single",
         "question": "Ce algoritm este considerat simetric?",
+        "points": 1,
         "options": [
             "RSA",
             "AES",
@@ -66,6 +71,7 @@
         "id": 6,
         "type": "multiple",
         "question": "Care dintre următoarele sunt funcții hash?",
+        "points": 2,
         "options": [
             "SHA-256",
             "AES-256",
@@ -81,6 +87,7 @@
         "id": 7,
         "type": "dropdown",
         "question": "În criptografia asimetrică, cheia publică este folosită pentru:",
+        "points": 1,
         "options": [
             "Decriptare",
             "Criptare",
