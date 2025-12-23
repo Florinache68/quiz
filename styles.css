@@ -151,8 +151,10 @@ h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: #ffffff;
+    color: #ffffff !important;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    -webkit-text-fill-color: initial !important;
+    background: none !important;
 }
 
 .subtitle {
@@ -443,4 +445,10 @@ h1 {
 .review-item.wrong {
     border-left-color: var(--danger);
     background: rgba(239, 68, 68, 0.1);
+}
+
+.review-result-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
 }

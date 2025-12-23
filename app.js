@@ -2,7 +2,8 @@
 let allQuestions = [];
 let assignedQuestions = [];
 let currentQuestionIndex = 0;
-let userAnswers = {}; // Map question ID to answer(s)
+let userAnswers = {}; // Map question ID to answer(s) (indices based on ORIGINAL options)
+let shuffledOptionsMap = {}; // Map question ID to shuffled indices array
 let score = 0;
 
 // Elements
@@ -36,19 +37,27 @@ async function loadQuestions() {
     }
 }
 
+// Helper: Shuffle Array (Fisher-Yates)
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
 // Start Quiz
 function startQuiz() {
     score = 0;
     currentQuestionIndex = 0;
     userAnswers = {};
+    shuffledOptionsMap = {};
 
     // Select random questions tracking original data
-    // Shuffle copy of array
     const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-    // Get up to 21 questions
     assignedQuestions = shuffled.slice(0, Math.min(21, shuffled.length));
 
-    // Update Result total text based on actual number of questions
+    // Update Result total text
     totalQuestionsSpan.textContent = `/ ${assignedQuestions.length}`;
 
     // Switch screens
@@ -75,66 +84,75 @@ function renderQuestion() {
     optionsContainer.innerHTML = '';
     nextBtn.disabled = true;
 
+    // Shuffle options for this specific question instance if not already done
+    if (!shuffledOptionsMap[question.id]) {
+        // Create array of objects { originalIndex, text }
+        const optionsWithIndices = question.options.map((opt, i) => ({ originalIndex: i, text: opt }));
+        shuffleArray(optionsWithIndices);
+        shuffledOptionsMap[question.id] = optionsWithIndices;
+    }
+
+    const currentShuffledOptions = shuffledOptionsMap[question.id];
+
     if (question.type === 'single') {
-        renderSingleChoice(question);
+        renderSingleChoice(question, currentShuffledOptions);
     } else if (question.type === 'multiple') {
-        renderMultipleChoice(question);
+        renderMultipleChoice(question, currentShuffledOptions);
     } else if (question.type === 'dropdown') {
-        renderDropdown(question);
+        renderDropdown(question, currentShuffledOptions);
     }
 }
 
-function renderSingleChoice(question) {
-    question.options.forEach((opt, index) => {
+function renderSingleChoice(question, options) {
+    options.forEach((optObj, visualIndex) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
-        btn.textContent = opt;
-        btn.onclick = () => selectSingle(index, btn);
+        btn.textContent = optObj.text;
+        btn.onclick = () => selectSingle(optObj.originalIndex, btn);
         optionsContainer.appendChild(btn);
     });
 }
 
-function selectSingle(index, btn) {
+function selectSingle(originalIndex, btn) {
     // Deselect all
     Array.from(optionsContainer.children).forEach(b => b.classList.remove('selected'));
     // Select clicked
     btn.classList.add('selected');
 
     // Save answer
-    userAnswers[assignedQuestions[currentQuestionIndex].id] = index;
+    userAnswers[assignedQuestions[currentQuestionIndex].id] = originalIndex;
     nextBtn.disabled = false;
 }
 
-function renderMultipleChoice(question) {
-    // For multiple choice, we initialize the answer array if not present
+function renderMultipleChoice(question, options) {
     const currentId = question.id;
     if (!userAnswers[currentId]) userAnswers[currentId] = [];
 
-    question.options.forEach((opt, index) => {
+    options.forEach((optObj, visualIndex) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
-        btn.textContent = opt;
-        btn.onclick = () => toggleMultiple(index, btn, currentId);
+        btn.textContent = optObj.text;
+        btn.onclick = () => toggleMultiple(optObj.originalIndex, btn, currentId);
         optionsContainer.appendChild(btn);
     });
 }
 
-function toggleMultiple(index, btn, questionId) {
+function toggleMultiple(originalIndex, btn, questionId) {
     btn.classList.toggle('selected');
 
     const selectedIndices = userAnswers[questionId];
     if (btn.classList.contains('selected')) {
-        selectedIndices.push(index);
+        selectedIndices.push(originalIndex);
     } else {
-        const idx = selectedIndices.indexOf(index);
+        const idx = selectedIndices.indexOf(originalIndex);
         if (idx > -1) selectedIndices.splice(idx, 1);
     }
 
-    // Enable next if at least one selected (optional rule, but good UX)
+    // Enable next if at least one selected
     nextBtn.disabled = selectedIndices.length === 0;
 }
 
-function renderDropdown(question) {
+function renderDropdown(question, options) {
     const select = document.createElement('select');
     select.className = 'quiz-select';
 
@@ -145,10 +163,10 @@ function renderDropdown(question) {
     defaultOption.selected = true;
     select.appendChild(defaultOption);
 
-    question.options.forEach((opt, index) => {
+    options.forEach((optObj, visualIndex) => {
         const option = document.createElement('option');
-        option.value = index;
-        option.textContent = opt;
+        option.value = optObj.originalIndex; // Value handles the original index logic
+        option.textContent = optObj.text;
         select.appendChild(option);
     });
 
@@ -195,7 +213,7 @@ function calculateScore() {
     const reviewContainer = document.getElementById('review-container');
     reviewList.innerHTML = '';
 
-    // Collect all results first
+    // Collect results
     const results = [];
 
     assignedQuestions.forEach(q => {
@@ -224,22 +242,28 @@ function calculateScore() {
         });
     });
 
-    // Sort: Correct answers first
+    // Sort: Correct first
     results.sort((a, b) => {
         if (a.isCorrect && !b.isCorrect) return -1;
         if (!a.isCorrect && b.isCorrect) return 1;
         return 0;
     });
 
-    // Render all
+    // Render
     results.forEach(res => {
         const item = document.createElement('div');
         item.className = `review-item ${res.isCorrect ? 'correct' : 'wrong'}`;
+
+        // Icon
+        const icon = document.createElement('span');
+        icon.className = 'review-result-icon';
+        icon.textContent = res.isCorrect ? '✅' : '❌';
 
         let userText = getUserAnswerText(res.question, res.userAnswer);
         let correctText = getCorrectAnswerText(res.question);
 
         item.innerHTML = `
+            ${icon.outerHTML}
             <div class="review-question">${res.question.question}</div>
             <div class="review-answer ${res.isCorrect ? 'review-correct' : 'review-wrong'}">Răspunsul tău: ${userText}</div>
             ${!res.isCorrect ? `<div class="review-answer review-correct">Răspuns corect: ${correctText}</div>` : ''}
@@ -247,7 +271,6 @@ function calculateScore() {
         reviewList.appendChild(item);
     });
 
-    // Always show container now
     reviewContainer.classList.remove('hidden');
 }
 
@@ -255,7 +278,9 @@ function getUserAnswerText(q, answer) {
     if (answer === undefined || answer === null || (Array.isArray(answer) && answer.length === 0)) return "Niciun răspuns";
 
     if (q.type === 'single' || q.type === 'dropdown') {
-        return q.options[answer];
+        const opt = q.options[answer];
+        // Note: q.options is the ORIGINAL list, and answer is ORIGINAL index, so this is safe/correct
+        return opt;
     } else if (q.type === 'multiple') {
         return answer.map(idx => q.options[idx]).join(', ');
     }
