@@ -563,6 +563,7 @@ h1 {
 
 @media (max-width: 480px) {
     .quiz-footer {
+        display: flex;
         flex-direction: column-reverse;
         gap: 1rem;
     }
