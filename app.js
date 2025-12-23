@@ -146,7 +146,10 @@ function renderQuestion() {
     const hasAnswer = userAnswers[question.id] !== undefined;
     nextBtn.disabled = !hasAnswer;
 
-    if (!shuffledOptionsMap[question.id]) {
+    // Shuffle options logic
+    // For normal types (single, multiple, dropdown), we shuffle here.
+    // For double-dropdown, the shuffling happens INSIDE renderDoubleDropdown because it has 2 lists.
+    if (question.type !== 'double-dropdown' && !shuffledOptionsMap[question.id]) {
         const optionsWithIndices = question.options.map((opt, i) => ({ originalIndex: i, text: opt }));
         shuffleArray(optionsWithIndices);
         shuffledOptionsMap[question.id] = optionsWithIndices;
