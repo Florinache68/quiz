@@ -83,7 +83,7 @@ function startQuiz() {
 
     // Select random questions tracking original data
     const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-    assignedQuestions = shuffled.slice(0, Math.min(21, shuffled.length));
+    assignedQuestions = shuffled.slice(0, Math.min(23, shuffled.length));
 
     // Update Result total text
     totalQuestionsSpan.textContent = `/ ${assignedQuestions.length}`;
