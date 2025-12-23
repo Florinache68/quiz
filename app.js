@@ -23,6 +23,7 @@ const questionCount = document.getElementById('question-count');
 const finalScore = document.getElementById('final-score');
 const totalQuestionsSpan = document.querySelector('.total');
 const feedbackText = document.getElementById('feedback-text');
+const bestGradeDisplay = document.getElementById('best-grade-display');
 
 // Timer Elements
 const timeSelect = document.getElementById('time-select');
@@ -34,6 +35,7 @@ const timerDisplay = document.getElementById('timer-display');
 startBtn.addEventListener('click', startQuiz);
 nextBtn.addEventListener('click', nextQuestion);
 restartBtn.addEventListener('click', restartQuiz);
+updateBestGradeDisplay(); // Load stored best score on init
 
 // Update info when selection changes
 timeSelect.addEventListener('change', (e) => {
@@ -53,13 +55,23 @@ async function loadQuestions() {
     }
 }
 
-// Helper: Shuffle Array (Fisher-Yates)
+// Helper: Shuffle Array
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
+}
+
+// Helper: Best Grade
+function updateBestGradeDisplay() {
+    const stored = localStorage.getItem('quizBestGrade');
+    if (stored) {
+        bestGradeDisplay.textContent = parseFloat(stored).toFixed(2);
+    } else {
+        bestGradeDisplay.textContent = "-";
+    }
 }
 
 // Start Quiz
@@ -83,9 +95,8 @@ function startQuiz() {
     if (timeLimitSeconds > 0) {
         timerBadge.classList.remove('hidden');
         timerBadge.classList.remove('warning');
-        // Set end timestamp
         endTime = Date.now() + timeLimitSeconds * 1000;
-        updateTimer(); // Immediate update
+        updateTimer();
         timerInterval = setInterval(updateTimer, 1000);
     } else {
         timerBadge.classList.add('hidden');
@@ -104,7 +115,7 @@ function startQuiz() {
 
 function updateTimer() {
     const now = Date.now();
-    const remaining = Math.ceil((endTime - now) / 1000);
+    let remaining = Math.ceil((endTime - now) / 1000);
 
     if (remaining <= 0) {
         timerDisplay.textContent = "00:00";
@@ -116,7 +127,6 @@ function updateTimer() {
     const s = (remaining % 60).toString().padStart(2, '0');
     timerDisplay.textContent = `${m}:${s}`;
 
-    // Warning styling (< 30s)
     if (remaining <= 30) {
         timerBadge.classList.add('warning');
     }
@@ -128,20 +138,15 @@ function renderQuestion() {
     questionText.textContent = question.question;
     questionCount.textContent = `Întrebarea ${currentQuestionIndex + 1} / ${assignedQuestions.length}`;
 
-    // Update Progress Bar
     const progress = ((currentQuestionIndex) / assignedQuestions.length) * 100;
     progressBar.style.width = `${progress}%`;
 
     optionsContainer.innerHTML = '';
 
-    // Check if we already have an answer for this question (e.g. if we add back button later)
-    // For now nextBtn defaults disabled, unless answer exists
     const hasAnswer = userAnswers[question.id] !== undefined;
     nextBtn.disabled = !hasAnswer;
 
-    // Shuffle options for this specific question instance if not already done
     if (!shuffledOptionsMap[question.id]) {
-        // Create array of objects { originalIndex, text }
         const optionsWithIndices = question.options.map((opt, i) => ({ originalIndex: i, text: opt }));
         shuffleArray(optionsWithIndices);
         shuffledOptionsMap[question.id] = optionsWithIndices;
@@ -159,12 +164,11 @@ function renderQuestion() {
 }
 
 function renderSingleChoice(question, options) {
-    options.forEach((optObj, visualIndex) => {
+    options.forEach((optObj) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
         btn.textContent = optObj.text;
 
-        // Restore selected state if exists
         if (userAnswers[question.id] === optObj.originalIndex) {
             btn.classList.add('selected');
         }
@@ -175,12 +179,8 @@ function renderSingleChoice(question, options) {
 }
 
 function selectSingle(originalIndex, btn) {
-    // Deselect all
     Array.from(optionsContainer.children).forEach(b => b.classList.remove('selected'));
-    // Select clicked
     btn.classList.add('selected');
-
-    // Save answer
     userAnswers[assignedQuestions[currentQuestionIndex].id] = originalIndex;
     nextBtn.disabled = false;
 }
@@ -189,12 +189,11 @@ function renderMultipleChoice(question, options) {
     const currentId = question.id;
     if (!userAnswers[currentId]) userAnswers[currentId] = [];
 
-    options.forEach((optObj, visualIndex) => {
+    options.forEach((optObj) => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
         btn.textContent = optObj.text;
 
-        // Restore state
         if (userAnswers[currentId].includes(optObj.originalIndex)) {
             btn.classList.add('selected');
         }
@@ -215,7 +214,6 @@ function toggleMultiple(originalIndex, btn, questionId) {
         if (idx > -1) selectedIndices.splice(idx, 1);
     }
 
-    // Enable next if at least one selected
     nextBtn.disabled = selectedIndices.length === 0;
 }
 
@@ -232,7 +230,7 @@ function renderDropdown(question, options) {
     }
     select.appendChild(defaultOption);
 
-    options.forEach((optObj, visualIndex) => {
+    options.forEach((optObj) => {
         const option = document.createElement('option');
         option.value = optObj.originalIndex;
         option.textContent = optObj.text;
@@ -250,7 +248,6 @@ function renderDropdown(question, options) {
     optionsContainer.appendChild(select);
 }
 
-// Next Question
 function nextQuestion() {
     currentQuestionIndex++;
     if (currentQuestionIndex < assignedQuestions.length) {
@@ -260,9 +257,8 @@ function nextQuestion() {
     }
 }
 
-// Finish & Grading
 function finishQuiz() {
-    clearInterval(timerInterval); // Stop timer
+    clearInterval(timerInterval);
     calculateScore();
 
     quizScreen.classList.add('hidden');
@@ -270,14 +266,34 @@ function finishQuiz() {
     resultScreen.classList.remove('hidden');
     resultScreen.classList.add('active');
 
-    finalScore.textContent = score;
+    // NOTE: score is now a float
+    finalScore.textContent = parseFloat(score.toFixed(2));
 
-    // Feedback text
-    const percentage = score / assignedQuestions.length;
-    if (percentage === 1) feedbackText.textContent = "Perfect! Ești un expert!";
-    else if (percentage >= 0.8) feedbackText.textContent = "Foarte bine! Mai ai puțin.";
-    else if (percentage >= 0.5) feedbackText.textContent = "Bun, dar mai repetă.";
-    else feedbackText.textContent = "Mai învață și revino!";
+    // Calculate Grade (1-10)
+    // Formula: (Points / TotalPoints) * 9 + 1
+    const maxPoints = assignedQuestions.length;
+    let grade = 1;
+    if (maxPoints > 0) {
+        grade = (score / maxPoints) * 9 + 1;
+    }
+
+    // Save High Score
+    const storedBest = localStorage.getItem('quizBestGrade');
+    let best = storedBest ? parseFloat(storedBest) : 0;
+
+    let messageSuffix = "";
+    if (grade > best) {
+        localStorage.setItem('quizBestGrade', grade.toFixed(2));
+        messageSuffix = " - RECORD NOU! 🌟";
+        updateBestGradeDisplay(); // Update UI for when they go back
+    }
+
+    // Update Feedback to show Grade
+    if (grade >= 10) feedbackText.textContent = `Nota: ${grade.toFixed(2)} - Excelent! 🏆${messageSuffix}`;
+    else if (grade >= 9) feedbackText.textContent = `Nota: ${grade.toFixed(2)} - Foarte bine!${messageSuffix}`;
+    else if (grade >= 7) feedbackText.textContent = `Nota: ${grade.toFixed(2)} - Bun!${messageSuffix}`;
+    else if (grade >= 5) feedbackText.textContent = `Nota: ${grade.toFixed(2)} - Ai trecut.${messageSuffix}`;
+    else feedbackText.textContent = `Nota: ${grade.toFixed(2)} - Mai învață.${messageSuffix}`;
 }
 
 function calculateScore() {
@@ -286,57 +302,84 @@ function calculateScore() {
     const reviewContainer = document.getElementById('review-container');
     reviewList.innerHTML = '';
 
-    // Collect results
     const results = [];
 
     assignedQuestions.forEach(q => {
         const userAnswer = userAnswers[q.id];
-        let isCorrect = false;
+        let points = 0;
+        let status = 'wrong'; // correct, partial, wrong
 
-        // Handle no answer (timed out)
         if (userAnswer === undefined || (Array.isArray(userAnswer) && userAnswer.length === 0)) {
-            isCorrect = false;
+            // No answer
+            points = 0;
+            status = 'wrong';
         } else {
             if (q.type === 'single' || q.type === 'dropdown') {
                 if (userAnswer === q.correctAnswer) {
-                    isCorrect = true;
+                    points = 1;
+                    status = 'correct';
+                } else {
+                    points = 0;
+                    status = 'wrong';
                 }
             } else if (q.type === 'multiple') {
-                // Ensure arrays comparison is safe
-                const correct = [...q.correctAnswer].sort((a, b) => a - b);
-                const user = [...userAnswer].sort((a, b) => a - b); // copy to avoid mutating state
+                // Partial scoring logic
+                const correctOptions = q.correctAnswer; // Array of correct indices
+                const userOptions = userAnswer || [];
 
-                if (JSON.stringify(correct) === JSON.stringify(user)) {
-                    isCorrect = true;
-                }
+                let matches = 0;
+                let mistakes = 0;
+
+                // Count correct picks
+                userOptions.forEach(idx => {
+                    if (correctOptions.includes(idx)) matches++;
+                    else mistakes++;
+                });
+
+                // Algorithm: (Matches - Mistakes) / TotalCorrect
+                // Clamped at 0
+                const raw = (matches - mistakes) / correctOptions.length;
+                points = Math.max(0, raw);
+
+                if (points === 1) status = 'correct';
+                else if (points > 0) status = 'partial';
+                else status = 'wrong';
             }
         }
 
-        if (isCorrect) score++;
+        score += points;
 
         results.push({
             question: q,
             userAnswer: userAnswer,
-            isCorrect: isCorrect
+            points: points,
+            status: status
         });
     });
 
-    // Sort: Correct first
-    results.sort((a, b) => {
-        if (a.isCorrect && !b.isCorrect) return -1;
-        if (!a.isCorrect && b.isCorrect) return 1;
-        return 0;
-    });
+    // Sort: Correct -> Partial -> Wrong
+    const priority = { 'correct': 0, 'partial': 1, 'wrong': 2 };
+    results.sort((a, b) => priority[a.status] - priority[b.status]);
 
     // Render
     results.forEach(res => {
         const item = document.createElement('div');
-        item.className = `review-item ${res.isCorrect ? 'correct' : 'wrong'}`;
+        let iconChar = '❌';
+        let statusClass = 'wrong';
 
-        // Icon
+        if (res.status === 'correct') {
+            iconChar = '✅';
+            statusClass = 'correct';
+        } else if (res.status === 'partial') {
+            iconChar = '⚠️';
+            statusClass = 'partial';
+        }
+
+        item.className = `review-item ${statusClass}`;
+
         const icon = document.createElement('span');
         icon.className = 'review-result-icon';
-        icon.textContent = res.isCorrect ? '✅' : '❌';
+        icon.textContent = `${iconChar} (${parseFloat(res.points.toFixed(2))}p)`;
 
         let userText = getUserAnswerText(res.question, res.userAnswer);
         let correctText = getCorrectAnswerText(res.question);
@@ -344,8 +387,8 @@ function calculateScore() {
         item.innerHTML = `
             ${icon.outerHTML}
             <div class="review-question">${res.question.question}</div>
-            <div class="review-answer ${res.isCorrect ? 'review-correct' : 'review-wrong'}">Răspunsul tău: ${userText}</div>
-            ${!res.isCorrect ? `<div class="review-answer review-correct">Răspuns corect: ${correctText}</div>` : ''}
+            <div class="review-answer">Răspunsul tău: ${userText}</div>
+            ${res.status !== 'correct' ? `<div class="review-answer review-correct">Răspuns corect: ${correctText}</div>` : ''}
         `;
         reviewList.appendChild(item);
     });
@@ -354,7 +397,7 @@ function calculateScore() {
 }
 
 function getUserAnswerText(q, answer) {
-    if (answer === undefined || answer === null || (Array.isArray(answer) && answer.length === 0)) return "Niciun răspuns (Timp expirat)";
+    if (answer === undefined || answer === null || (Array.isArray(answer) && answer.length === 0)) return "Niciun răspuns";
 
     if (q.type === 'single' || q.type === 'dropdown') {
         const opt = q.options[answer];
@@ -375,11 +418,8 @@ function getCorrectAnswerText(q) {
 }
 
 function restartQuiz() {
-    // Reset selection in UI to unlimited or keep last choice? 
-    // Usually keep last choice is better UX or reset to default. 
-    // Let's just call startQuiz which reads the dropdown current value.
-    startQuiz();
+    startQuiz(); // This will refresh the screen and show best grade if updated
+    updateBestGradeDisplay(); // Explicit call to be safe
 }
 
-// Load on start
 loadQuestions();

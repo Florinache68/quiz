@@ -513,3 +513,8 @@ h1 {
 .timer-badge.hidden {
     display: none;
 }
+
+.review-item.partial {
+    border-left-color: #f59e0b;
+    background: rgba(245, 158, 11, 0.1);
+}
