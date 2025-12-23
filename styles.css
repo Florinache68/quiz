@@ -411,9 +411,11 @@ h1 {
 }
 
 #feedback-text {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
     margin-bottom: 2rem;
-    color: var(--text-muted);
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Custom Scrollbar */

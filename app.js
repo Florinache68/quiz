@@ -418,8 +418,14 @@ function getCorrectAnswerText(q) {
 }
 
 function restartQuiz() {
-    startQuiz(); // This will refresh the screen and show best grade if updated
-    updateBestGradeDisplay(); // Explicit call to be safe
+    // Return to start screen
+    resultScreen.classList.remove('active');
+    resultScreen.classList.add('hidden');
+
+    startScreen.classList.remove('hidden');
+    startScreen.classList.add('active');
+
+    updateBestGradeDisplay(); // Refresh high score display
 }
 
 loadQuestions();
