@@ -298,5 +298,2066 @@
             "este o metodă de limitare a cantității de criptomonedă nou creată prin utilizarea unor probleme criptografice dificil de rezolvat, dar cu soluție ușor de verificat"
         ],
         "correctAnswer": 2
+    },
+    {
+        "id": 24,
+        "type": "single",
+        "question": "Ce isi propune securitatea informatiilor sa asigure?",
+        "points": 1,
+        "options": [
+            "confidentialitatea, integritatea, disponibilitatea si nerepudierea",
+            "doar confidentialitatea si integritatea",
+            "confidentialitatea, redundanta si compresia"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 25,
+        "type": "multiple",
+        "question": "Informatia poate exista sub diferite forme. Care dintre urmatoarele sunt enumerate?",
+        "points": 2,
+        "options": [
+            "tiparite sau scrise pe hartie",
+            "stocate electronic",
+            "transmise prin posta sau prin echipamente electronice",
+            "prezentate in filme",
+            "comunicate in cadrul unor conversatii"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 26,
+        "type": "single",
+        "question": "Confidentialitatea asigura ca informatia este accesibila doar:",
+        "points": 1,
+        "options": [
+            "entitatilor care sunt autorizate sa aiba acces la resursa",
+            "oricui poate intercepta comunicatia",
+            "doar administratorilor de sistem"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 27,
+        "type": "single",
+        "question": "Integritatea isi propune protejarea:",
+        "points": 1,
+        "options": [
+            "corectitudinii si caracterului complet al informatiei si a metodelor de procesare",
+            "vitezei de transmitere a datelor",
+            "doar confidentialitatii parolelor"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 28,
+        "type": "single",
+        "question": "Disponibilitatea isi propune sa asigure:",
+        "points": 1,
+        "options": [
+            "accesul utilizatorilor autorizati la informatii si la bunurile asociate atunci cand le sunt necesare",
+            "anonimizarea tuturor datelor stocate",
+            "interzicerea accesului la resurse in afara programului"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 29,
+        "type": "single",
+        "question": "Nerepudierea isi propune sa confirme destinatarului unui mesaj electronic ca mesajul este scris si trimis de o persoana care:",
+        "points": 2,
+        "options": [
+            "nu poate nega emiterea mesajului",
+            "poate nega oricand emiterea mesajului",
+            "este anonima in mod obligatoriu"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 30,
+        "type": "multiple",
+        "question": "Securitatea informatiilor este obtinuta prin implementarea unui set adecvat de masuri de securitate. Care sunt incluse?",
+        "points": 2,
+        "options": [
+            "politici",
+            "procese",
+            "proceduri",
+            "structuri organizationale",
+            "functiuni legate de software si hardware"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 31,
+        "type": "multiple",
+        "question": "Pentru atingerea obiectivelor stabilite de securitate, masurile de securitate trebuie:",
+        "points": 2,
+        "options": [
+            "stabilite",
+            "implementate",
+            "monitorizate",
+            "analizate",
+            "imbunatatite cand este cazul"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 32,
+        "type": "multiple",
+        "question": "Amenintarile la adresa informatiilor sunt generate de:",
+        "points": 2,
+        "options": [
+            "cauze umane",
+            "cauze legate de costuri",
+            "cauze tehnice (hardware, software)",
+            "cauze externe (dezastre naturale etc.)",
+            "doar cauze matematice"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 33,
+        "type": "single",
+        "question": "Amenintarile accidentale sunt cele care se realizeaza:",
+        "points": 1,
+        "options": [
+            "fara o intentie premeditata",
+            "doar din exteriorul organizatiei",
+            "doar prin interceptarea comunicatiilor"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 34,
+        "type": "single",
+        "question": "Daca o amenintare intentionata este realizata, ea este considerata:",
+        "points": 1,
+        "options": [
+            "atac",
+            "procedura",
+            "politica"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 35,
+        "type": "double-dropdown",
+        "question": "Completeaza corect: amenintarile pot fi (______) sau (______).",
+        "points": 2,
+        "options": [
+            [
+                "accidentale",
+                "intentionate",
+                "aleatoare",
+                "digitale"
+            ],
+            [
+                "accidentale",
+                "intentionate",
+                "aleatoare",
+                "digitale"
+            ]
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 36,
+        "type": "single",
+        "question": "O amenintare exploateaza intotdeauna:",
+        "points": 1,
+        "options": [
+            "o vulnerabilitate existenta la nivelul unei resurse informationale",
+            "un certificat digital",
+            "un algoritm hash"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 37,
+        "type": "single",
+        "question": "Vulnerabilitatile sunt:",
+        "points": 1,
+        "options": [
+            "slabiciuni asociate resurselor, care pot cauza daune numai daca sunt exploatate de amenintari",
+            "atacuri realizate de adversari",
+            "masuri standardizate de protectie"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 38,
+        "type": "multiple",
+        "question": "Vulnerabilitatile unui sistem pot fi:",
+        "points": 2,
+        "options": [
+            "vulnerabilitati de proiectare",
+            "vulnerabilitati fortate",
+            "vulnerabilitati evitabile",
+            "vulnerabilitati inevitabile",
+            "vulnerabilitati cuantice"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 39,
+        "type": "single",
+        "question": "Care este perechea corecta vulnerabilitate -> amenintare asociata (din exemplele date)?",
+        "points": 2,
+        "options": [
+            "linii de comunicatie neprotejate -> interceptare a comunicatiilor",
+            "transferul parolelor in clar -> supraincarcare trafic",
+            "interfata de utilizator complicata -> infiltrare comunicatii"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 40,
+        "type": "single",
+        "question": "Exploatarea unei vulnerabilitati de catre o amenintare conduce la:",
+        "points": 1,
+        "options": [
+            "risc",
+            "confidentialitate",
+            "nerepudiere"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 41,
+        "type": "multiple",
+        "question": "Riscul este exprimat cel mai bine prin raspunsul la intrebarile:",
+        "points": 2,
+        "options": [
+            "ce se poate intampla (care este amenintarea)?",
+            "care este impactul sau consecinta?",
+            "care este frecventa (cat de des se poate intampla)?",
+            "care este lungimea cheii AES?"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 42,
+        "type": "single",
+        "question": "Criptografie inseamna:",
+        "points": 1,
+        "options": [
+            "scris secret/ascuns",
+            "scris rapid",
+            "scris public"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 43,
+        "type": "double-dropdown",
+        "question": "Completeaza etimologia: kryptos = (______), graphein = (______)",
+        "points": 2,
+        "options": [
+            [
+                "ascuns, secret",
+                "public",
+                "aleator"
+            ],
+            [
+                "a scrie",
+                "a sterge",
+                "a citi"
+            ]
+        ],
+        "correctAnswer": [
+            0,
+            0
+        ]
+    },
+    {
+        "id": 44,
+        "type": "single",
+        "question": "Care lucrare a lui Johannes Trithemius este mentionata ca fiind prima carte despre criptografie?",
+        "points": 1,
+        "options": [
+            "Polygraphiae (1508)",
+            "Steganographia (1499)",
+            "Communication Theory of Secret Systems (1949)"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 45,
+        "type": "single",
+        "question": "Tabula recta (cifrul Trithemius) este mentionat ca fiind asemanator cu:",
+        "points": 1,
+        "options": [
+            "cifrul Vigenere",
+            "cifrul Cezar",
+            "one-time pad"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 46,
+        "type": "single",
+        "question": "Un cifru sigur (definit de Claude Shannon) este un sistem care nu permite unui adversar sa obtina nicio informatie despre textul in clar avand la dispozitie doar:",
+        "points": 2,
+        "options": [
+            "textul cifrat",
+            "cheia secreta",
+            "textul in clar"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 47,
+        "type": "single",
+        "question": "Pentru a obtine securitate perfecta, este necesara o cheie cel putin la fel de mare ca spatiul mesajelor, ceea ce conduce la:",
+        "points": 2,
+        "options": [
+            "one-time pad",
+            "ECB",
+            "PKI"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 48,
+        "type": "multiple",
+        "question": "Securitatea semantica este descrisa prin afirmatiile:",
+        "points": 2,
+        "options": [
+            "niciun algoritm eficient nu trebuie sa poata determina ce text in clar a generat textul cifrat",
+            "se pot utiliza chei mult mai mici decat dimensiunea textului in clar",
+            "cheia trebuie sa fie cel putin la fel de mare ca spatiul mesajelor",
+            "textul in clar trebuie transmis impreuna cu textul cifrat"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 49,
+        "type": "single",
+        "question": "Ce algoritm este mentionat ca fiind considerat a indeplini criteriile securitatii semantice?",
+        "points": 1,
+        "options": [
+            "AES (Advanced Encryption Standard)",
+            "Lorenz cipher machine",
+            "Tabula recta"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 50,
+        "type": "single",
+        "question": "Pe ce schema de criptare se bazeaza toate criptosistemele clasice prezentate?",
+        "points": 1,
+        "options": [
+            "chei asimetrice (chei diferite la criptare/decriptare)",
+            "chei simetrice (aceeasi cheie la criptare si decriptare)",
+            "fara cheie (doar permutari publice)"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 51,
+        "type": "single",
+        "question": "Ce serviciu de securitate ofera sistemele criptografice clasice descrise?",
+        "points": 1,
+        "options": [
+            "integritate si autentificare",
+            "confidentialitatea informatiilor",
+            "nerepudiere"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 52,
+        "type": "single",
+        "question": "Care este diferenta evidentiata intre sistemele clasice si cele moderne?",
+        "points": 2,
+        "options": [
+            "sistemele clasice trateaza datele ca numere binare, cele moderne ca simboluri",
+            "sistemele clasice lucreaza pe alfabete/simboluri, cele moderne trateaza datele ca numere binare",
+            "sistemele moderne ofera doar confidentialitate, cele clasice ofera toate serviciile"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 53,
+        "type": "single",
+        "question": "Un cifru este definit ca:",
+        "points": 1,
+        "options": [
+            "un set de pasi (un algoritm) pentru criptare si decriptare",
+            "o lista de parole folosite intr-o organizatie",
+            "un mesaj criptat impreuna cu cheia"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 54,
+        "type": "single",
+        "question": "In cifrul monoalfabetic, pentru o cheie data, simbolul cifrat pentru un simbol din mesajul sursa este:",
+        "points": 1,
+        "options": [
+            "fixat pe tot parcursul procesului de criptare",
+            "diferit de fiecare data cand apare",
+            "ales aleator la fiecare aparitie"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 55,
+        "type": "single",
+        "question": "In cifrul polialfabetic, simbolul cifrat pentru acelasi simbol din mesajul sursa poate fi:",
+        "points": 1,
+        "options": [
+            "mereu identic",
+            "diferit in locuri diferite ale mesajului",
+            "inlocuit doar prin transpozitie"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 56,
+        "type": "single",
+        "question": "Cifrul poligram cripteaza ca unitate de baza:",
+        "points": 1,
+        "options": [
+            "o singura litera",
+            "un grup de simboluri (digraf, trigraf sau blocuri mai mari)",
+            "doar cifrele 0 si 1"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 57,
+        "type": "single",
+        "question": "De ce cifrul Cezar nu este considerat sigur?",
+        "points": 1,
+        "options": [
+            "pentru ca are doar 26 de chei posibile de incercat",
+            "pentru ca necesita tabele 5x5",
+            "pentru ca foloseste 26! chei posibile"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 58,
+        "type": "single",
+        "question": "In descrierea cifrului Cezar, deplasarea aplicata de Julius Caesar este:",
+        "points": 1,
+        "options": [
+            "5 litere",
+            "3 litere",
+            "13 litere"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 59,
+        "type": "single",
+        "question": "In exemplul din curs, pentru o deplasare de 3, textul \"tutorial\" devine:",
+        "points": 2,
+        "options": [
+            "WXWRULDO",
+            "TXSTQULD",
+            "WXXRULDO"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 60,
+        "type": "multiple",
+        "question": "Algoritmul de criptare pentru cifrul Cezar include urmatorii pasi:",
+        "points": 2,
+        "options": [
+            "expeditorul gliseaza rigla glisanta la stanga cu numarul de pozitii al schimbarii secrete",
+            "litera din textul sursa este inlocuita cu litera de text cifrat de pe rigla glisanta",
+            "expeditorul gliseaza rigla la dreapta pentru criptare",
+            "cheia este permutarea completa a alfabetului (26!)"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 61,
+        "type": "single",
+        "question": "Cifrul simplu de substitutie este o imbunatatire a cifrului Cezar deoarece foloseste:",
+        "points": 1,
+        "options": [
+            "permutarea literelor din alfabet (amestecare)",
+            "doar o deplasare fixa de 3",
+            "o matrice 5x5 cu omiterea literei J"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 62,
+        "type": "single",
+        "question": "Cate permutari posibile sunt pentru un alfabet de 26 de litere in cifrul simplu de substitutie?",
+        "points": 2,
+        "options": [
+            "26",
+            "26!",
+            "2^26"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 63,
+        "type": "single",
+        "question": "In exemplul din curs pentru cifrul simplu de substitutie, \"point\" devine:",
+        "points": 2,
+        "options": [
+            "MJBXZ",
+            "PXOIN",
+            "MJBZX"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 64,
+        "type": "single",
+        "question": "In cifrul Vigenere, cheia este:",
+        "points": 1,
+        "options": [
+            "un cuvant (sir de text) folosit pentru a realiza un numar de deplasari",
+            "o permutare completa a alfabetului",
+            "un numar fix intre 0 si 25 folosit identic pentru toate literele"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 65,
+        "type": "single",
+        "question": "Pentru alfabet de 26 de simboluri, conversia literelor in valori numerice este data (exemplu):",
+        "points": 1,
+        "options": [
+            "a -> 0, b -> 1, c -> 2, ...",
+            "a -> 1, b -> 2, c -> 3, ...",
+            "a -> 2, b -> 3, c -> 4, ..."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 66,
+        "type": "single",
+        "question": "Cheia \"point\" este convertita numeric in:",
+        "points": 2,
+        "options": [
+            "15 14 8 13 19",
+            "16 15 9 14 20",
+            "17 16 10 15 21"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 67,
+        "type": "multiple",
+        "question": "Conditiile pentru One-Time Pad (OTP) sunt:",
+        "points": 3,
+        "options": [
+            "lungimea cheii este egala cu lungimea textului clar",
+            "cheia este un sir de caractere generat complet aleator",
+            "cheia este folosita o singura data",
+            "cheia trebuie sa fie mai scurta decat mesajul"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 68,
+        "type": "single",
+        "question": "In cifrul Playfair, tabela cheie este o grila de dimensiune:",
+        "points": 1,
+        "options": [
+            "4 x 4",
+            "5 x 5",
+            "6 x 6"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 69,
+        "type": "single",
+        "question": "In Playfair, ce litera este omisa de obicei din tabela si ce inlocuire se face daca apare in text?",
+        "points": 2,
+        "options": [
+            "Q este omisa, iar Q se inlocuieste cu O",
+            "J este omisa, iar J se inlocuieste cu I",
+            "W este omisa, iar W se inlocuieste cu V"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 70,
+        "type": "single",
+        "question": "La formarea digramelor in Playfair, daca cele doua litere dintr-o pereche sunt identice, se insereaza intre ele litera:",
+        "points": 1,
+        "options": [
+            "X",
+            "J",
+            "A"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 71,
+        "type": "double-dropdown",
+        "question": "In Playfair: daca cele doua litere sunt pe aceeasi linie, fiecare se inlocuieste cu litera din (______), circular; daca sunt pe aceeasi coloana, fiecare se inlocuieste cu litera de (______), circular.",
+        "points": 2,
+        "options": [
+            [
+                "dreapta",
+                "stanga",
+                "sus",
+                "jos"
+            ],
+            [
+                "dreapta",
+                "stanga",
+                "sub",
+                "deasupra"
+            ]
+        ],
+        "correctAnswer": [
+            0,
+            2
+        ]
+    },
+    {
+        "id": 72,
+        "type": "single",
+        "question": "In analiza securitatii pentru Playfair, criptanaliza se face asupra a cate perechi posibile de litere?",
+        "points": 2,
+        "options": [
+            "26",
+            "625",
+            "52"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 73,
+        "type": "single",
+        "question": "In cifrul de transpozitie simpla pe coloane, ce se intampla cu simbolurile originale?",
+        "points": 1,
+        "options": [
+            "sunt inlocuite cu alte simboluri",
+            "nu sunt inlocuite; se schimba doar ordinea lor",
+            "sunt eliminate daca se repeta"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 74,
+        "type": "single",
+        "question": "La descifrarea transpozitiei simple pe coloane, numarul de randuri se obtine prin impartirea lungimii textului cifrat la cheie si:",
+        "points": 2,
+        "options": [
+            "rotunjirea in jos",
+            "rotunjirea in sus",
+            "inmultirea cu cheia"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 75,
+        "type": "single",
+        "question": "Un protocol este:",
+        "points": 1,
+        "options": [
+            "un algoritm de criptare care foloseste doar substitutie",
+            "o cheie secreta folosita intre doua parti",
+            "un set de pasi intre mai multe parti, proiectat pentru indeplinirea unei functii de comunicare"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 76,
+        "type": "single",
+        "question": "Intr-un protocol, pasii:",
+        "points": 1,
+        "options": [
+            "pot fi sariti daca timpul este limitat",
+            "trebuie executati in ordine; niciun pas nu poate fi facut pana nu se termina pasul anterior",
+            "pot fi executati in paralel, fara restrictii"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 77,
+        "type": "multiple",
+        "question": "Caracteristici cerute pentru un protocol:",
+        "points": 2,
+        "options": [
+            "toate partile implicate trebuie sa cunoasca protocolul si pasii inainte de transmisie",
+            "toate partile implicate trebuie sa fie de acord cu protocolul si sa il urmeze",
+            "protocolul poate fi ambiguu daca este scurt",
+            "protocolul trebuie sa fie complet, cu actiuni pentru fiecare situatie posibila"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            3
+        ]
+    },
+    {
+        "id": 78,
+        "type": "single",
+        "question": "Un protocol criptografic foloseste criptografia pentru:",
+        "points": 1,
+        "options": [
+            "a realiza functii de securizare/autentificare pe canalul de comunicatie",
+            "a creste viteza retelei prin compresie",
+            "a elimina complet nevoia de chei"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 79,
+        "type": "single",
+        "question": "Scopul unui protocol criptografic este, in general:",
+        "points": 1,
+        "options": [
+            "doar secretizarea mesajului",
+            "mai mult decat secretizarea mesajului",
+            "doar detectarea erorilor de transmisie"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 80,
+        "type": "multiple",
+        "question": "In cadrul unui protocol criptografic, partile participante pot face publice anumite parti ale secretului lor pentru:",
+        "points": 3,
+        "options": [
+            "calcularea unei anumite valori",
+            "generarea unei secvente aleatoare",
+            "a convinge parti terte de identitatea participantilor",
+            "semnarea simultana a unui contract",
+            "a anula criptografia folosita"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 81,
+        "type": "single",
+        "question": "Care pereche personaj-rol este corecta?",
+        "points": 1,
+        "options": [
+            "Mallory - autoritatea de certificare",
+            "Trent - interceptorul (eavesdropper)",
+            "Eve - interceptorul (eavesdropper)"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 82,
+        "type": "single",
+        "question": "In lista de personaje uzuale din protocoale, Oscar este:",
+        "points": 1,
+        "options": [
+            "receptorul",
+            "criptanalistul",
+            "impersonatorul"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 83,
+        "type": "single",
+        "question": "In sistemele criptografice simetrice, fara cheia K, din c = E_K(m):",
+        "points": 2,
+        "options": [
+            "se poate deduce intotdeauna mesajul m printr-o formula simpla",
+            "nu se poate deduce nimic despre m",
+            "se poate deduce cheia K"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 84,
+        "type": "single",
+        "question": "Mesajul criptat c = E_K(m) si orice informatie despre m:",
+        "points": 2,
+        "options": [
+            "dezvaluie totusi ceva despre K",
+            "nu dezvaluie nimic despre K",
+            "permit calcularea directa a lui K"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 85,
+        "type": "multiple",
+        "question": "Intr-un protocol criptografic simetric, Alice si Bob cad de acord asupra:",
+        "points": 2,
+        "options": [
+            "unui sistem criptografic (E)",
+            "unei chei (K)",
+            "unei chei publice comune",
+            "unui certificat emis de Oscar"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 86,
+        "type": "double-dropdown",
+        "question": "Asociaza operatia cu efectul: Substitutie -> (______), Transpunere (permutare) -> (______)",
+        "points": 2,
+        "options": [
+            [
+                "confuzie",
+                "difuzie",
+                "autentificare"
+            ],
+            [
+                "confuzie",
+                "difuzie",
+                "nerepudiere"
+            ]
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 87,
+        "type": "single",
+        "question": "Cui ii este atribuita introducerea conceptelor de confuzie si difuziune in criptografie?",
+        "points": 1,
+        "options": [
+            "Whitfield Diffie",
+            "Claude Shannon",
+            "August Kerckhoffs"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 88,
+        "type": "single",
+        "question": "Codurile bloc sunt algoritmi care opereaza pe un mesaj prin impartirea in blocuri (de biti), fiecare bloc avand:",
+        "points": 1,
+        "options": [
+            "dimensiune fixa",
+            "dimensiune variabila la fiecare pas",
+            "dimensiunea 1 bit"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 89,
+        "type": "single",
+        "question": "Codurile flux sunt algoritmi care functioneaza:",
+        "points": 1,
+        "options": [
+            "pe blocuri de 64 biti",
+            "bit cu bit (blocuri cu dimensiunea 1 bit)",
+            "doar pe caractere tiparite"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 90,
+        "type": "single",
+        "question": "Intr-un cifru flux, operatia de combinare folosita de obicei intre text clar si fluxul cheie este:",
+        "points": 1,
+        "options": [
+            "AND",
+            "XOR",
+            "SHIFT circular"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 91,
+        "type": "single",
+        "question": "Fluxul de simboluri pseudo-aleatorii (flux cheie) este de obicei generat pe baza unei valori aleatorii (seed). Acea valoare seed este:",
+        "points": 2,
+        "options": [
+            "cheia criptografica",
+            "criptotextul",
+            "parametrul public al protocolului"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 92,
+        "type": "multiple",
+        "question": "Despre cifrurile flux, sunt mentionate ca exemple:",
+        "points": 2,
+        "options": [
+            "RC4 (Rivest Cipher 4 / ARC4)",
+            "A5/1 (GSM)",
+            "AES",
+            "Lucipher"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 93,
+        "type": "single",
+        "question": "O problema grava de securitate la cifrurile flux apare daca:",
+        "points": 2,
+        "options": [
+            "se foloseste aceeasi stare initiala (seed) de doua ori",
+            "se foloseste XOR ca operatie de combinare",
+            "se folosesc blocuri de 1 bit"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 94,
+        "type": "multiple",
+        "question": "Pentru cifrurile flux sincrone:",
+        "points": 3,
+        "options": [
+            "fluxul pseudo-aleator este generat independent de textul clar si textul criptat",
+            "daca se adauga sau se elimina simboluri in transmisie, sincronizarea se pierde",
+            "daca un simbol este corupt, eroarea se propaga in tot mesajul",
+            "daca un simbol este corupt, doar un singur simbol din textul clar este afectat"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            3
+        ]
+    },
+    {
+        "id": 95,
+        "type": "single",
+        "question": "Un cifru flux auto-sincronizat foloseste pentru calcularea fluxului cheie:",
+        "points": 2,
+        "options": [
+            "doar textul clar curent",
+            "mai multe dintre cele N simboluri de text criptate anterior",
+            "doar un IV public, fara criptotext anterior"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 96,
+        "type": "multiple",
+        "question": "Despre reteaua Feistel (Lucipher) sunt mentionate:",
+        "points": 3,
+        "options": [
+            "P-box creeaza difuzie",
+            "S-box creeaza confuzie",
+            "este construita la IBM in 1973 de Horst Feistel si Don Coppersmith",
+            "are exact 8 runde, obligatoriu"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 97,
+        "type": "single",
+        "question": "Ce urmareste steganografia atunci cand transmite o informatie secreta?",
+        "points": 1,
+        "options": [
+            "sa faca mesajul criptat vizibil, dar imposibil de inteles fara cheie",
+            "sa ascunda existenta mesajului secret intr-un mesaj purtator, fara ca o terta parte sa constientizeze esenta comunicarii",
+            "sa inlocuiasca complet criptografia in orice sistem sigur"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 98,
+        "type": "single",
+        "question": "Care afirmatie descrie corect relatia dintre steganografie si criptografie?",
+        "points": 1,
+        "options": [
+            "se exclud reciproc; nu pot fi folosite impreuna",
+            "steganografia inlocuieste criptografia in toate cazurile",
+            "steganografia nu inlocuieste criptografia, ci poate adauga un strat suplimentar de protectie"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 99,
+        "type": "multiple",
+        "question": "Care afirmatii sunt adevarate despre criptografie vs steganografie?",
+        "points": 2,
+        "options": [
+            "criptografia este evidenta (se observa ca mesajul este criptat)",
+            "in steganografie, mesajul purtator poate fi inteles de oricine",
+            "steganografia cere intotdeauna chei asimetrice",
+            "un mesaj criptat nu poate fi inteles fara cheie"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            3
+        ]
+    },
+    {
+        "id": 100,
+        "type": "single",
+        "question": "Termenul steganografie provine din combinarea cuvintelor grecesti:",
+        "points": 1,
+        "options": [
+            "steganos = ascuns/acoperit si graphia = scriere",
+            "kryptos = ascuns si graphein = a scrie",
+            "logos = cuvant si graphia = desen"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 101,
+        "type": "multiple",
+        "question": "Care exemple istorice de steganografie sunt mentionate?",
+        "points": 3,
+        "options": [
+            "mesaje scrise pe lemn si acoperite cu ceara",
+            "cerneluri invizibile (lapte sau suc de lamaie)",
+            "micro-puncte (microdots) folosite in al Doilea Razboi Mondial",
+            "semnaturi digitale cu chei publice",
+            "mesaj in cod Morse codificat pe un fir integrat in haine"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            4
+        ]
+    },
+    {
+        "id": 102,
+        "type": "single",
+        "question": "Ce descrie tehnica cu „null ciphers” mentionata?",
+        "points": 1,
+        "options": [
+            "mesaje secrete necriptate ascunse intr-un text aparent inocent",
+            "mesaje criptate cu o cheie nula",
+            "eliminarea tuturor spatiilor dintr-un text"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 103,
+        "type": "single",
+        "question": "Povestea cu Histaeus din Milet ascunde mesajul prin:",
+        "points": 2,
+        "options": [
+            "microdots lipite pe hartie",
+            "tatuarea mesajului pe scalpul unui sclav, apoi lasarea parului sa creasca pentru a-l ascunde",
+            "scriere cu cerneala invizibila si incalzire la destinatie"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 104,
+        "type": "multiple",
+        "question": "In steganografia digitala, sunt mentionate ca idei principale:",
+        "points": 2,
+        "options": [
+            "exista un mesaj purtator care va ascunde mesajul secret",
+            "metoda se alege in functie de natura mesajului purtator (pentru a-i exploata formatul)",
+            "se foloseste de obicei si o metoda de criptare a mesajului ascuns",
+            "mesajul purtator trebuie obligatoriu convertit in text simplu"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 105,
+        "type": "single",
+        "question": "Tehnica LSB (Least Significant Bit) foloseste, in esenta:",
+        "points": 1,
+        "options": [
+            "cei mai semnificativi biti pentru a pastra calitatea maxima",
+            "pozitiile cel mai putin semnificative din reprezentarile binare ale mesajului purtator pentru a stoca alta informatie",
+            "doar antetul (header-ul) fisierului pentru a ascunde mesajul"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 106,
+        "type": "single",
+        "question": "Ce restrictie este mentionata pentru operatiile facute in tehnica LSB?",
+        "points": 1,
+        "options": [
+            "operatiile nu trebuie sa schimbe tipul mesajului purtator",
+            "operatiile trebuie sa dubleze dimensiunea fisierului purtator",
+            "operatiile trebuie sa elimine compresia"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 107,
+        "type": "single",
+        "question": "In reprezentarea culorilor pentru imagini, culorile de baza combinate sunt:",
+        "points": 1,
+        "options": [
+            "Cyan, Magenta, Yellow",
+            "Red, Green, Blue",
+            "Hue, Saturation, Value"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 108,
+        "type": "single",
+        "question": "Ce inseamna adancimea culorii (color depth) si cum se exprima?",
+        "points": 2,
+        "options": [
+            "numarul de pixeli ai imaginii; se exprima in dpi",
+            "numarul de biti necesari memorarii culorii unui pixel; se exprima in biti per pixel (bpp)",
+            "numarul de canale audio; se exprima in Hz"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 109,
+        "type": "single",
+        "question": "La 24 bpp, fiecare componenta RGB primeste:",
+        "points": 1,
+        "options": [
+            "un bit (2 nivele)",
+            "un octet (256 nivele de intensitate)",
+            "doi octeti (1024 nivele de intensitate)"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 110,
+        "type": "single",
+        "question": "In descrierea pentru 24 bpp, valoarea 0 pentru o componenta RGB indica, iar valoarea 255 indica:",
+        "points": 2,
+        "options": [
+            "0 = luminozitate maxima, 255 = absenta componentei",
+            "0 = absenta componentei, 255 = luminozitate maxima",
+            "0 = alb complet, 255 = negru complet"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 111,
+        "type": "single",
+        "question": "Coeficientul de distorsiune (pentru LSB) este masurat in:",
+        "points": 1,
+        "options": [
+            "biti/octet",
+            "pixeli/linie",
+            "biti/pixel"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 112,
+        "type": "single",
+        "question": "Ce inseamna daca coeficientul de distorsiune depaseste valoarea maxima indicata?",
+        "points": 2,
+        "options": [
+            "fisierul secret nu poate fi mascat de imaginea purtatoare",
+            "imaginea devine automat alb-negru",
+            "mesajul se recupereaza fara erori indiferent de continut"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 113,
+        "type": "single",
+        "question": "Cum se calculeaza dimensiunea maxima a mesajului ascuns intr-o imagine bitmap cu W x H pixeli si 24 bpp, pentru un coeficient maxim de distorsiune dmax?",
+        "points": 3,
+        "options": [
+            "3 x W x H x dmax biti",
+            "W x H x dmax octeti",
+            "24 x W x H x dmax octeti"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 114,
+        "type": "multiple",
+        "question": "Pentru JPEG (si formate video care folosesc compresie JPEG cu pierderi), mesajul poate fi ascuns prin:",
+        "points": 2,
+        "options": [
+            "modificarea matricei coeficientilor DCT",
+            "modificarea directa a valorilor pixeli fara niciun pas de transformare",
+            "modificarea pozitiilor cel mai putin semnificative ale coeficientilor a caror module sunt mai mari decat 1",
+            "inlocuirea completa a tabelului de cuantificare cu unul aleator"
+        ],
+        "correctAnswer": [
+            0,
+            2
+        ]
+    },
+    {
+        "id": 115,
+        "type": "multiple",
+        "question": "Care pasi sunt enumerati in compresia JPEG (in ordinea prezentata)?",
+        "points": 3,
+        "options": [
+            "trecerea in spatiul de culoare YCbCr",
+            "reducerea numarului de valori pentru crominante (subsampling)",
+            "aplicarea DCT pe blocuri de 8x8 pixeli",
+            "cuantificarea coeficientilor rezultati cu un tabel de cuantificare",
+            "compresie RLE (zigzag) si apoi coduri Huffman"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 116,
+        "type": "single",
+        "question": "De ce „comprimarile ulterioare” permit recuperarea coeficientilor modificati, in descrierea pentru ascunderea in DCT?",
+        "points": 2,
+        "options": [
+            "pentru ca sunt fara pierderi",
+            "pentru ca DCT este reversibil fara erori chiar dupa cuantificare agresiva",
+            "pentru ca JPEG nu foloseste compresie"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 117,
+        "type": "single",
+        "question": "Tehnologia Cinavia este prezentata ca fiind:",
+        "points": 1,
+        "options": [
+            "un cifru de substitutie polialfabetic",
+            "o tehnologie de watermarking analogic si steganografie",
+            "un protocol de schimb de chei"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 118,
+        "type": "multiple",
+        "question": "Sistemul Cinavia (VCMS/AV) este proiectat sa reziste la:",
+        "points": 3,
+        "options": [
+            "recomprimarea fluxului audio",
+            "redarea si re-inregistrarea analogica",
+            "re-esantionarea",
+            "modificari minore de tonalitate",
+            "criptarea AES a continutului"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 119,
+        "type": "single",
+        "question": "Ce introduce Cinavia in semnalul audio, dupa descriere?",
+        "points": 2,
+        "options": [
+            "o distorsiune deliberata de faza, de tip spread spectrum, in domeniul frecventelor fiecarui canal",
+            "un zgomot alb puternic in domeniul timpului",
+            "o reducere a bitrate-ului prin subsampling"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 120,
+        "type": "double-dropdown",
+        "question": "Asociaza corect codul de mesaj Cinavia cu situatia: Cod mesaj 1 -> (______), Cod mesaj 3 -> (______)",
+        "points": 3,
+        "options": [
+            [
+                "redarea a fost oprita (continut audio pentru cinematografe/hoteluri redat pe echipament de uz casnic)",
+                "copierea a fost oprita (continut audio comercial inregistrat pe dispozitiv pentru consumatori)",
+                "sunet dezactivat (disc optic redat fara cheia AACS corespunzatoare integrata in disc)"
+            ],
+            [
+                "sunet dezactivat (disc optic redat fara cheia AACS corespunzatoare integrata in disc)",
+                "redarea a fost oprita (continut audio pentru cinematografe/hoteluri redat pe echipament de uz casnic)",
+                "copierea a fost oprita (continut audio pentru cinematografe/hoteluri inregistrat pe dispozitiv pentru consumatori)"
+            ]
+        ],
+        "correctAnswer": [
+            0,
+            0
+        ]
+    },
+    {
+        "id": 121,
+        "type": "single",
+        "question": "Care este problema majora pe care un sistem de bani digitali trebuie sa o previna?",
+        "points": 1,
+        "options": [
+            "plati duble",
+            "compresia datelor",
+            "cresterea latentei in retea"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 122,
+        "type": "single",
+        "question": "Intr-o retea descentralizata, ce trebuie sa faca fiecare nod pentru a mentine increderea in sistem?",
+        "points": 2,
+        "options": [
+            "sa pastreze ultimele 10 tranzactii",
+            "sa detina istoricul complet al tranzactiilor si sa verifice tranzactiile noi",
+            "sa ceara aprobarea unei autoritati centrale"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 123,
+        "type": "single",
+        "question": "Ce se intampla daca nodurile nu sunt in consens asupra balantelor?",
+        "points": 2,
+        "options": [
+            "sistemul isi pierde increderea",
+            "se accelereaza confirmarea tranzactiilor",
+            "se elimina nevoia de ledger"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 124,
+        "type": "multiple",
+        "question": "Un sistem de bani digitali are nevoie de:",
+        "points": 2,
+        "options": [
+            "conturi",
+            "balante",
+            "tranzactii",
+            "certificate X.509 obligatorii"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 125,
+        "type": "single",
+        "question": "O criptomoneda este descrisa cel mai bine ca:",
+        "points": 2,
+        "options": [
+            "un activ digital folosit ca mijloc de schimb, cu inregistrari intr-un ledger securizat criptografic",
+            "un fisier text care contine o lista de parole",
+            "o moneda tiparita, garantata de aur"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 126,
+        "type": "single",
+        "question": "O tranzactie de tip „Bob trimite 1 BTC catre Alice” este semnata cu:",
+        "points": 2,
+        "options": [
+            "cheia publica a lui Alice",
+            "cheia privata a lui Bob",
+            "cheia publica a lui Bob"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 127,
+        "type": "single",
+        "question": "Cand devine definitiva o tranzactie in retea?",
+        "points": 1,
+        "options": [
+            "cand este confirmata",
+            "cand este scrisa intr-un e-mail",
+            "cand este creata in portofel"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 128,
+        "type": "single",
+        "question": "Confirmarea unei tranzactii are efectul de a o face:",
+        "points": 1,
+        "options": [
+            "reversibila printr-o cerere la un server",
+            "imuabila si adaugata in blockchain",
+            "anonima in mod garantat"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 129,
+        "type": "dropdown",
+        "question": "Cine poate confirma tranzactii (si construi blocuri noi)?",
+        "points": 1,
+        "options": [
+            "minerii",
+            "numai o banca centrala",
+            "doar expeditorul tranzactiei",
+            "orice nod, fara conditii"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 130,
+        "type": "multiple",
+        "question": "Ce fac minerii in procesul de confirmare?",
+        "points": 2,
+        "options": [
+            "colecteaza tranzactiile neconfirmate",
+            "le valideaza",
+            "construiesc un bloc nou",
+            "il propaga in retea",
+            "reseteaza balantele tuturor conturilor"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 131,
+        "type": "single",
+        "question": "Recompensa minerilor include:",
+        "points": 2,
+        "options": [
+            "o tranzactie speciala „coinbase” care genereaza monede noi, plus taxele de tranzactie",
+            "doar taxele de tranzactie, fara monede noi",
+            "doar monede noi, fara taxe"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 132,
+        "type": "dropdown",
+        "question": "Care este singura metoda descrisa prin care se creeaza monede noi in sistem?",
+        "points": 1,
+        "options": [
+            "tranzactia „coinbase”",
+            "transferul intre portofele",
+            "semnarea digitala a mesajelor",
+            "verificarea SPV"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 133,
+        "type": "single",
+        "question": "De ce este impusa o munca computationala (proof-of-work)?",
+        "points": 2,
+        "options": [
+            "pentru a preveni abuzurile procesului de minare",
+            "pentru a elimina nevoia de hash",
+            "pentru a face tranzactiile reversibile"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 134,
+        "type": "single",
+        "question": "In proof-of-work (Bitcoin), minerii trebuie sa gaseasca:",
+        "points": 2,
+        "options": [
+            "un hash valid (bazat pe SHA-256) care leaga blocul de cel anterior",
+            "o cheie privata a expeditorului",
+            "un certificat emis de o autoritate centrala"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 135,
+        "type": "single",
+        "question": "Cum se comporta dificultatea puzzle-ului, pe masura ce creste puterea totala a retelei?",
+        "points": 2,
+        "options": [
+            "creste pentru a pastra un ritm constant de producere a blocurilor",
+            "scade pentru a grabi crearea blocurilor",
+            "ramane mereu fixa"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 136,
+        "type": "multiple",
+        "question": "Proprietati tranzactionale enumerate pentru criptomonede includ:",
+        "points": 2,
+        "options": [
+            "ireversibilitate",
+            "pseudonimitate",
+            "rapid si global",
+            "fara permisiuni",
+            "garantie prin obiect fizic"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 137,
+        "type": "dropdown",
+        "question": "Ce tip de criptografie cu chei publice este mentionat pentru protectia fondurilor?",
+        "points": 1,
+        "options": [
+            "ECC",
+            "RSA-1024 obligatoriu",
+            "DES",
+            "OTP"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 138,
+        "type": "single",
+        "question": "Ce inseamna ca oferta monetara este „controlata”?",
+        "points": 2,
+        "options": [
+            "numarul total de monede este limitat si programat in cod",
+            "numarul total de monede este nelimitat si depinde de banci",
+            "monedele se tiparesc anual"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 139,
+        "type": "single",
+        "question": "Ce tip de registru stocheaza toate tranzactiile confirmate de la crearea criptomonedei?",
+        "points": 1,
+        "options": [
+            "un registru public (blockchain/ledger)",
+            "un jurnal privat al fiecarui utilizator",
+            "un fisier local pe calculatorul lui Satoshi"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 140,
+        "type": "single",
+        "question": "In Bitcoin, ajustarea dificultatii se face la fiecare:",
+        "points": 2,
+        "options": [
+            "2016 blocuri (~2 saptamani)",
+            "10 blocuri (~1 ora)",
+            "100000 blocuri (~10 ani)"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 141,
+        "type": "multiple",
+        "question": "In mecanismul de ajustare a dificultatii (Bitcoin):",
+        "points": 2,
+        "options": [
+            "daca blocurile sunt minate prea repede, dificultatea creste",
+            "daca blocurile sunt minate prea lent, dificultatea scade",
+            "daca blocurile sunt minate prea repede, dificultatea scade",
+            "daca blocurile sunt minate prea lent, dificultatea creste"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 142,
+        "type": "single",
+        "question": "In proof-of-stake, validarea tranzactiilor se bazeaza in principal pe:",
+        "points": 2,
+        "options": [
+            "putere de calcul",
+            "detinerea unei cantitati de moneda",
+            "viteza conexiunii la internet"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 143,
+        "type": "multiple",
+        "question": "In proof-of-stake, validatorii sunt descrisi ca fiind selectati:",
+        "points": 2,
+        "options": [
+            "determinist sau pseudo-aleator",
+            "proportional cu stake-ul lor",
+            "doar pe principiul „primul venit, primul servit”",
+            "fara legatura cu stake-ul"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 144,
+        "type": "single",
+        "question": "Ce mecanism descurajeaza comportamentul malitios in proof-of-stake prin pierderea unei parti din stake?",
+        "points": 2,
+        "options": [
+            "slashing",
+            "double-SHA256",
+            "RLE"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 145,
+        "type": "dropdown",
+        "question": "Ce componenta din block header leaga criptografic un bloc de cel anterior?",
+        "points": 2,
+        "options": [
+            "Merkle Root",
+            "PrevBlockHash",
+            "Timestamp",
+            "Nonce"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 146,
+        "type": "double-dropdown",
+        "question": "Completeaza corect: In Bitcoin, hashing-ul blocului foloseste (______), iar in Ethereum foloseste (______)",
+        "points": 3,
+        "options": [
+            [
+                "double-SHA256",
+                "Keccak-256",
+                "RIPEMD-160"
+            ],
+            [
+                "double-SHA256",
+                "Keccak-256",
+                "SHA-1"
+            ]
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 147,
+        "type": "single",
+        "question": "De ce este util arborele Merkle pentru verificarea unei tranzactii dintr-un bloc?",
+        "points": 3,
+        "options": [
+            "nu e nevoie de intregul bloc, ci doar de un „Merkle proof” (log2(n) hash-uri)",
+            "permite semnarea tranzactiei fara cheie privata",
+            "elimina complet hashing-ul"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 148,
+        "type": "single",
+        "question": "Regula „celui mai greu lant” (PoW) spune ca nodurile accepta lantul cu:",
+        "points": 2,
+        "options": [
+            "cele mai multe blocuri",
+            "cel mai mare cumul de munca criptografica",
+            "cele mai multe tranzactii neconfirmate"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 149,
+        "type": "single",
+        "question": "In modelul UTXO (Bitcoin), fondurile sunt reprezentate ca:",
+        "points": 2,
+        "options": [
+            "iesiri necheltuite ale tranzactiilor",
+            "balante stocate direct in fiecare cont",
+            "monede fizice numerotate"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 150,
+        "type": "multiple",
+        "question": "In modelul Account-Based (Ethereum), fiecare adresa are:",
+        "points": 2,
+        "options": [
+            "balanta",
+            "nonce",
+            "cod (contract)",
+            "stocare persistenta",
+            "UTXO-uri ca structura unica"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 151,
+        "type": "single",
+        "question": "Cicada 3301 este descrisa ca:",
+        "points": 1,
+        "options": [
+            "o companie care vinde software antivirus",
+            "o organizatie care a publicat un set de puzzle-uri pentru a recruta codebreakers",
+            "un protocol criptografic standardizat"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 152,
+        "type": "multiple",
+        "question": "Care obiective sunt asociate organizatiei Cicada 3301?",
+        "points": 2,
+        "options": [
+            "lupta impotriva cenzurii",
+            "protejarea intimitatii",
+            "crearea de dead man's switch pentru whistle blowers",
+            "vanzarea de criptomonede"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 153,
+        "type": "single",
+        "question": "Ce a contribuit la destramarea organizatiei, desi era formata din persoane inteligente?",
+        "points": 2,
+        "options": [
+            "au lucrat ca o echipa foarte bine coordonata",
+            "fiecare aveau personalitati puternice si nu au lucrat ca o echipa",
+            "nu au reusit sa publice niciun puzzle"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 154,
+        "type": "single",
+        "question": "Primul puzzle a inceput pe 4 ianuarie 2012 pe:",
+        "points": 1,
+        "options": [
+            "Wikipedia",
+            "4chan",
+            "Stack Overflow"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 155,
+        "type": "single",
+        "question": "Ce au primit castigatorii testelor lansate ultima data in 2014?",
+        "points": 2,
+        "options": [
+            "o invitatie directa in organizatie",
+            "o carte digitala scrisa in rune, denumita Liber Primus",
+            "un cont cu criptomonede"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 156,
+        "type": "single",
+        "question": "Ce afirmatie descrie corect stadiul descifrarii Liber Primus mentionat?",
+        "points": 2,
+        "options": [
+            "toate cele 58 de pagini au fost descifrate in cateva luni",
+            "doar doua pagini din cele 58 au fost descifrate in 6 ani",
+            "niciuna dintre pagini nu a fost publicata"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 157,
+        "type": "dropdown",
+        "question": "Instrumentul mentionat pentru a extrage texte (caractere imprimabile) din fisiere binare (non-text) este:",
+        "points": 1,
+        "options": [
+            "Wireshark",
+            "Boxentriq Text Extractor",
+            "Hashcat",
+            "GIMP"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 158,
+        "type": "single",
+        "question": "Textul „TIBERIVS CLAVDIVS CAESAR” indica faptul ca urmatorul text este:",
+        "points": 1,
+        "options": [
+            "un cifru Cezar",
+            "un hash SHA-1",
+            "un cifru Playfair"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 159,
+        "type": "dropdown",
+        "question": "Cuvintele cheie „guess” si „out” indica folosirea instrumentului steganografic:",
+        "points": 1,
+        "options": [
+            "OutGuess",
+            "StegSolve",
+            "John the Ripper",
+            "Nmap"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 160,
+        "type": "single",
+        "question": "Un cifru de carte (book cipher) este descris ca fiind format din:",
+        "points": 2,
+        "options": [
+            "numere care fac referire la pagini/paragrafe/linii/cuvinte/litere dintr-o carte",
+            "o permutare a alfabetului de 26 de litere",
+            "un sir de biti generat aleator pentru XOR"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 161,
+        "type": "multiple",
+        "question": "Puzzle-urile s-au concentrat pe:",
+        "points": 2,
+        "options": [
+            "securitatea datelor",
+            "criptografie",
+            "steganografie",
+            "anonimat si supraveghere",
+            "optimizarea compilatoarelor"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 162,
+        "type": "single",
+        "question": "Care este rolul cheii PGP mentionate (ID 7A35090F) in contextul puzzle-urilor?",
+        "points": 2,
+        "options": [
+            "permite decriptarea automata a tuturor mesajelor",
+            "verifica autenticitatea mesajelor reale, semnate cu acea cheie",
+            "genereaza numere prime pentru urmatorii pasi"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 163,
+        "type": "single",
+        "question": "Cheia publica asociata ID-ului 7A35090F poate fi descarcata de pe:",
+        "points": 2,
+        "options": [
+            "MIT keyserver",
+            "Google Drive",
+            "GitHub Releases"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 164,
+        "type": "single",
+        "question": "Liniile de text din Subreddit s-au dovedit a fi:",
+        "points": 1,
+        "options": [
+            "un cifru Vigenere",
+            "un cifru Cezar",
+            "un cifru de transpozitie pe coloane"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 165,
+        "type": "single",
+        "question": "Textul folosit pentru rezolvarea (prin book cipher) este mentionat ca provenind din:",
+        "points": 2,
+        "options": [
+            "Mitologia lui Thomas Bulfinch",
+            "Enigma Variations",
+            "De Bello Gallico"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 166,
+        "type": "single",
+        "question": "Dimensiunea imaginii 509 x 503 este importanta deoarece:",
+        "points": 2,
+        "options": [
+            "509 si 503 sunt numere prime",
+            "509 si 503 sunt chei RSA",
+            "509 si 503 sunt valori RGB"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 167,
+        "type": "single",
+        "question": "Mesajul ascuns in imaginea numaratorii inverse cere verificarea la:",
+        "points": 2,
+        "options": [
+            "17:00, luni, 9 ianuarie 2012 UTC",
+            "00:00, vineri, 13 ianuarie 2012 UTC",
+            "12:00, luni, 9 ianuarie 2012 GMT+2"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 168,
+        "type": "single",
+        "question": "Vizitand locatiile indicate de coordonate, au fost gasite:",
+        "points": 2,
+        "options": [
+            "postere cu un cod QR si logo-ul Cicada",
+            "servere de minare Bitcoin",
+            "cartele SIM cu chei PGP"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 169,
+        "type": "dropdown",
+        "question": "Adresa care se termina in \".onion\" este asociata cu:",
+        "points": 1,
+        "options": [
+            "TOR (Dark Web)",
+            "DNS public obisnuit",
+            "FTP anonim",
+            "Bluetooth"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 170,
+        "type": "multiple",
+        "question": "Pentru „puzzle-ul RSA”, sunt mentionate ca optiuni open source pentru factorizare:",
+        "points": 2,
+        "options": [
+            "MSieve",
+            "CADO-NFS",
+            "Photoshop",
+            "VLC"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 171,
+        "type": "single",
+        "question": "In rezolvarea puzzle-ului RSA, trebuie factorizat numarul n in:",
+        "points": 2,
+        "options": [
+            "doua numere prime (p si q)",
+            "trei numere prime (p, q si r)",
+            "doi vectori de initializare (IV1 si IV2)"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 172,
+        "type": "single",
+        "question": "Ambele optiuni (MSieve si CADO-NFS) folosesc algoritmul:",
+        "points": 2,
+        "options": [
+            "Number Field Sieve (NFS)",
+            "Bubble Sort",
+            "Euclid pentru GCD doar"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 173,
+        "type": "multiple",
+        "question": "Despre puzzle-ul MIDI, analiza fisierului mentioneaza ca:",
+        "points": 3,
+        "options": [
+            "are doua piese (doua track-uri) care furnizeaza doua mesaje diferite",
+            "fiecare mesaj are mai putin de 26 de combinatii de lungime de ton si ton",
+            "fiecare combinatie ar putea reprezenta o litera",
+            "contine o cheie RSA ascunsa in antet"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 174,
+        "type": "single",
+        "question": "Ce instrument este mentionat pentru descifrarea criptogramei?",
+        "points": 1,
+        "options": [
+            "OutGuess",
+            "Boxentriq Text Extractor",
+            "Boxentriq's cryptogram tool",
+            "Decodificatorul Caesar Cipher (Boxentriq)"
+        ],
+        "correctAnswer": 2
     }
 ]
