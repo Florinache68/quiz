@@ -2359,5 +2359,1535 @@
             "Decodificatorul Caesar Cipher (Boxentriq)"
         ],
         "correctAnswer": 2
+    },
+    {
+        "id": 175,
+        "type": "single",
+        "question": "AES este mentionat ca fiind acelasi algoritm cu:",
+        "points": 1,
+        "options": [
+            "DES",
+            "Rijndael",
+            "Lucipher",
+            "RC4"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 176,
+        "type": "single",
+        "question": "Ce proprietate este mentionata ca fiind adevarata pentru AES?",
+        "points": 2,
+        "options": [
+            "lucreaza pe blocuri de 64 biti",
+            "lucreaza pe blocuri de 128 biti",
+            "lucreaza pe blocuri de 256 biti",
+            "lucreaza pe blocuri variabile"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 177,
+        "type": "single",
+        "question": "In AES, numarul de runde pentru o cheie de 192 biti este:",
+        "points": 2,
+        "options": [
+            "10",
+            "11",
+            "12",
+            "14"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 178,
+        "type": "dropdown",
+        "question": "In AES, „state” este reprezentat ca:",
+        "points": 2,
+        "options": [
+            "o matrice 4 x 4 de bytes",
+            "o matrice 8 x 8 de bytes",
+            "un vector de 32 bytes",
+            "o matrice 4 x 4 de biti"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 179,
+        "type": "multiple",
+        "question": "Care operatii apar in rundele intermediare ale AES (cele 9/11/13 runde din curs)?",
+        "points": 3,
+        "options": [
+            "SubBytes",
+            "ShiftRows",
+            "MixColumns",
+            "AddRoundKey",
+            "Expansion E"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 180,
+        "type": "single",
+        "question": "Care operatie lipseste din runda finala AES, fata de rundele intermediare?",
+        "points": 2,
+        "options": [
+            "AddRoundKey",
+            "SubBytes",
+            "ShiftRows",
+            "MixColumns"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 181,
+        "type": "single",
+        "question": "In AES, AddRoundKey combina byte-ii din state cu cheia de runda folosind:",
+        "points": 2,
+        "options": [
+            "XOR pe biti",
+            "AND pe biti",
+            "permutare fixa (P-box)",
+            "substitutie (S-box)"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 182,
+        "type": "single",
+        "question": "KeyExpansion (AES key schedule) produce chei de runda astfel incat este necesara:",
+        "points": 3,
+        "options": [
+            "o cheie de runda de 64 biti pentru fiecare runda",
+            "o cheie de runda de 128 biti pentru fiecare runda plus inca una",
+            "o cheie de runda de 56 biti pentru fiecare runda",
+            "o singura cheie refolosita identic in toate rundele"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 183,
+        "type": "single",
+        "question": "In descrierea MixColumns, fiecare coloana este inmultita modulo x^4 + 1 cu polinomul a(x) =",
+        "points": 3,
+        "options": [
+            "2x^3 + x^2 + x + 3",
+            "3x^3 + x^2 + x + 2",
+            "x^3 + x^2 + x + 1",
+            "3x^3 + 2x^2 + x + 1"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 184,
+        "type": "double-dropdown",
+        "question": "Asociaza corect operatia cu efectul ei: Substitutie -> (______), Transpozitie/Permutare -> (______)",
+        "points": 2,
+        "options": [
+            [
+                "confuzie",
+                "difuzie",
+                "autentificare"
+            ],
+            [
+                "confuzie",
+                "difuzie",
+                "integritate"
+            ]
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 185,
+        "type": "single",
+        "question": "DES foloseste subchei de runda cu dimensiunea:",
+        "points": 2,
+        "options": [
+            "32 biti",
+            "48 biti",
+            "56 biti",
+            "64 biti"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 186,
+        "type": "single",
+        "question": "In DES, cheia principala efectiva este mentionata ca avand:",
+        "points": 2,
+        "options": [
+            "64 biti (fara paritate)",
+            "56 biti (restul pana la 64 sunt biti de paritate)",
+            "48 biti (restul sunt biti de paritate)",
+            "128 biti"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 187,
+        "type": "single",
+        "question": "Functia E (Expansion) din DES produce 8 bucati a cate 6 biti, adica un total de:",
+        "points": 2,
+        "options": [
+            "32 biti",
+            "48 biti",
+            "56 biti",
+            "64 biti"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 188,
+        "type": "multiple",
+        "question": "Despre S-box-urile S1..S8 in DES, care afirmatii sunt corecte?",
+        "points": 3,
+        "options": [
+            "blocul este impartit in opt bucati de 6 biti",
+            "fiecare S-box transforma 6 biti de intrare in 4 biti de iesire",
+            "transformarea este neliniara si este data de un lookup table",
+            "S-box-urile sunt o permutare fixa a celor 32 de biti",
+            "S-box-urile dubleaza lungimea intrarii"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 189,
+        "type": "single",
+        "question": "P-box-ul (P) in DES face:",
+        "points": 2,
+        "options": [
+            "extindere 32 -> 48 biti",
+            "substitutie neliniara",
+            "rearanjare a celor 32 de biti dupa o permutare fixa",
+            "eliminarea bitilor de paritate din cheie"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 190,
+        "type": "single",
+        "question": "Un efect important al P-box-ului in DES (mentionat pentru runda urmatoare) este ca bitii din iesirea unui S-box:",
+        "points": 3,
+        "options": [
+            "ajung in acelasi S-box in runda urmatoare",
+            "sunt raspanditi catre patru S-box-uri diferite in runda urmatoare",
+            "sunt eliminati daca se repeta",
+            "devin automat biti de paritate"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 191,
+        "type": "single",
+        "question": "3DES este descris ca folosind:",
+        "points": 2,
+        "options": [
+            "doua chei de 56 biti si executa encrypt + decrypt",
+            "o cheie de 128 biti si executa doar encrypt",
+            "trei chei de 48 biti si executa doar decrypt",
+            "doua chei de 64 biti fara biti de paritate"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 192,
+        "type": "multiple",
+        "question": "In reteaua Feistel (Lucipher) sunt mentionate explicit:",
+        "points": 3,
+        "options": [
+            "P-box creeaza difuzie",
+            "S-box creeaza confuzie",
+            "se folosesc operatii XOR",
+            "numarul minim de runde este 16",
+            "state este o matrice 4 x 4 de bytes"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 193,
+        "type": "dropdown",
+        "question": "In schema Feistel, F este:",
+        "points": 2,
+        "options": [
+            "functia crypto-round",
+            "functia de expansiune E",
+            "P-box-ul de compresie",
+            "o cheie de paritate"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 194,
+        "type": "multiple",
+        "question": "Alege proprietatile esentiale mentionate pentru criptosisteme simetrice:",
+        "points": 3,
+        "options": [
+            "fara cheia K, din c = E_K(m) nu se poate deduce nimic despre m",
+            "c = E_K(m) si orice informatie despre m nu spun nimic despre K",
+            "dintr-un singur ciphertext se poate deduce direct cheia K",
+            "daca stii m, afli automat K"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 195,
+        "type": "single",
+        "question": "Intr-un protocol criptografic simetric, Alice si Bob sunt prezentati ca fiind de acord inainte de transmitere asupra:",
+        "points": 2,
+        "options": [
+            "unei chei publice comune",
+            "unui sistem criptografic (E) si unei chei (K)",
+            "doar asupra IV-ului (care tine loc de cheie)",
+            "doar asupra numarului de runde"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 196,
+        "type": "single",
+        "question": "Care definire pentru block codes vs stream codes este cea din curs?",
+        "points": 2,
+        "options": [
+            "block codes: opereaza bit cu bit; stream codes: opereaza pe blocuri fixe",
+            "block codes: impart mesajul in blocuri de dimensiune fixa; stream codes: opereaza bit cu bit (bloc de 1 bit)",
+            "block codes: opereaza doar pe texte; stream codes: doar pe imagini",
+            "block codes: necesita IV; stream codes: nu folosesc niciodata XOR"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 197,
+        "type": "multiple",
+        "question": "Un IV (Initialization Vector) este folosit de mai multe moduri pentru a:",
+        "points": 3,
+        "options": [
+            "randomiza criptarea",
+            "produce ciphertext-uri distincte pentru acelasi plaintext criptat de mai multe ori, fara re-keying lent",
+            "inlocui cheia (K) complet",
+            "permite ca IV-ul sa fie refolosit mereu cu aceeasi cheie fara risc"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 198,
+        "type": "multiple",
+        "question": "Care cerinte despre IV sunt mentionate ca fiind diferite fata de cele ale cheii?",
+        "points": 3,
+        "options": [
+            "IV-ul de obicei nu trebuie sa fie secret",
+            "este important ca IV-ul sa nu fie niciodata refolosit sub aceeasi cheie",
+            "IV-ul trebuie sa fie mai lung decat cheia",
+            "IV-ul trebuie sa fie secret in toate cazurile"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 199,
+        "type": "dropdown",
+        "question": "Ce mod este descris ca transformand un block cipher intr-un stream cipher auto-sincronizant?",
+        "points": 3,
+        "options": [
+            "CFB",
+            "OFB",
+            "CTR",
+            "ECB"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 200,
+        "type": "multiple",
+        "question": "Care afirmatii descriu corect o functie hash criptografica?",
+        "points": 3,
+        "options": [
+            "mapeaza date de dimensiune arbitrara la un sir de biti de dimensiune fixa (digest)",
+            "este o functie one-way (practic nu este fezabil sa o inversezi)",
+            "este, in general, mai lenta decat criptarea simetrica",
+            "poate produce iesiri de dimensiune variabila pentru acelasi algoritm"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 201,
+        "type": "single",
+        "question": "Ce proprietate inseamna: dat un hash h, este dificil sa gasesti un mesaj m astfel incat h = hash(m)?",
+        "points": 2,
+        "options": [
+            "second pre-image resistance",
+            "pre-image resistance",
+            "collision resistance",
+            "length padding"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 202,
+        "type": "double-dropdown",
+        "question": "Completeaza corect: collision resistance implica (______), dar nu implica (______).",
+        "points": 3,
+        "options": [
+            [
+                "second pre-image resistance",
+                "pre-image resistance",
+                "one-wayness"
+            ],
+            [
+                "pre-image resistance",
+                "second pre-image resistance",
+                "tag generation"
+            ]
+        ],
+        "correctAnswer": [
+            0,
+            0
+        ]
+    },
+    {
+        "id": 203,
+        "type": "multiple",
+        "question": "Care sunt aplicatii criptografice uzuale ale functiilor hash prezentate?",
+        "points": 2,
+        "options": [
+            "verificarea parolelor (stocare ca hash-uri)",
+            "verificarea integritatii fisierelor si mesajelor transmise",
+            "negocierea unei chei simetrice intre doua parti fara cheie preexistenta",
+            "construirea unui \"chain of trust\""
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            3
+        ]
+    },
+    {
+        "id": 204,
+        "type": "dropdown",
+        "question": "SHA-1 produce un hash (digest) de:",
+        "points": 2,
+        "options": [
+            "128 biti",
+            "160 biti",
+            "256 biti",
+            "512 biti"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 205,
+        "type": "single",
+        "question": "Cum este descrisa constructia SHA-1 in raport cu MD5?",
+        "points": 2,
+        "options": [
+            "identica cu SHA-3 (sponge)",
+            "similara in constructie cu MD5",
+            "bazata pe un cifru bloc specializat clasificat",
+            "construita exclusiv dintr-un S-box si un P-box"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 206,
+        "type": "single",
+        "question": "Care afirmatie despre securitatea SHA-1 este mentionata?",
+        "points": 3,
+        "options": [
+            "din 2005 nu mai este considerat sigur impotriva adversarilor bine finantati",
+            "din 2015 a inlocuit SHA-2 in mod obligatoriu",
+            "este sigur atata timp cat cheia are 256 biti",
+            "este folosit ca algoritm MAC implicit in toate protocoalele moderne"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 207,
+        "type": "single",
+        "question": "Cine a anuntat realizarea unui atac de coliziune reusit impotriva SHA-1 (in februarie 2017)?",
+        "points": 3,
+        "options": [
+            "NSA si NIST",
+            "CWI Amsterdam si Google",
+            "IBM si Intel",
+            "MIT si Microsoft"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 208,
+        "type": "multiple",
+        "question": "Care afirmatii despre SHA-2 sunt mentionate?",
+        "points": 3,
+        "options": [
+            "a fost proiectat de NSA",
+            "este construit folosind structura Merkle-Damgard",
+            "se bazeaza pe constructia sponge",
+            "familia include functii cu digest de 224, 256, 384 sau 512 biti"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            3
+        ]
+    },
+    {
+        "id": 209,
+        "type": "dropdown",
+        "question": "Care dintre urmatoarele este listat ca membru al familiei SHA-2?",
+        "points": 2,
+        "options": [
+            "SHA-512/224",
+            "SHA-1/256",
+            "SHA-3-128",
+            "SHA-1024"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 210,
+        "type": "multiple",
+        "question": "Care afirmatii despre SHA-3 sunt mentionate?",
+        "points": 3,
+        "options": [
+            "este un subset al familiei de primitive Keccak",
+            "foloseste constructia sponge",
+            "este intern diferit de structura de tip MD5 a SHA-1 si SHA-2",
+            "este construit pe Merkle-Damgard ca SHA-2"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 211,
+        "type": "single",
+        "question": "In constructia sponge, in ce faza sunt XORate blocurile mesajului intr-un subset al starii, urmate de o permutare f?",
+        "points": 3,
+        "options": [
+            "squeeze",
+            "absorbing",
+            "key expansion",
+            "verifying"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 212,
+        "type": "single",
+        "question": "In constructia sponge, cum se numeste partea starii care NU este atinsa de input/output si influenteaza securitatea?",
+        "points": 3,
+        "options": [
+            "rate (r)",
+            "capacity (c)",
+            "digest (h)",
+            "nonce"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 213,
+        "type": "single",
+        "question": "In constructia sponge, nivelul maxim de securitate este:",
+        "points": 3,
+        "options": [
+            "egal cu rate (r)",
+            "de doua ori capacity (c)",
+            "jumatate din capacity (c)",
+            "egal cu r + c"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 214,
+        "type": "single",
+        "question": "Ce este un MAC (Message Authentication Code) in descrierea din curs?",
+        "points": 2,
+        "options": [
+            "un tag scurt folosit pentru autentificarea unui mesaj",
+            "o cheie publica folosita pentru semnaturi",
+            "un algoritm de compresie pentru fisiere",
+            "un tip de criptare asimetrica"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 215,
+        "type": "multiple",
+        "question": "Ce proprietati sunt protejate de un MAC?",
+        "points": 2,
+        "options": [
+            "integritatea datelor mesajului",
+            "autenticitatea (mesajul vine de la expeditorul declarat)",
+            "confidentialitatea mesajului",
+            "nerepudierea"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 216,
+        "type": "multiple",
+        "question": "Un MAC este descris ca avand trei algoritmi. Care sunt acestia?",
+        "points": 3,
+        "options": [
+            "key generation",
+            "signing",
+            "verifying",
+            "key exchange"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 217,
+        "type": "single",
+        "question": "Cand returneaza algoritmul de verificare al unui MAC rezultatul accepted?",
+        "points": 3,
+        "options": [
+            "cand mesajul si tag-ul nu sunt modificate si nu sunt falsificate",
+            "cand mesajul este criptat cu AES",
+            "cand tag-ul este public",
+            "cand se foloseste o cheie diferita la verificare fata de semnare"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 218,
+        "type": "single",
+        "question": "Ce proprietate NU este oferita de MAC, dar este oferita de semnaturile digitale?",
+        "points": 3,
+        "options": [
+            "integritate",
+            "autenticitate",
+            "nerepudiere",
+            "detectarea modificarilor"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 219,
+        "type": "multiple",
+        "question": "Din ce primitive pot fi construite algoritmi MAC (exemple din curs)?",
+        "points": 2,
+        "options": [
+            "din functii hash (HMAC)",
+            "din cifruri bloc (CBC-MAC)",
+            "din compresie RLE",
+            "din permutari de coloane (transpozitie simpla)"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 220,
+        "type": "dropdown",
+        "question": "In CBC-MAC (asa cum este descris), valoarea IV este:",
+        "points": 2,
+        "options": [
+            "aleatoare la fiecare mesaj",
+            "IV = 0",
+            "derivata din hash-ul mesajului",
+            "nonce incrementat (counter)"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 221,
+        "type": "single",
+        "question": "Ce conditie de securitate este mentionata explicit pentru CBC-MAC in descriere?",
+        "points": 3,
+        "options": [
+            "este sigur doar pentru mesaje de lungime fixa",
+            "este sigur doar daca IV este aleator si secret",
+            "este sigur doar pentru mesaje comprimate",
+            "este sigur doar impreuna cu semnaturi digitale"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 222,
+        "type": "single",
+        "question": "Ce reprezinta HMAC (abrevierea) in descriere?",
+        "points": 2,
+        "options": [
+            "Hash based Message Authentication Code",
+            "High-speed Message Asymmetric Cipher",
+            "Hybrid MAC for Certificates",
+            "Hashed Mode Advanced Cipher"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 223,
+        "type": "dropdown",
+        "question": "In HMAC, care este valoarea corecta pentru ipad si opad (cum sunt definite)?",
+        "points": 3,
+        "options": [
+            "ipad = 0x5C repetat B ori; opad = 0x36 repetat B ori",
+            "ipad = 0x36 repetat B ori; opad = 0x5C repetat B ori",
+            "ipad = 0x00 repetat B ori; opad = 0xFF repetat B ori",
+            "ipad = 0x80 urmat de 0x00; opad = 0x03 repetat"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 224,
+        "type": "single",
+        "question": "In HMAC, ce se intampla daca cheia K are o lungime mai mare decat B bytes?",
+        "points": 3,
+        "options": [
+            "se trunchiaza K la B bytes fara alte operatii",
+            "K este mai intai hash-uit cu H, iar rezultatul (L bytes) devine cheia folosita in HMAC",
+            "HMAC nu permite chei mai mari de B bytes",
+            "se inlocuieste automat H cu SHA-1"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 225,
+        "type": "single",
+        "question": "Care este lungimea minima recomandata pentru cheia K in HMAC, asa cum este mentionat?",
+        "points": 3,
+        "options": [
+            "B bytes",
+            "L bytes",
+            "2L bytes",
+            "8 bytes (fix)"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 226,
+        "type": "single",
+        "question": "In exemplul mentionat pentru TLS, cum este construit MAC-ul din doua primitive hash?",
+        "points": 3,
+        "options": [
+            "se concateneaza iesirile MD5 si SHA-1",
+            "se cripteaza iesirea MD5 cu AES",
+            "intrarea se imparte in doua jumatati, fiecare procesata cu MD5 si SHA-1, apoi rezultatele sunt XORate",
+            "se foloseste doar SHA-1 si se repeta digestul de doua ori"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 227,
+        "type": "single",
+        "question": "Care problema este evidentiata ca dificultate majora in criptosistemele simetrice, atunci cand Alice si Bob nu se cunosc?",
+        "points": 3,
+        "options": [
+            "Cheia trebuie schimbata pe acelasi canal de comunicatie ca mesajul criptat, iar o terta parte o poate intercepta",
+            "Nu se poate calcula niciodata un ciphertext fara a cunoaste plaintext-ul in avans",
+            "Cheia simetrica este publica, iar doar IV-ul trebuie ascuns",
+            "Sistemele simetrice nu pot cripta date in retele de calculatoare"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 228,
+        "type": "multiple",
+        "question": "Ce consecinte sunt mentionate daca Eve asculta canalul si intercepteaza cheia in scenariul de schimb al cheii simetrice?",
+        "points": 3,
+        "options": [
+            "Securitatea este compromisa",
+            "Eve poate deveni Mallory si poate modifica mesajele",
+            "Cheia devine automat inutilizabila pentru criptare",
+            "Ciphertext-ul se transforma inapoi in plaintext fara cheie"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 229,
+        "type": "single",
+        "question": "Ce idee centrala apare la schimbul de chei Diffie-Hellman?",
+        "points": 3,
+        "options": [
+            "O parte genereaza cheia si o trimite in clar",
+            "Cheia este creata impreuna, fara ca informatia-cheie sa fie transmisa in trafic",
+            "Cheia este derivata direct din ciphertext printr-un hash",
+            "Cheia privata este publicata intr-un certificat digital"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 230,
+        "type": "dropdown",
+        "question": "Schimbul Diffie-Hellman foloseste:",
+        "points": 3,
+        "options": [
+            "grupul aditiv al numerelor reale",
+            "grupul multiplicativ al intregilor modulo p",
+            "matricea state 4x4 din AES",
+            "permutari pe 56 biti"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 231,
+        "type": "multiple",
+        "question": "Ce afirmatii despre RSA sunt mentionate in introducere?",
+        "points": 3,
+        "options": [
+            "Este un sistem de criptografie asimetrica",
+            "Permite identificarea unica a unei parti, facand posibile semnaturile digitale",
+            "Foloseste o singura cheie secreta impartasita de ambele parti",
+            "Este un cifru flux (bit cu bit)"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 232,
+        "type": "single",
+        "question": "In criptografia cu chei publice, daca criptezi cu una dintre chei, atunci pentru decriptare trebuie folosita:",
+        "points": 2,
+        "options": [
+            "aceeasi cheie",
+            "cealalta cheie",
+            "o a treia cheie derivata din hash",
+            "un IV secret"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 233,
+        "type": "dropdown",
+        "question": "Dimensiunea recomandata a cheii RSA mentionata este:",
+        "points": 2,
+        "options": [
+            "1024 biti",
+            "2048 biti",
+            "4096 biti",
+            "8192 biti"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 234,
+        "type": "single",
+        "question": "Este mentionat ca un computer cuantic a spart o criptare folosind o cheie de:",
+        "points": 3,
+        "options": [
+            "512 biti",
+            "829 biti",
+            "1024 biti",
+            "4096 biti"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 235,
+        "type": "dropdown",
+        "question": "Algoritmul asociat in exemplu cu spargerea criptarii de catre un computer cuantic este:",
+        "points": 3,
+        "options": [
+            "Shor",
+            "Euclid",
+            "Huffman",
+            "Merkle-Damgard"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 236,
+        "type": "single",
+        "question": "Ce padding este indicat ca fiind (practic) singurul recomandat pentru RSA in material?",
+        "points": 3,
+        "options": [
+            "OAEP (Optimal Asymmetric Encryption Padding)",
+            "Zero padding",
+            "Bit padding",
+            "ANSI X9.23"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 237,
+        "type": "dropdown",
+        "question": "Ce hash este mentionat ca recomandat in contextul OAEP?",
+        "points": 3,
+        "options": [
+            "SHA-1",
+            "SHA-256",
+            "MD5",
+            "Keccak-224"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 238,
+        "type": "multiple",
+        "question": "Care pasi apar in schema de generare a cheilor RSA?",
+        "points": 4,
+        "options": [
+            "Generarea a doua numere prime mari p si q",
+            "Calcularea modulului n din p si q",
+            "Calcularea totientului ϕ(n) = (p-1)(q-1)",
+            "Alegerea lui e astfel incat gcd(e, ϕ(n)) = 1 (in mod tipic e = 65537)",
+            "Calcularea lui d astfel incat e*d = 1 (mod ϕ(n))"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 239,
+        "type": "single",
+        "question": "In expresia x ≡ y mod z, relatia este echivalenta cu faptul ca:",
+        "points": 3,
+        "options": [
+            "x = k*z + y, pentru un intreg k",
+            "x = y*z + k, pentru un intreg k",
+            "x = y + z, intotdeauna",
+            "y este mereu 0"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 240,
+        "type": "single",
+        "question": "In exemplul y=4, z=10, care dintre urmatoarele valori este data ca exemplu pentru x?",
+        "points": 2,
+        "options": [
+            "12",
+            "14",
+            "15",
+            "19"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 241,
+        "type": "dropdown",
+        "question": "Ce multime este definita ca Zp in material?",
+        "points": 2,
+        "options": [
+            "{0,1,2,...,p}",
+            "{0,1,2,...,p-1}",
+            "{1,2,3,...,p-1}",
+            "{-p,-p+1,...,0}"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 242,
+        "type": "single",
+        "question": "Cand exista un invers multiplicativ (in modulo) pentru x, conform conditiei date?",
+        "points": 3,
+        "options": [
+            "cand gcd(x, p) = p",
+            "cand gcd(x, p) = 1",
+            "cand x este par",
+            "cand p nu este prim"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 243,
+        "type": "single",
+        "question": "In exemplul din material, inversul multiplicativ al lui 4 in mod 9 este:",
+        "points": 3,
+        "options": [
+            "2",
+            "7",
+            "8",
+            "4"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 244,
+        "type": "single",
+        "question": "Cum este definit ϕ(n) (totientul) in material, in termeni de numarare?",
+        "points": 3,
+        "options": [
+            "numarul elementelor din Zp care sunt prime",
+            "numarul elementelor care au gcd cu modulul egal cu 1",
+            "numarul elementelor care nu au invers multiplicativ",
+            "numarul de biti ai cheii publice"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 245,
+        "type": "single",
+        "question": "Pentru un numar prim p, ce relatie este data pentru totient?",
+        "points": 2,
+        "options": [
+            "ϕ(p) = p",
+            "ϕ(p) = p-1",
+            "ϕ(p) = (p-1)(p-2)",
+            "ϕ(p) = 2p"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 246,
+        "type": "single",
+        "question": "Care este formula functiei RSA F(m, k) data in material?",
+        "points": 3,
+        "options": [
+            "F(m,k)=m+k mod n",
+            "F(m,k)=m*k mod n",
+            "F(m,k)=m^k mod n",
+            "F(m,k)=k^m mod p"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 247,
+        "type": "multiple",
+        "question": "Cele doua cazuri \"oglindite\" mentionate pentru RSA sunt:",
+        "points": 3,
+        "options": [
+            "Criptare cu cheia publica, apoi decriptare cu cheia privata",
+            "Criptare cu cheia privata, apoi decriptare cu cheia publica",
+            "Criptare cu cheia publica, apoi decriptare cu aceeasi cheie publica",
+            "Criptare cu cheia privata, apoi decriptare cu aceeasi cheie privata"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 248,
+        "type": "single",
+        "question": "In exemplul RSA (p=11, q=13), valoarea lui n este:",
+        "points": 2,
+        "options": [
+            "120",
+            "121",
+            "143",
+            "97"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 249,
+        "type": "single",
+        "question": "In exemplul RSA (p=11, q=13), valoarea lui ϕ(n) este:",
+        "points": 2,
+        "options": [
+            "132",
+            "120",
+            "143",
+            "103"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 250,
+        "type": "single",
+        "question": "In exemplul RSA, pentru m=9 si e=7, ciphertext-ul c obtinut este:",
+        "points": 3,
+        "options": [
+            "48",
+            "97",
+            "103",
+            "143"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 251,
+        "type": "multiple",
+        "question": "Intr-un criptosistem hibrid, Alice face urmatoarele actiuni pentru a trimite un mesaj lui Bob:",
+        "points": 4,
+        "options": [
+            "Obtine cheia publica a lui Bob",
+            "Genereaza o cheie noua pentru un algoritm simetric",
+            "Cripteaza mesajul cu algoritmul simetric folosind cheia simetrica generata",
+            "Cripteaza cheia simetrica folosind criptare asimetrica si cheia publica a lui Bob",
+            "Trimite doar cheia simetrica in clar, fiind suficient de scurta"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 252,
+        "type": "single",
+        "question": "In schema hibrida, Bob foloseste mai intai cheia sa privata pentru a:",
+        "points": 3,
+        "options": [
+            "decripta mesajul direct",
+            "decripta cheia simetrica din segmentul de key encapsulation",
+            "verifica semnatura CA pe certificat",
+            "genera un nou nonce pentru CTR"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 253,
+        "type": "single",
+        "question": "De ce este motivata folosirea criptografiei simetrice pentru cantitati mari de date?",
+        "points": 3,
+        "options": [
+            "pentru ca asimetrica este prea lenta",
+            "pentru ca simetrica nu are nevoie de chei",
+            "pentru ca simetrica ofera automat nerepudiere",
+            "pentru ca asimetrica nu poate cripta deloc"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 254,
+        "type": "single",
+        "question": "Care este scopul principal al unei PKI?",
+        "points": 3,
+        "options": [
+            "sa lege in mod fiabil o cheie publica de o persoana/serviciu/obiect",
+            "sa transforme orice cifru bloc in cifru flux",
+            "sa elimine complet nevoia de certificate digitale",
+            "sa inlocuiasca algoritmii hash"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 255,
+        "type": "multiple",
+        "question": "Un certificat digital contine (selecteaza elementele enumerate):",
+        "points": 4,
+        "options": [
+            "informatie de identificare",
+            "numar de serie",
+            "date de expirare",
+            "semnatura digitala a autoritatii de certificare",
+            "cheia privata a detinatorului"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 256,
+        "type": "multiple",
+        "question": "In autentificarea utilizator-server, ce secventa de actiuni apare?",
+        "points": 4,
+        "options": [
+            "Serverul genereaza date aleatoare si le trimite utilizatorului",
+            "Utilizatorul cripteaza datele cu cheia sa privata si le trimite inapoi",
+            "Serverul decripteaza folosind cheia publica din certificatul utilizatorului",
+            "Serverul accepta identitatea daca datele decriptate coincid cu cele trimise initial",
+            "Utilizatorul semneaza certificatul CA cu cheia sa privata"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 257,
+        "type": "multiple",
+        "question": "Care pasi apar in semnarea digitala a unui document/tranzactii?",
+        "points": 4,
+        "options": [
+            "Se calculeaza hash-ul documentului",
+            "Hash-ul este criptat cu cheia privata a semnatarului",
+            "Hash-ul criptat se ataseaza documentului ca semnatura",
+            "Se ataseaza si certificatul digital al semnatarului (cu cheia publica)",
+            "Documentul se cripteaza simetric si asta devine semnatura"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 258,
+        "type": "dropdown",
+        "question": "Protocolul indicat ca fiind mai nou decat SSL si folosit in practica de majoritatea site-urilor este:",
+        "points": 2,
+        "options": [
+            "TLS",
+            "SSH",
+            "RSA",
+            "DH"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 259,
+        "type": "single",
+        "question": "Care limitare de securitate este mentionata pentru PKI?",
+        "points": 3,
+        "options": [
+            "Orice autoritate de certificare poate semna un certificat pentru orice persoana sau computer",
+            "Nicio autoritate de certificare nu poate fi constransa sa emita certificate",
+            "Certificatele nu pot expira",
+            "Certificatele contin intotdeauna cheia privata a detinatorului"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 260,
+        "type": "double-dropdown",
+        "question": "Asociaza componenta cu rolul ei: RA -> (______), CA -> (______)",
+        "points": 4,
+        "options": [
+            [
+                "verifica identitatea entitatilor care cer certificate",
+                "stocheaza, emite si semneaza certificatele digitale",
+                "stocheaza cheile intr-un director central",
+                "publica liste de revocare (CRL) doar"
+            ],
+            [
+                "stocheaza, emite si semneaza certificatele digitale",
+                "verifica identitatea entitatilor care cer certificate",
+                "calculeaza cheile Diffie-Hellman",
+                "cripteaza hash-ul cu cheia publica"
+            ]
+        ],
+        "correctAnswer": [
+            0,
+            0
+        ]
+    },
+    {
+        "id": 261,
+        "type": "single",
+        "question": "Ce avantaj esential ofera criptarea homomorfa fata de metodele clasice de criptare?",
+        "points": 3,
+        "options": [
+            "permite compresia datelor criptate fara pierderi",
+            "permite efectuarea de calcule direct pe date criptate, fara acces la cheia secreta si fara decriptare",
+            "permite recuperarea cheii secrete din ciphertext printr-un algoritm rapid",
+            "transforma orice cifru bloc intr-un cifru flux"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 262,
+        "type": "single",
+        "question": "Dupa efectuarea calculelor pe date criptate homomorf, rezultatul obtinut este:",
+        "points": 2,
+        "options": [
+            "in clar si poate fi citit de oricine",
+            "in forma criptata si poate fi decriptat doar de detinatorul cheii secrete",
+            "un hash ireversibil",
+            "o cheie publica noua"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 263,
+        "type": "multiple",
+        "question": "Care afirmatii descriu corect rezultatul final al calculelor homomorfe?",
+        "points": 3,
+        "options": [
+            "rezultatul ramane criptat dupa evaluare",
+            "decriptarea rezultatului produce acelasi rezultat ca si cum operatiile ar fi fost facute pe date in clar",
+            "este necesar accesul la cheia secreta pe durata calculelor",
+            "evaluarea distruge confidentialitatea datelor prin definitie"
+        ],
+        "correctAnswer": [
+            0,
+            1
+        ]
+    },
+    {
+        "id": 264,
+        "type": "dropdown",
+        "question": "Problema matematica pe care se bazeaza securitatea majoritatii schemelor de criptare homomorfa este:",
+        "points": 3,
+        "options": [
+            "Ring Learning With Errors (RLWE)",
+            "factorizarea numerelor intregi",
+            "logaritmul discret",
+            "AES key schedule"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 265,
+        "type": "single",
+        "question": "RLWE este asociata cu ce tip de structuri matematice?",
+        "points": 2,
+        "options": [
+            "retele (lattice) in spatii de dimensiune mare",
+            "grafuri orientate aciclice",
+            "matrici 4x4 de bytes",
+            "arbori Merkle"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 266,
+        "type": "single",
+        "question": "Care este un motiv mentionat pentru care schemele bazate pe RLWE sunt considerate atractive in context cuantic?",
+        "points": 3,
+        "options": [
+            "sunt considerate rezistente la atacuri realizate cu calculatoare cuantice",
+            "permit folosirea cheilor de 32 biti fara scaderea securitatii",
+            "nu necesita niciodata chei secrete",
+            "inlocuiesc complet semnaturile digitale"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 267,
+        "type": "single",
+        "question": "Comparativ cu sisteme bazate pe factorizare sau logaritm discret (ex: RSA), criptarea homomorfa bazata pe RLWE este prezentata ca oferind:",
+        "points": 3,
+        "options": [
+            "un nivel de securitate superior in practica",
+            "o viteza mai mare decat calculele pe date in clar",
+            "eliminarea completa a costului computațional",
+            "imposibilitatea de a face adunari pe date criptate"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 268,
+        "type": "double-dropdown",
+        "question": "Asociaza tipul cu capabilitatea: PHE -> (______), SHE -> (______)",
+        "points": 4,
+        "options": [
+            [
+                "un singur tip de operatie (adunare sau inmultire) de un numar nelimitat de ori",
+                "adunare si inmultire, dar doar de un numar limitat de ori",
+                "multe tipuri de operatii, fara limita practica",
+                "doar operatii de comparare"
+            ],
+            [
+                "adunare si inmultire, dar doar de un numar limitat de ori",
+                "un singur tip de operatie (adunare sau inmultire) de un numar nelimitat de ori",
+                "multe tipuri de operatii, fara limita practica",
+                "doar operatii de criptare, fara evaluare"
+            ]
+        ],
+        "correctAnswer": [
+            0,
+            0
+        ]
+    },
+    {
+        "id": 269,
+        "type": "single",
+        "question": "Ce permite FHE (Fully Homomorphic Encryption) fata de PHE/SHE?",
+        "points": 3,
+        "options": [
+            "numai adunari, dar nelimitat",
+            "numai inmultiri, dar nelimitat",
+            "un numar mare de tipuri diferite de operatii de evaluare, fara limita practica asupra numarului de operatii",
+            "doar cautari in texte necriptate"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 270,
+        "type": "multiple",
+        "question": "Ce afirmatii sunt corecte despre RSA in contextul homomorfiei?",
+        "points": 3,
+        "options": [
+            "RSA are o proprietate homomorfa multiplicativa",
+            "RSA poate fi vazut ca un exemplu clasic de criptare homomorfa partiala",
+            "RSA este prezentat ca schema FHE",
+            "RSA este mentionat ca folosit pe scara larga in versiunile anterioare ale SSL/TLS pentru stabilirea conexiunilor securizate"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            3
+        ]
+    },
+    {
+        "id": 271,
+        "type": "single",
+        "question": "Un domeniu unde criptarea homomorfa este mentionata ca avand aplicatii importante este:",
+        "points": 2,
+        "options": [
+            "securitatea calculului in cloud",
+            "optimizarea codului masina pentru procesoare",
+            "compresia video lossless",
+            "detectia erorilor prin CRC"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 272,
+        "type": "multiple",
+        "question": "Ce beneficii sunt mentionate pentru utilizarea criptarii homomorfe la date stocate in cloud?",
+        "points": 3,
+        "options": [
+            "securizarea datelor stocate in cloud",
+            "pastrarea capacitatii de a efectua calcule si operatii de cautare asupra informatiilor criptate",
+            "rezultatele pot fi decriptate ulterior de entitati autorizate",
+            "obligativitatea de a partaja cheia de criptare cu furnizorul de cloud"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 273,
+        "type": "dropdown",
+        "question": "Schema de criptare mentionata ca potrivita pentru vot electronic (prin suport de adunare homomorfa) este:",
+        "points": 3,
+        "options": [
+            "Paillier",
+            "RSA",
+            "AES",
+            "Playfair"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 274,
+        "type": "single",
+        "question": "De ce este Paillier potrivita pentru vot electronic, conform ideii prezentate?",
+        "points": 4,
+        "options": [
+            "permite agregarea voturilor intr-un mod impartial, mentinand confidentialitatea optiunilor individuale",
+            "permite identificarea publica a fiecarui votant prin cheia privata",
+            "transforma voturile in hash-uri ireversibile fara posibilitatea de numarare",
+            "elimina nevoia de verificare independenta a rezultatelor"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 275,
+        "type": "multiple",
+        "question": "Care exemple de aplicatii sunt enumerate pentru analiza datelor pe date criptate in domenii reglementate?",
+        "points": 4,
+        "options": [
+            "analiza predictiva a datelor medicale fara a compromite confidentialitatea pacientilor",
+            "protejarea confidentialitatii clientilor in sisteme de publicitate personalizata",
+            "mentinerea confidentialitatii financiare in aplicatii de predictie a preturilor actiunilor",
+            "recunoastere criminalistica a imaginilor pe date criptate",
+            "generarea de certificate X.509 pentru fiecare pixel"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 276,
+        "type": "single",
+        "question": "Care limitare este mentionata pentru FHE in scenarii cu multi utilizatori?",
+        "points": 4,
+        "options": [
+            "lipsa unui suport practic fezabil; o baza de date separata criptata pentru fiecare utilizator devine rapid nepracticabila",
+            "necesitatea de a folosi doar chei de 56 biti",
+            "imposibilitatea de a efectua inmultiri",
+            "faptul ca rezultatele nu pot fi decriptate niciodata"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 277,
+        "type": "single",
+        "question": "Care este motivul principal mentionat pentru care evaluarea homomorfa a functiilor complexe poate fi impracticabila?",
+        "points": 4,
+        "options": [
+            "cost computational ridicat, chiar daca teoretic este polinomial",
+            "este imposibil matematic sa rulezi algoritmi mari pe ciphertext",
+            "necesita acces la cheia secreta in fiecare pas",
+            "nu poate produce rezultate criptate"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 278,
+        "type": "multiple",
+        "question": "Care biblioteci/instrumente open-source sunt mentionate pentru criptare homomorfa sau analiza pe date criptate?",
+        "points": 3,
+        "options": [
+            "Microsoft SEAL",
+            "Google Private Join and Compute",
+            "IBM HElib",
+            "MSieve"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 279,
+        "type": "single",
+        "question": "Ce ofera Microsoft SEAL, ca idee centrala?",
+        "points": 3,
+        "options": [
+            "calcule direct pe date criptate, fara ca proprietarii datelor sa fie nevoiti sa partajeze cheile de criptare",
+            "un algoritm de factorizare pentru RSA",
+            "un mod de operare pentru AES",
+            "un serviciu de emitere certificate digitale"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 280,
+        "type": "single",
+        "question": "Care este ideea centrala a Google Private Join and Compute?",
+        "points": 3,
+        "options": [
+            "analiza datelor in forma criptata astfel incat doar rezultatele agregate/derivate sa fie vizibile, nu datele brute",
+            "generarea cheilor RSA prin RLWE",
+            "inlocuirea SHA-2 cu SHA-1 pentru compatibilitate",
+            "criptarea simetrica a tuturor bazelor de date cu o cheie publica"
+        ],
+        "correctAnswer": 0
     }
 ]
