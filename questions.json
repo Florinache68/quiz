@@ -605,18 +605,6 @@
         ]
     },
     {
-        "id": 44,
-        "type": "single",
-        "question": "Care lucrare a lui Johannes Trithemius este mentionata ca fiind prima carte despre criptografie?",
-        "points": 1,
-        "options": [
-            "Polygraphiae (1508)",
-            "Steganographia (1499)",
-            "Communication Theory of Secret Systems (1949)"
-        ],
-        "correctAnswer": 0
-    },
-    {
         "id": 45,
         "type": "single",
         "question": "Tabula recta (cifrul Trithemius) este mentionat ca fiind asemanator cu:",
@@ -1390,18 +1378,6 @@
         "correctAnswer": 0
     },
     {
-        "id": 103,
-        "type": "single",
-        "question": "Povestea cu Histaeus din Milet ascunde mesajul prin:",
-        "points": 2,
-        "options": [
-            "microdots lipite pe hartie",
-            "tatuarea mesajului pe scalpul unui sclav, apoi lasarea parului sa creasca pentru a-l ascunde",
-            "scriere cu cerneala invizibila si incalzire la destinatie"
-        ],
-        "correctAnswer": 1
-    },
-    {
         "id": 104,
         "type": "multiple",
         "question": "In steganografia digitala, sunt mentionate ca idei principale:",
@@ -2079,48 +2055,12 @@
     {
         "id": 153,
         "type": "single",
-        "question": "Ce a contribuit la destramarea organizatiei, desi era formata din persoane inteligente?",
+        "question": "Ce a contribuit la destramarea organizatiei Cicada 3301, desi era formata din persoane inteligente?",
         "points": 2,
         "options": [
             "au lucrat ca o echipa foarte bine coordonata",
             "fiecare aveau personalitati puternice si nu au lucrat ca o echipa",
             "nu au reusit sa publice niciun puzzle"
-        ],
-        "correctAnswer": 1
-    },
-    {
-        "id": 154,
-        "type": "single",
-        "question": "Primul puzzle a inceput pe 4 ianuarie 2012 pe:",
-        "points": 1,
-        "options": [
-            "Wikipedia",
-            "4chan",
-            "Stack Overflow"
-        ],
-        "correctAnswer": 1
-    },
-    {
-        "id": 155,
-        "type": "single",
-        "question": "Ce au primit castigatorii testelor lansate ultima data in 2014?",
-        "points": 2,
-        "options": [
-            "o invitatie directa in organizatie",
-            "o carte digitala scrisa in rune, denumita Liber Primus",
-            "un cont cu criptomonede"
-        ],
-        "correctAnswer": 1
-    },
-    {
-        "id": 156,
-        "type": "single",
-        "question": "Ce afirmatie descrie corect stadiul descifrarii Liber Primus mentionat?",
-        "points": 2,
-        "options": [
-            "toate cele 58 de pagini au fost descifrate in cateva luni",
-            "doar doua pagini din cele 58 au fost descifrate in 6 ani",
-            "niciuna dintre pagini nu a fost publicata"
         ],
         "correctAnswer": 1
     },
@@ -2175,73 +2115,6 @@
         "correctAnswer": 0
     },
     {
-        "id": 161,
-        "type": "multiple",
-        "question": "Puzzle-urile s-au concentrat pe:",
-        "points": 2,
-        "options": [
-            "securitatea datelor",
-            "criptografie",
-            "steganografie",
-            "anonimat si supraveghere",
-            "optimizarea compilatoarelor"
-        ],
-        "correctAnswer": [
-            0,
-            1,
-            2,
-            3
-        ]
-    },
-    {
-        "id": 162,
-        "type": "single",
-        "question": "Care este rolul cheii PGP mentionate (ID 7A35090F) in contextul puzzle-urilor?",
-        "points": 2,
-        "options": [
-            "permite decriptarea automata a tuturor mesajelor",
-            "verifica autenticitatea mesajelor reale, semnate cu acea cheie",
-            "genereaza numere prime pentru urmatorii pasi"
-        ],
-        "correctAnswer": 1
-    },
-    {
-        "id": 163,
-        "type": "single",
-        "question": "Cheia publica asociata ID-ului 7A35090F poate fi descarcata de pe:",
-        "points": 2,
-        "options": [
-            "MIT keyserver",
-            "Google Drive",
-            "GitHub Releases"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "id": 164,
-        "type": "single",
-        "question": "Liniile de text din Subreddit s-au dovedit a fi:",
-        "points": 1,
-        "options": [
-            "un cifru Vigenere",
-            "un cifru Cezar",
-            "un cifru de transpozitie pe coloane"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "id": 165,
-        "type": "single",
-        "question": "Textul folosit pentru rezolvarea (prin book cipher) este mentionat ca provenind din:",
-        "points": 2,
-        "options": [
-            "Mitologia lui Thomas Bulfinch",
-            "Enigma Variations",
-            "De Bello Gallico"
-        ],
-        "correctAnswer": 0
-    },
-    {
         "id": 166,
         "type": "single",
         "question": "Dimensiunea imaginii 509 x 503 este importanta deoarece:",
@@ -2250,30 +2123,6 @@
             "509 si 503 sunt numere prime",
             "509 si 503 sunt chei RSA",
             "509 si 503 sunt valori RGB"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "id": 167,
-        "type": "single",
-        "question": "Mesajul ascuns in imaginea numaratorii inverse cere verificarea la:",
-        "points": 2,
-        "options": [
-            "17:00, luni, 9 ianuarie 2012 UTC",
-            "00:00, vineri, 13 ianuarie 2012 UTC",
-            "12:00, luni, 9 ianuarie 2012 GMT+2"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "id": 168,
-        "type": "single",
-        "question": "Vizitand locatiile indicate de coordonate, au fost gasite:",
-        "points": 2,
-        "options": [
-            "postere cu un cod QR si logo-ul Cicada",
-            "servere de minare Bitcoin",
-            "cartele SIM cu chei PGP"
         ],
         "correctAnswer": 0
     },
@@ -2289,22 +2138,6 @@
             "Bluetooth"
         ],
         "correctAnswer": 0
-    },
-    {
-        "id": 170,
-        "type": "multiple",
-        "question": "Pentru „puzzle-ul RSA”, sunt mentionate ca optiuni open source pentru factorizare:",
-        "points": 2,
-        "options": [
-            "MSieve",
-            "CADO-NFS",
-            "Photoshop",
-            "VLC"
-        ],
-        "correctAnswer": [
-            0,
-            1
-        ]
     },
     {
         "id": 171,
@@ -2828,19 +2661,6 @@
         "correctAnswer": 0
     },
     {
-        "id": 207,
-        "type": "single",
-        "question": "Cine a anuntat realizarea unui atac de coliziune reusit impotriva SHA-1 (in februarie 2017)?",
-        "points": 3,
-        "options": [
-            "NSA si NIST",
-            "CWI Amsterdam si Google",
-            "IBM si Intel",
-            "MIT si Microsoft"
-        ],
-        "correctAnswer": 1
-    },
-    {
         "id": 208,
         "type": "multiple",
         "question": "Care afirmatii despre SHA-2 sunt mentionate?",
@@ -3163,7 +2983,7 @@
     {
         "id": 231,
         "type": "multiple",
-        "question": "Ce afirmatii despre RSA sunt mentionate in introducere?",
+        "question": "Ce afirmatii despre RSA sunt corecte?",
         "points": 3,
         "options": [
             "Este un sistem de criptografie asimetrica",
@@ -3201,32 +3021,6 @@
             "8192 biti"
         ],
         "correctAnswer": 2
-    },
-    {
-        "id": 234,
-        "type": "single",
-        "question": "Este mentionat ca un computer cuantic a spart o criptare folosind o cheie de:",
-        "points": 3,
-        "options": [
-            "512 biti",
-            "829 biti",
-            "1024 biti",
-            "4096 biti"
-        ],
-        "correctAnswer": 1
-    },
-    {
-        "id": 235,
-        "type": "dropdown",
-        "question": "Algoritmul asociat in exemplu cu spargerea criptarii de catre un computer cuantic este:",
-        "points": 3,
-        "options": [
-            "Shor",
-            "Euclid",
-            "Huffman",
-            "Merkle-Damgard"
-        ],
-        "correctAnswer": 0
     },
     {
         "id": 236,
@@ -3288,58 +3082,6 @@
         "correctAnswer": 0
     },
     {
-        "id": 240,
-        "type": "single",
-        "question": "In exemplul y=4, z=10, care dintre urmatoarele valori este data ca exemplu pentru x?",
-        "points": 2,
-        "options": [
-            "12",
-            "14",
-            "15",
-            "19"
-        ],
-        "correctAnswer": 1
-    },
-    {
-        "id": 241,
-        "type": "dropdown",
-        "question": "Ce multime este definita ca Zp in material?",
-        "points": 2,
-        "options": [
-            "{0,1,2,...,p}",
-            "{0,1,2,...,p-1}",
-            "{1,2,3,...,p-1}",
-            "{-p,-p+1,...,0}"
-        ],
-        "correctAnswer": 1
-    },
-    {
-        "id": 242,
-        "type": "single",
-        "question": "Cand exista un invers multiplicativ (in modulo) pentru x, conform conditiei date?",
-        "points": 3,
-        "options": [
-            "cand gcd(x, p) = p",
-            "cand gcd(x, p) = 1",
-            "cand x este par",
-            "cand p nu este prim"
-        ],
-        "correctAnswer": 1
-    },
-    {
-        "id": 243,
-        "type": "single",
-        "question": "In exemplul din material, inversul multiplicativ al lui 4 in mod 9 este:",
-        "points": 3,
-        "options": [
-            "2",
-            "7",
-            "8",
-            "4"
-        ],
-        "correctAnswer": 1
-    },
-    {
         "id": 244,
         "type": "single",
         "question": "Cum este definit ϕ(n) (totientul) in material, in termeni de numarare?",
@@ -3393,45 +3135,6 @@
             0,
             1
         ]
-    },
-    {
-        "id": 248,
-        "type": "single",
-        "question": "In exemplul RSA (p=11, q=13), valoarea lui n este:",
-        "points": 2,
-        "options": [
-            "120",
-            "121",
-            "143",
-            "97"
-        ],
-        "correctAnswer": 2
-    },
-    {
-        "id": 249,
-        "type": "single",
-        "question": "In exemplul RSA (p=11, q=13), valoarea lui ϕ(n) este:",
-        "points": 2,
-        "options": [
-            "132",
-            "120",
-            "143",
-            "103"
-        ],
-        "correctAnswer": 1
-    },
-    {
-        "id": 250,
-        "type": "single",
-        "question": "In exemplul RSA, pentru m=9 si e=7, ciphertext-ul c obtinut este:",
-        "points": 3,
-        "options": [
-            "48",
-            "97",
-            "103",
-            "143"
-        ],
-        "correctAnswer": 0
     },
     {
         "id": 251,
@@ -3777,32 +3480,6 @@
         ]
     },
     {
-        "id": 273,
-        "type": "dropdown",
-        "question": "Schema de criptare mentionata ca potrivita pentru vot electronic (prin suport de adunare homomorfa) este:",
-        "points": 3,
-        "options": [
-            "Paillier",
-            "RSA",
-            "AES",
-            "Playfair"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "id": 274,
-        "type": "single",
-        "question": "De ce este Paillier potrivita pentru vot electronic, conform ideii prezentate?",
-        "points": 4,
-        "options": [
-            "permite agregarea voturilor intr-un mod impartial, mentinand confidentialitatea optiunilor individuale",
-            "permite identificarea publica a fiecarui votant prin cheia privata",
-            "transforma voturile in hash-uri ireversibile fara posibilitatea de numarare",
-            "elimina nevoia de verificare independenta a rezultatelor"
-        ],
-        "correctAnswer": 0
-    },
-    {
         "id": 275,
         "type": "multiple",
         "question": "Care exemple de aplicatii sunt enumerate pentru analiza datelor pe date criptate in domenii reglementate?",
@@ -3848,23 +3525,6 @@
         "correctAnswer": 0
     },
     {
-        "id": 278,
-        "type": "multiple",
-        "question": "Care biblioteci/instrumente open-source sunt mentionate pentru criptare homomorfa sau analiza pe date criptate?",
-        "points": 3,
-        "options": [
-            "Microsoft SEAL",
-            "Google Private Join and Compute",
-            "IBM HElib",
-            "MSieve"
-        ],
-        "correctAnswer": [
-            0,
-            1,
-            2
-        ]
-    },
-    {
         "id": 279,
         "type": "single",
         "question": "Ce ofera Microsoft SEAL, ca idee centrala?",
@@ -3874,19 +3534,6 @@
             "un algoritm de factorizare pentru RSA",
             "un mod de operare pentru AES",
             "un serviciu de emitere certificate digitale"
-        ],
-        "correctAnswer": 0
-    },
-    {
-        "id": 280,
-        "type": "single",
-        "question": "Care este ideea centrala a Google Private Join and Compute?",
-        "points": 3,
-        "options": [
-            "analiza datelor in forma criptata astfel incat doar rezultatele agregate/derivate sa fie vizibile, nu datele brute",
-            "generarea cheilor RSA prin RLWE",
-            "inlocuirea SHA-2 cu SHA-1 pentru compatibilitate",
-            "criptarea simetrica a tuturor bazelor de date cu o cheie publica"
         ],
         "correctAnswer": 0
     }
