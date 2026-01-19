@@ -9,7 +9,7 @@
             "adaugă mesajul secret în secvențele de biți 0 din mesajul purtător",
             "folosește cele mai puțin semnificative poziții binare ale mesajului purtător pentru a stoca mesajul secret, dar fără a modifica natura mesajului purtător"
         ],
-        "correctAnswer": 1
+        "correctAnswer": 2
     },
     {
         "id": 2,
