@@ -1,0 +1,3599 @@
+[
+    {
+        "id": 1,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Retea convergenta”?",
+        "points": 1,
+        "options": [
+            "Dispozitiv capabil sa combine functii de comutare si functii asociate straturilor superioare.",
+            "Retea in care serviciile de voce, date si video sunt integrate intr-o infrastructura comuna.",
+            "Ansamblul nivelurilor și protocoalelor; detaliile interfețelor și implementării nu fac parte neapărat din arhitectură.",
+            "Unitatea centrala de procesare; reprezinta „creierul” calculatorului si locul in care au loc majoritatea calculelor."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 2,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Voce peste date”?",
+        "points": 1,
+        "options": [
+            "Tehnologie prin care serviciile de voce sunt transportate folosind infrastructura de date.",
+            "Împărțirea unui pachet în fragmente care încap în MTU-ul unei rețele traversate.",
+            "Comutare care foloseste informatii de strat retea, cum ar fi adresele IP.",
+            "Set de reguli care permite dispozitivelor sa comunice."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 3,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „AVVID”?",
+        "points": 1,
+        "options": [
+            "Cisco Architecture for Voice, Video and Integrated Data; arhitectura Cisco pentru voce, video si date integrate.",
+            "Metoda de comutare in care switch-ul primeste intregul cadru inainte de a-l transmite.",
+            "Locul in care se introduce o placa de expansiune pentru a adauga noi capacitati calculatorului.",
+            "Placa de circuite imprimata care poate fi introdusa intr-un calculator pentru a extinde capacitatile acestuia."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 4,
+        "type": "single",
+        "question": "Cum este definit conceptul „Servicii integrate” în sinteză?",
+        "points": 1,
+        "options": [
+            "Pachet dirijat independent, fără o cale stabilită în avans și fără stare obligatorie per conexiune în rutere.",
+            "Adresare IP pe 32 de biti.",
+            "Echipament folosit pentru adaptarea interfetei fizice la o linie digitala WAN si pentru coordonarea/sincronizarea semnalului.",
+            "Servicii diferite, precum voce, date si video, oferite in acelasi mediu de retea."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 5,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Aplicatii pentru retele complexe”?",
+        "points": 1,
+        "options": [
+            "Încercarea de a obține textul sau cheia fără acces legitim, folosind informația și structura disponibile.",
+            "Tip de protocol de rutare care foloseste informatii despre starea legaturilor din retea.",
+            "Aplicatii care folosesc capabilitati integrate de voce, date si video.",
+            "Mediu de cupru format din perechi de fire rasucite."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 6,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Magistrala / bus”?",
+        "points": 1,
+        "options": [
+            "Stratul care furnizeaza servicii de transport intre aplicatii.",
+            "Unitate asociata ratei de semnalizare.",
+            "Colectie de fire prin care datele sunt transmise dintr-o parte a calculatorului in alta; conecteaza componentele interne ale calculatorului la procesor.",
+            "Tip de protocol de rutare care foloseste informatii despre starea legaturilor din retea."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 7,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Unitatea CD-ROM”?",
+        "points": 1,
+        "options": [
+            "Metoda de comutare in care switch-ul primeste intregul cadru inainte de a-l transmite.",
+            "Unitate de memorie read-only care poate citi informatiile de pe un CD-ROM.",
+            "Directia de transmisie de la furnizor catre utilizator.",
+            "Comutare care foloseste informatii din mai multe straturi OSI."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 8,
+        "type": "single",
+        "question": "Cum este definit conceptul „CPU” în sinteză?",
+        "points": 1,
+        "options": [
+            "Roluri ale echipamentelor in conexiunile WAN, unde DTE este capatul utilizatorului, iar DCE furnizeaza sincronizare/serviciu.",
+            "Mesajul înainte, respectiv după transformarea criptografică.",
+            "Stare în care traficul solicitat depășește resursele, crescând cozile și pierderile și reducând debitul util.",
+            "Unitatea centrala de procesare; reprezinta „creierul” calculatorului si locul in care au loc majoritatea calculelor."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 9,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Placa de expansiune”?",
+        "points": 1,
+        "options": [
+            "Sistem de terminare pentru modemuri de cablu la furnizor.",
+            "Tabela folosita de switch pentru a asocia adrese MAC cu porturi.",
+            "Placa de circuite imprimata care poate fi introdusa intr-un calculator pentru a extinde capacitatile acestuia.",
+            "Echipament terminal de date; dispozitiv aflat la capatul utilizator al unei interfete utilizator-retea."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 10,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Slot de expansiune”?",
+        "points": 1,
+        "options": [
+            "Adresa logica folosita pentru identificarea unui dispozitiv si a retelei la care acesta este atasat.",
+            "Identificator al interfeței la nivelul legătură, transportat în antetul cadrului.",
+            "Locul in care se introduce o placa de expansiune pentru a adauga noi capacitati calculatorului.",
+            "Retea privata virtuala; permite comunicatii private prin infrastructuri de retea care pot fi publice."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 11,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Cablare WAN”?",
+        "points": 1,
+        "options": [
+            "Tabela folosita de switch pentru a asocia adrese MAC cu porturi.",
+            "Cablarea folosita pentru conectarea la servicii si tehnologii WAN.",
+            "Timpul dus-întors dintre trimiterea unui segment și primirea confirmării; baza calculului retransmisiei TCP.",
+            "Serviciu furnizat pentru conectarea locatiilor prin retele extinse."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 12,
+        "type": "single",
+        "question": "Cum este definit conceptul „Interfata seriala” în sinteză?",
+        "points": 1,
+        "options": [
+            "Interfata folosita frecvent pentru conexiuni WAN.",
+            "Dispozitiv de strat 2 care foloseste adrese MAC pentru a decide transmiterea cadrelor intre segmente.",
+            "Tip de protocol de rutare care foloseste informatii despre starea legaturilor din retea.",
+            "Granița dintre două niveluri adiacente, definită prin operațiile și parametrii disponibili."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 13,
+        "type": "single",
+        "question": "Ce descrie corect termenul „DTE/DCE”?",
+        "points": 1,
+        "options": [
+            "Partea adresei IP care identifica dispozitivul din retea.",
+            "DSL asimetric, cu rate diferite pentru descarcare si incarcare.",
+            "Roluri ale echipamentelor in conexiunile WAN, unde DTE este capatul utilizatorului, iar DCE furnizeaza sincronizare/serviciu.",
+            "Metoda prin care receptorul recunoaște începutul și sfârșitul fiecărui cadru în fluxul de biți."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 14,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Cablu serial”?",
+        "points": 1,
+        "options": [
+            "Folosirea porturilor pentru a permite mai multor aplicatii sa comunice simultan.",
+            "Cablu folosit pentru conectarea echipamentelor WAN prin interfete seriale.",
+            "Retea care interconecteaza mai multe zone sau cladiri ale aceleiasi organizatii.",
+            "Granița dintre două niveluri adiacente, definită prin operațiile și parametrii disponibili."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 15,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „DB-60”?",
+        "points": 1,
+        "options": [
+            "Directia de transmisie de la furnizor catre utilizator.",
+            "Conector asociat unor interfete seriale Cisco.",
+            "Ansamblul nivelurilor și protocoalelor; detaliile interfețelor și implementării nu fac parte neapărat din arhitectură.",
+            "Protocol folosit de rutere pentru schimbul de informatii de rutare."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 16,
+        "type": "single",
+        "question": "Cum este definit conceptul „LAN partajat” în sinteză?",
+        "points": 1,
+        "options": [
+            "Conector asociat unor interfete seriale Cisco.",
+            "LAN in care mai multe dispozitive impart acelasi mediu sau aceeasi latime de banda.",
+            "Limită impusă de emițător volumului de date neconfirmate, pe baza stării estimate a rețelei.",
+            "Bază de date ierarhică și distribuită care asociază nume de domenii cu adrese și alte informații."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 17,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Segmentare”?",
+        "points": 1,
+        "options": [
+            "Domeniu de frecvente care poate fi folosit fara licenta individuala, conform regulilor.",
+            "Impartirea retelei in segmente pentru a reduce traficul si problemele de performanta.",
+            "Situatie in care fiecare statie poate avea propriul segment dedicat prin switch.",
+            "Rutare care se ajusteaza automat la topologia retelei sau la schimbari de trafic."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 18,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Microsegmentare”?",
+        "points": 1,
+        "options": [
+            "Diviziune logica a unei retele IP mai mari.",
+            "Intervalul de frecvențe transmis de canal; în uzul rețelelor, termenul este folosit și pentru rata de transfer disponibilă.",
+            "Multiplexare densa prin divizare in lungime de unda; permite transportul mai multor lungimi de unda prin fibra.",
+            "Situatie in care fiecare statie poate avea propriul segment dedicat prin switch."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 19,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Congestionare”?",
+        "points": 1,
+        "options": [
+            "Ansamblu de protocoale organizate pe straturi.",
+            "Stare in care traficul prea mare afecteaza performanta retelei.",
+            "Set de reguli care permite dispozitivelor sa comunice.",
+            "Ruta introdusa manual."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 20,
+        "type": "single",
+        "question": "Cum este definit conceptul „Domeniu de broadcast” în sinteză?",
+        "points": 1,
+        "options": [
+            "Retea care foloseste tehnologii optice pentru transportul datelor.",
+            "Unitatea de date a protocolului de transport; în TCP este numită segment.",
+            "Calea fizica sau fara fir prin care sunt transmise semnalele in retea.",
+            "Zona in care se propaga mesajele de broadcast."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 21,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Comutare LAN”?",
+        "points": 1,
+        "options": [
+            "Modul in care circula datele prin retea, indiferent de forma fizica a cablurilor.",
+            "Multiplexare prin divizare in lungime de unda.",
+            "Procesul prin care un switch transmite cadrele catre portul potrivit.",
+            "Set de reguli care permite dispozitivelor sa comunice."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 22,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Tabela MAC”?",
+        "points": 1,
+        "options": [
+            "Sistem construit peste o rețea, prezentat utilizatorului ca un ansamblu unic și coerent; transparența este oferită în principal de software.",
+            "Stratul care furnizeaza servicii de transport intre aplicatii.",
+            "Protocol de transport orientat spre conexiune, asociat comunicarii fiabile.",
+            "Tabela folosita de switch pentru a asocia adrese MAC cu porturi."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 23,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Full-duplex”?",
+        "points": 1,
+        "options": [
+            "Directia de transmisie de la utilizator catre furnizor.",
+            "Directia de transmisie de la furnizor catre utilizator.",
+            "Cablu torsadat ecranat.",
+            "Mod de comunicare in care transmisia si receptia pot avea loc simultan."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 24,
+        "type": "single",
+        "question": "Cum este definit conceptul „Half-duplex” în sinteză?",
+        "points": 1,
+        "options": [
+            "Mod de comunicare in care transmisia si receptia nu au loc simultan.",
+            "Cisco Architecture for Voice, Video and Integrated Data; arhitectura Cisco pentru voce, video si date integrate.",
+            "Corectarea prin retransmisie automată după lipsa confirmării sau recepția unei erori.",
+            "Echipament terminal de date; dispozitiv aflat la capatul utilizator al unei interfete utilizator-retea."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 25,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Store-and-forward”?",
+        "points": 1,
+        "options": [
+            "Metoda de comutare in care switch-ul primeste intregul cadru inainte de a-l transmite.",
+            "Unitate asociata ratei de semnalizare.",
+            "Lista protocoalelor utilizate de un sistem, câte unul sau mai multe pentru fiecare nivel.",
+            "Limită impusă de emițător volumului de date neconfirmate, pe baza stării estimate a rețelei."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 26,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Comutare multistrat”?",
+        "points": 1,
+        "options": [
+            "Dispozitiv de strat 2 care foloseste adrese MAC pentru a decide transmiterea cadrelor intre segmente.",
+            "Protocol de transport orientat spre conexiune, asociat comunicarii fiabile.",
+            "Comutare care foloseste informatii din mai multe straturi OSI.",
+            "Retea in care serviciile de voce, date si video sunt integrate intr-o infrastructura comuna."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 27,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Comutare strat 2”?",
+        "points": 1,
+        "options": [
+            "Comutare care foloseste informatii ale stratului transport.",
+            "Aranjamentul fizic al dispozitivelor si cablurilor dintr-o retea.",
+            "Comutare bazata pe informatii de legatura de date, cum ar fi adresele MAC.",
+            "Sistem construit peste o rețea, prezentat utilizatorului ca un ansamblu unic și coerent; transparența este oferită în principal de software."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 28,
+        "type": "single",
+        "question": "Cum este definit conceptul „Comutare strat 3” în sinteză?",
+        "points": 1,
+        "options": [
+            "Comutare care foloseste informatii de strat retea, cum ar fi adresele IP.",
+            "Stratul care furnizeaza servicii de transport intre aplicatii.",
+            "Cantitatea maximă de date TCP într-un segment, negociată în raport cu capacitatea capetelor și MTU.",
+            "Arhitectura hibrida fibra-coaxial."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 29,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Comutare strat 4”?",
+        "points": 1,
+        "options": [
+            "Multiplexare prin divizare in timp.",
+            "Protocol de autentificare prin parola.",
+            "Comutare care foloseste informatii ale stratului transport.",
+            "Mediu de transmisie cu conductor central, izolatie si ecranare."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 30,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Switch multistrat”?",
+        "points": 1,
+        "options": [
+            "Dispozitiv capabil sa combine functii de comutare si functii asociate straturilor superioare.",
+            "Tehnologie/standard pentru transport optic sincron.",
+            "Structură semnată de o autoritate care leagă o identitate de o cheie publică.",
+            "Mesajul înainte, respectiv după transformarea criptografică."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 31,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „VLAN”?",
+        "points": 1,
+        "options": [
+            "Procesul prin care un switch transmite cadrele catre portul potrivit.",
+            "Tabela folosita de switch pentru a asocia adrese MAC cu porturi.",
+            "Retea de stocare, folosita pentru conectarea resurselor de stocare.",
+            "LAN virtual; grupare logica a dispozitivelor intr-o retea, indiferent de localizarea fizica."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 32,
+        "type": "single",
+        "question": "Cum este definit conceptul „Segmentare logica” în sinteză?",
+        "points": 1,
+        "options": [
+            "Metoda prin care cadrul primeste informatii pentru identificarea VLAN-ului.",
+            "Fibra care permite propagarea mai multor moduri ale luminii.",
+            "Separarea retelei in grupuri logice, nu neaparat fizice.",
+            "Numărul de biți transmiși pe secundă; nu este identică în mod necesar cu rata de simboluri."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 33,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Trunk”?",
+        "points": 1,
+        "options": [
+            "Diviziune logica a unei retele IP mai mari.",
+            "Legatura care transporta trafic pentru mai multe VLAN-uri.",
+            "Interfață software identificată prin adresă IP, protocol și port, folosită de aplicații pentru comunicație.",
+            "Zona a retelei in care pot aparea coliziuni intre dispozitivele care transmit."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 34,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Etichetare cadru”?",
+        "points": 1,
+        "options": [
+            "Domeniu de frecvente care poate fi folosit fara licenta individuala, conform regulilor.",
+            "Metoda prin care cadrul primeste informatii pentru identificarea VLAN-ului.",
+            "Metoda prin care receptorul recunoaște începutul și sfârșitul fiecărui cadru în fluxul de biți.",
+            "Rețea locală, metropolitană, respectiv larg răspândită geografic; clasificarea reflectă aria și tehnologiile folosite."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 35,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „ISL”?",
+        "points": 1,
+        "options": [
+            "Biti luati din partea de host pentru a crea subretele.",
+            "Protocol de incapsulare asociat trunk-urilor Cisco.",
+            "Stratul care se ocupa de transmiterea bitilor prin mediul fizic.",
+            "LAN virtual; grupare logica a dispozitivelor intr-o retea, indiferent de localizarea fizica."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 36,
+        "type": "single",
+        "question": "Cum este definit conceptul „TCP/IP” în sinteză?",
+        "points": 1,
+        "options": [
+            "Stiva de protocoale folosita pentru comunicatii in retea.",
+            "Adresa care identifica o retea sau subretea si nu se atribuie unui host obisnuit.",
+            "Mediu de cupru format din perechi de fire rasucite.",
+            "Echipament terminal de date; dispozitiv aflat la capatul utilizator al unei interfete utilizator-retea."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 37,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Protocol de comunicatie”?",
+        "points": 1,
+        "options": [
+            "Set de reguli care permite dispozitivelor sa comunice.",
+            "LAN in care mai multe dispozitive impart acelasi mediu sau aceeasi latime de banda.",
+            "Echipament de nivel legătură care învață adrese și retransmite cadre selectiv între segmente.",
+            "Funcția pe care un nivel o oferă nivelului superior; descrie ce se oferă, nu cum este implementat."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 38,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Stiva de protocoale”?",
+        "points": 1,
+        "options": [
+            "Dispozitiv care permite transmiterea datelor prin linii analogice.",
+            "Topologie in care dispozitivele sunt conectate la un mediu comun de transmisie.",
+            "Ansamblu de protocoale organizate pe straturi.",
+            "Stare in care traficul prea mare afecteaza performanta retelei."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 39,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Strat aplicatie TCP/IP”?",
+        "points": 1,
+        "options": [
+            "Metoda prin care cadrul primeste informatii pentru identificarea VLAN-ului.",
+            "Zona a retelei in care pot aparea coliziuni intre dispozitivele care transmit.",
+            "Diviziune logica a unei retele IP mai mari.",
+            "Strat care include aplicatii si servicii de retea."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 40,
+        "type": "single",
+        "question": "Cum este definit conceptul „Strat transport TCP/IP” în sinteză?",
+        "points": 1,
+        "options": [
+            "Protocol care furnizeaza o adresa IP pe baza unei adrese MAC.",
+            "LAN wireless, adica retea locala fara fir.",
+            "Strat care asigura comunicatia intre aplicatii prin servicii de transport.",
+            "Mesajul înainte, respectiv după transformarea criptografică."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 41,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Strat transport”?",
+        "points": 1,
+        "options": [
+            "Procesul prin care un client wireless se conecteaza la un punct de acces.",
+            "DSL asimetric, cu rate diferite pentru descarcare si incarcare.",
+            "Dispozitiv care permite dispozitivelor wireless sa se conecteze la retea.",
+            "Stratul care furnizeaza servicii de transport intre aplicatii."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 42,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „TCP”?",
+        "points": 1,
+        "options": [
+            "Adăugarea succesivă de antete și, uneori, remorci pe măsură ce datele coboară prin niveluri.",
+            "Intervalul de frecvențe transmis de canal; în uzul rețelelor, termenul este folosit și pentru rata de transfer disponibilă.",
+            "Protocol de transport orientat spre conexiune, asociat comunicarii fiabile.",
+            "Numărul pozițiilor de bit în care două cuvinte de cod diferă; determină câte erori pot fi detectate sau corectate."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 43,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „UDP”?",
+        "points": 1,
+        "options": [
+            "Transformarea semnalului receptionat inapoi in date.",
+            "Protocol cerere-răspuns folosit pentru transferul resurselor Web.",
+            "Protocol de transport mai simplu, fara aceleasi mecanisme de fiabilitate ca TCP.",
+            "Stare în care traficul solicitat depășește resursele, crescând cozile și pierderile și reducând debitul util."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 44,
+        "type": "single",
+        "question": "Cum este definit conceptul „Port” în sinteză?",
+        "points": 1,
+        "options": [
+            "Dispozitiv de strat 1 care regenereaza si retransmite semnalul pentru a extinde distanta de transmisie.",
+            "Protocol care furnizeaza o adresa IP pe baza unei adrese MAC.",
+            "Numar folosit pentru identificarea aplicatiilor sau serviciilor de retea.",
+            "Situatie in care doua transmisii interfereaza pe acelasi mediu partajat."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 45,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Multiplexare”?",
+        "points": 1,
+        "options": [
+            "Stratul care se ocupa de transmiterea bitilor prin mediul fizic.",
+            "Folosirea porturilor pentru a permite mai multor aplicatii sa comunice simultan.",
+            "Dispozitiv de strat 3 care conecteaza retele si ia decizii de transmitere pe baza adreselor de retea.",
+            "Tip de protocol de rutare care foloseste informatii despre starea legaturilor din retea."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 46,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Stratul Internet”?",
+        "points": 1,
+        "options": [
+            "Rețea locală, metropolitană, respectiv larg răspândită geografic; clasificarea reflectă aria și tehnologiile folosite.",
+            "Zona a retelei in care pot aparea coliziuni intre dispozitivele care transmit.",
+            "Stratul TCP/IP responsabil de adresare si livrarea pachetelor intre retele.",
+            "Roluri ale echipamentelor in conexiunile WAN, unde DTE este capatul utilizatorului, iar DCE furnizeaza sincronizare/serviciu."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 47,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „IP”?",
+        "points": 1,
+        "options": [
+            "Transmiterea datelor sub forma de semnale luminoase.",
+            "LAN wireless, adica retea locala fara fir.",
+            "Protocol de transport mai simplu, fara aceleasi mecanisme de fiabilitate ca TCP.",
+            "Protocol care asigura adresarea si transmiterea pachetelor la nivelul Internet."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 48,
+        "type": "single",
+        "question": "Cum este definit conceptul „ICMP” în sinteză?",
+        "points": 1,
+        "options": [
+            "Protocol care furnizeaza functii de control si mesaje pentru stratul retea.",
+            "Directia de transmisie de la furnizor catre utilizator.",
+            "Protocol de transport mai simplu, fara aceleasi mecanisme de fiabilitate ca TCP.",
+            "LAN in care mai multe dispozitive impart acelasi mediu sau aceeasi latime de banda."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 49,
+        "type": "single",
+        "question": "Ce descrie corect termenul „ARP”?",
+        "points": 1,
+        "options": [
+            "Programul prin care utilizatorul compune, citește și gestionează mesajele electronice.",
+            "Dispozitiv de strat 2 care foloseste adrese MAC pentru a decide transmiterea cadrelor intre segmente.",
+            "Protocol de rutare distance-vector.",
+            "Protocol care pune in corespondenta o adresa IP cu o adresa MAC."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 50,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „RARP”?",
+        "points": 1,
+        "options": [
+            "Protocol care furnizeaza o adresa IP pe baza unei adrese MAC.",
+            "Cale logica printr-o retea comutata.",
+            "Strat care asigura comunicatia intre aplicatii prin servicii de transport.",
+            "Protocol care pune in corespondenta o adresa IP cu o adresa MAC."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 51,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Adresa IP”?",
+        "points": 1,
+        "options": [
+            "Adresa logica folosita pentru identificarea unui dispozitiv si a retelei la care acesta este atasat.",
+            "Tehnologie digitala de acces prin retea telefonica.",
+            "Conector asociat unor interfete seriale Cisco.",
+            "Unitatea de date a protocolului de transport; în TCP este numită segment."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 52,
+        "type": "single",
+        "question": "Cum este definit conceptul „IPv4” în sinteză?",
+        "points": 1,
+        "options": [
+            "Standard asociat retelelor Ethernet.",
+            "Adresare IP pe 32 de biti.",
+            "Stratul care furnizeaza servicii de transport intre aplicatii.",
+            "Standard international similar/asociat cu SONET pentru transport sincron."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 53,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Notatie zecimala cu puncte”?",
+        "points": 1,
+        "options": [
+            "Situatie in care fiecare statie poate avea propriul segment dedicat prin switch.",
+            "Forma obisnuita de scriere a unei adrese IP, cu patru numere zecimale separate prin puncte.",
+            "Cablu torsadat ecranat.",
+            "Protocol care furnizeaza functii de control si mesaje pentru stratul retea."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 54,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Numar de retea”?",
+        "points": 1,
+        "options": [
+            "Partea adresei IP care identifica reteaua.",
+            "Tehnologie wireless care raspandeste semnalul pe o banda mai larga.",
+            "Retea de stocare, folosita pentru conectarea resurselor de stocare.",
+            "LAN virtual; grupare logica a dispozitivelor intr-o retea, indiferent de localizarea fizica."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 55,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Numar de host”?",
+        "points": 1,
+        "options": [
+            "Partea adresei IP care identifica dispozitivul din retea.",
+            "Cadru principal de distributie, punct central al cablarii.",
+            "Procesul prin care un switch transmite cadrele catre portul potrivit.",
+            "Identificator al unei retele wireless."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 56,
+        "type": "single",
+        "question": "Cum este definit conceptul „Subretea” în sinteză?",
+        "points": 1,
+        "options": [
+            "Metoda prin care receptorul recunoaște începutul și sfârșitul fiecărui cadru în fluxul de biți.",
+            "Tehnologie digitala de acces prin retea telefonica.",
+            "Diviziune logica a unei retele IP mai mari.",
+            "Pachet dirijat independent, fără o cale stabilită în avans și fără stare obligatorie per conexiune în rutere."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 57,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Subnetare”?",
+        "points": 1,
+        "options": [
+            "Metoda prin care cadrul primeste informatii pentru identificarea VLAN-ului.",
+            "Procesul de impartire a unei retele in subretele.",
+            "Metoda prin care receptorul recunoaște începutul și sfârșitul fiecărui cadru în fluxul de biți.",
+            "Adăugarea succesivă de antete și, uneori, remorci pe măsură ce datele coboară prin niveluri."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 58,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Masca de subretea”?",
+        "points": 1,
+        "options": [
+            "Stare in care traficul prea mare afecteaza performanta retelei.",
+            "Adresă la care un proces oferă sau folosește un serviciu de transport; în Internet este asociată unui port.",
+            "Cisco Architecture for Voice, Video and Integrated Data; arhitectura Cisco pentru voce, video si date integrate.",
+            "Masca folosita pentru a identifica partea de retea/subretea si partea de host."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 59,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Biti imprumutati”?",
+        "points": 1,
+        "options": [
+            "Biti luati din partea de host pentru a crea subretele.",
+            "Situatie in care doua transmisii interfereaza pe acelasi mediu partajat.",
+            "Stare in care traficul prea mare afecteaza performanta retelei.",
+            "Partea adresei IP care identifica dispozitivul din retea."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 60,
+        "type": "single",
+        "question": "Cum este definit conceptul „Adresa de retea” în sinteză?",
+        "points": 1,
+        "options": [
+            "Adresa care identifica o retea sau subretea si nu se atribuie unui host obisnuit.",
+            "Model de referinta cu sapte straturi, utilizat pentru a descrie comunicarea intre sisteme deschise.",
+            "Situatie in care fiecare statie poate avea propriul segment dedicat prin switch.",
+            "Dispozitiv care permite accesul la date prin infrastructura de cablu."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 61,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Retea”?",
+        "points": 1,
+        "options": [
+            "Un sistem format din calculatoare si dispozitive care comunica intre ele si pot partaja informatii sau resurse.",
+            "Identificator al interfeței la nivelul legătură, transportat în antetul cadrului.",
+            "Tehnologie de comutare care foloseste celule de dimensiune fixa.",
+            "Retea extinsa care conecteaza locatii aflate la distanta."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 62,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Aplicatie de retea”?",
+        "points": 1,
+        "options": [
+            "Comutare bazata pe informatii de legatura de date, cum ar fi adresele MAC.",
+            "Aplicatie care foloseste comunicarea prin retea pentru schimb de informatii sau acces la resurse.",
+            "Energie nedorită care se suprapune semnalului și limitează detecția corectă.",
+            "Protocol de incapsulare asociat trunk-urilor Cisco."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 63,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Model de referinta”?",
+        "points": 1,
+        "options": [
+            "Model folosit pentru organizarea si descrierea functiilor de comunicare in retea.",
+            "Traducerea adreselor și, de regulă, a porturilor între o rețea privată și Internet.",
+            "Echipament terminal de date; dispozitiv aflat la capatul utilizator al unei interfete utilizator-retea.",
+            "Strat care asigura comunicatia intre aplicatii prin servicii de transport."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 64,
+        "type": "single",
+        "question": "Cum este definit conceptul „Model OSI” în sinteză?",
+        "points": 1,
+        "options": [
+            "Pachet dirijat independent, fără o cale stabilită în avans și fără stare obligatorie per conexiune în rutere.",
+            "Unitate asociata ratei de semnalizare.",
+            "Model de referinta cu sapte straturi, utilizat pentru a descrie comunicarea intre sisteme deschise.",
+            "Forma obisnuita de scriere a unei adrese IP, cu patru numere zecimale separate prin puncte."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 65,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Stratul fizic”?",
+        "points": 1,
+        "options": [
+            "Mod de comunicare in care transmisia si receptia nu au loc simultan.",
+            "Procesul prin care pachetele sunt directionate de la sursa catre destinatie prin retele.",
+            "Cablu folosit pentru conectarea echipamentelor WAN prin interfete seriale.",
+            "Stratul care se ocupa de transmiterea bitilor prin mediul fizic."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 66,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Rutare”?",
+        "points": 1,
+        "options": [
+            "Retea in care serviciile de voce, date si video sunt integrate intr-o infrastructura comuna.",
+            "Procesul prin care pachetele sunt directionate de la sursa catre destinatie prin retele.",
+            "Timpul dus-întors dintre trimiterea unui segment și primirea confirmării; baza calculului retransmisiei TCP.",
+            "Transformarea semnalului pentru a putea fi transmis printr-un mediu."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 67,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Tabela de rutare”?",
+        "points": 1,
+        "options": [
+            "Adresare și rutare fără clase, bazate pe prefixe de lungime variabilă și agregare.",
+            "Protocol de transport orientat spre conexiune, asociat comunicarii fiabile.",
+            "Sursa de lumina folosita pentru transmisii optice.",
+            "Tabela folosita de ruter pentru a decide unde trimite pachetele."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 68,
+        "type": "single",
+        "question": "Cum este definit conceptul „Ruta” în sinteză?",
+        "points": 1,
+        "options": [
+            "Informatie despre o cale catre o retea de destinatie.",
+            "Comutare care foloseste informatii ale stratului transport.",
+            "Transportul confirmării într-un cadru de date trimis în sens invers, în locul unui cadru separat.",
+            "Zona in care se propaga mesajele de broadcast."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 69,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Ruta statica”?",
+        "points": 1,
+        "options": [
+            "Echipament terminal de date; dispozitiv aflat la capatul utilizator al unei interfete utilizator-retea.",
+            "Dispozitiv care permite accesul la date prin infrastructura de cablu.",
+            "Ruta introdusa manual.",
+            "Calea fizica sau fara fir prin care sunt transmise semnalele in retea."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 70,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Rutare dinamica”?",
+        "points": 1,
+        "options": [
+            "Dispozitiv folosit pentru separarea semnalelor pe linia de abonat.",
+            "Rutare care se ajusteaza automat la topologia retelei sau la schimbari de trafic.",
+            "Tehnologie/standard pentru transport optic sincron.",
+            "Cablarea folosita pentru conectarea la servicii si tehnologii WAN."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 71,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Protocol de rutare”?",
+        "points": 1,
+        "options": [
+            "Protocol folosit de rutere pentru schimbul de informatii de rutare.",
+            "Unitatea de date a nivelului legătură, delimitată și însoțită de informații de control.",
+            "Model de referinta cu sapte straturi, utilizat pentru a descrie comunicarea intre sisteme deschise.",
+            "Corectarea prin retransmisie automată după lipsa confirmării sau recepția unei erori."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 72,
+        "type": "single",
+        "question": "Cum este definit conceptul „Distance-vector” în sinteză?",
+        "points": 1,
+        "options": [
+            "Tip de protocol de rutare care ia decizii pe baza distantei si directiei catre destinatie.",
+            "Strat care asigura comunicatia intre aplicatii prin servicii de transport.",
+            "Cadru principal de distributie, punct central al cablarii.",
+            "Unitatea de date a protocolului de transport; în TCP este numită segment."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 73,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Link-state”?",
+        "points": 1,
+        "options": [
+            "Tip de protocol de rutare care foloseste informatii despre starea legaturilor din retea.",
+            "Dispozitiv care permite dispozitivelor wireless sa se conecteze la retea.",
+            "Unitate de memorie read-only care poate citi informatiile de pe un CD-ROM.",
+            "Stratul TCP/IP responsabil de adresare si livrarea pachetelor intre retele."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 74,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Hibrid”?",
+        "points": 1,
+        "options": [
+            "Agent care transferă mesajele între sisteme, în principal prin SMTP.",
+            "Tip de protocol care combina proprietati ale protocoalelor distance-vector si link-state.",
+            "Stratul care furnizeaza servicii de transport intre aplicatii.",
+            "Ruta introdusa manual."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 75,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „RIP”?",
+        "points": 1,
+        "options": [
+            "Stratul care inconjoara miezul fibrei.",
+            "Adresare IP pe 32 de biti.",
+            "Procesul de impartire a unei retele in subretele.",
+            "Protocol de rutare distance-vector."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 76,
+        "type": "single",
+        "question": "Cum este definit conceptul „Serviciu WAN” în sinteză?",
+        "points": 1,
+        "options": [
+            "Serviciu furnizat pentru conectarea locatiilor prin retele extinse.",
+            "Biti luati din partea de host pentru a crea subretele.",
+            "Valoare scurtă, de lungime fixă, calculată din mesaj astfel încât modificările să fie detectabile.",
+            "Identificator care indică schema, gazda, portul opțional și resursa accesată."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 77,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Circuit virtual”?",
+        "points": 1,
+        "options": [
+            "Cale logica printr-o retea comutata.",
+            "Tip de protocol de rutare care ia decizii pe baza distantei si directiei catre destinatie.",
+            "Dispozitiv care permite transmiterea datelor prin linii analogice.",
+            "Domeniu de frecvente care poate fi folosit fara licenta individuala, conform regulilor."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 78,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Frame Relay”?",
+        "points": 1,
+        "options": [
+            "Modul in care circula datele prin retea, indiferent de forma fizica a cablurilor.",
+            "Tehnologie WAN bazata pe comutarea cadrelor.",
+            "Lista protocoalelor utilizate de un sistem, câte unul sau mai multe pentru fiecare nivel.",
+            "Domeniu de frecvente care poate fi folosit fara licenta individuala, conform regulilor."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 79,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „ATM”?",
+        "points": 1,
+        "options": [
+            "Stratul TCP/IP responsabil de adresare si livrarea pachetelor intre retele.",
+            "Tehnologie de comutare care foloseste celule de dimensiune fixa.",
+            "Tabela folosita de ruter pentru a decide unde trimite pachetele.",
+            "Retea interna folosita in interiorul unei organizatii."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 80,
+        "type": "single",
+        "question": "Cum este definit conceptul „SONET” în sinteză?",
+        "points": 1,
+        "options": [
+            "Tehnologie/standard pentru transport optic sincron.",
+            "Cablu torsadat ecranat.",
+            "Componenta care primeste semnalul luminos si il transforma inapoi in informatie.",
+            "Specificatie care defineste caracteristici de functionare ale modemului."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 81,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Dial-up”?",
+        "points": 1,
+        "options": [
+            "Acces la retea realizat prin stabilirea unei conexiuni la cerere.",
+            "Retea privata virtuala; permite comunicatii private prin infrastructuri de retea care pot fi publice.",
+            "Directia de transmisie de la utilizator catre furnizor.",
+            "Protocol care pune in corespondenta o adresa IP cu o adresa MAC."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 82,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „ISDN”?",
+        "points": 1,
+        "options": [
+            "Retea in care serviciile de voce, date si video sunt integrate intr-o infrastructura comuna.",
+            "Mesajul înainte, respectiv după transformarea criptografică.",
+            "Tehnologie digitala de acces prin retea telefonica.",
+            "Topologie formata prin conectarea mai multor stele intre ele."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 83,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „PPP”?",
+        "points": 1,
+        "options": [
+            "Unitatea de date a nivelului legătură, delimitată și însoțită de informații de control.",
+            "Situatie in care fiecare statie poate avea propriul segment dedicat prin switch.",
+            "Protocol punct-la-punct folosit pentru conexiuni seriale.",
+            "Dispozitiv care permite transmiterea datelor prin linii analogice."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 84,
+        "type": "single",
+        "question": "Cum este definit conceptul „PAP” în sinteză?",
+        "points": 1,
+        "options": [
+            "Procesul de calcul al traseelor și de alegere a liniei de ieșire pentru un pachet.",
+            "Cale logica printr-o retea comutata.",
+            "Protocol de autentificare prin parola.",
+            "Aranjamentul fizic al dispozitivelor si cablurilor dintr-o retea."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 85,
+        "type": "single",
+        "question": "Ce descrie corect termenul „CHAP”?",
+        "points": 1,
+        "options": [
+            "Tehnologie wireless care raspandeste semnalul pe o banda mai larga.",
+            "Protocol de autentificare prin parola.",
+            "Protocol de autentificare prin provocare si raspuns.",
+            "Familie de protocoale în care stația ascultă canalul înainte de transmisie."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 86,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Modem analogic”?",
+        "points": 1,
+        "options": [
+            "Identificator al unei retele wireless.",
+            "Protocol care furnizeaza o adresa IP pe baza unei adrese MAC.",
+            "Unitatea de date a nivelului legătură, delimitată și însoțită de informații de control.",
+            "Dispozitiv care permite transmiterea datelor prin linii analogice."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 87,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Modulare”?",
+        "points": 1,
+        "options": [
+            "Retea de stocare, folosita pentru conectarea resurselor de stocare.",
+            "Cablare care face legatura intre zona de lucru si punctul de distributie.",
+            "Tehnologie WAN bazata pe comutarea cadrelor.",
+            "Transformarea semnalului pentru a putea fi transmis printr-un mediu."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 88,
+        "type": "single",
+        "question": "Cum este definit conceptul „Demodulare” în sinteză?",
+        "points": 1,
+        "options": [
+            "Tehnologie WAN bazata pe comutarea cadrelor.",
+            "Tip de protocol care combina proprietati ale protocoalelor distance-vector si link-state.",
+            "Partea adresei IP care identifica reteaua.",
+            "Transformarea semnalului receptionat inapoi in date."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 89,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Baud”?",
+        "points": 1,
+        "options": [
+            "Partea centrala a fibrei prin care se propaga lumina.",
+            "Unitate asociata ratei de semnalizare.",
+            "Numărul pozițiilor de bit în care două cuvinte de cod diferă; determină câte erori pot fi detectate sau corectate.",
+            "Sursa de lumina folosita pentru transmisii optice."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 90,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Standard de modem”?",
+        "points": 1,
+        "options": [
+            "Specificatie care defineste caracteristici de functionare ale modemului.",
+            "Numar folosit pentru identificarea aplicatiilor sau serviciilor de retea.",
+            "Împărțirea unui pachet în fragmente care încap în MTU-ul unei rețele traversate.",
+            "Identificator care indică schema, gazda, portul opțional și resursa accesată."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 91,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „DSL”?",
+        "points": 1,
+        "options": [
+            "Mod de comunicare in care transmisia si receptia nu au loc simultan.",
+            "Tehnologie Digital Subscriber Line folosita pentru acces de date prin linia de abonat.",
+            "Adresă la care un proces oferă sau folosește un serviciu de transport; în Internet este asociată unui port.",
+            "Sistem cu o cheie publicabilă și o cheie privată; operația realizată cu una se verifică/inversează cu cealaltă în schema corespunzătoare."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 92,
+        "type": "single",
+        "question": "Cum este definit conceptul „ADSL” în sinteză?",
+        "points": 1,
+        "options": [
+            "DSL asimetric, cu rate diferite pentru descarcare si incarcare.",
+            "Adresa logica folosita pentru identificarea unui dispozitiv si a retelei la care acesta este atasat.",
+            "Masca folosita pentru a identifica partea de retea/subretea si partea de host.",
+            "Mesajul înainte, respectiv după transformarea criptografică."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 93,
+        "type": "single",
+        "question": "Ce descrie corect termenul „SDSL”?",
+        "points": 1,
+        "options": [
+            "DSL simetric, cu rate apropiate sau egale in ambele directii.",
+            "Legatura principala care transporta traficul intre segmente sau zone ale retelei.",
+            "Fibra care permite propagarea mai multor moduri ale luminii.",
+            "Model folosit pentru organizarea si descrierea functiilor de comunicare in retea."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 94,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Linie de abonat”?",
+        "points": 1,
+        "options": [
+            "Funcția pe care un nivel o oferă nivelului superior; descrie ce se oferă, nu cum este implementat.",
+            "Protocol care furnizeaza o adresa IP pe baza unei adrese MAC.",
+            "Retea privata virtuala; permite comunicatii private prin infrastructuri de retea care pot fi publice.",
+            "Legatura dintre utilizator si furnizorul de servicii."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 95,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Splitter”?",
+        "points": 1,
+        "options": [
+            "Intervalul de frecvențe transmis de canal; în uzul rețelelor, termenul este folosit și pentru rata de transfer disponibilă.",
+            "Ansamblu de protocoale organizate pe straturi.",
+            "Dispozitiv folosit pentru separarea semnalelor pe linia de abonat.",
+            "Model folosit pentru organizarea si descrierea functiilor de comunicare in retea."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 96,
+        "type": "single",
+        "question": "Cum este definit conceptul „Modem de cablu” în sinteză?",
+        "points": 1,
+        "options": [
+            "Stratul TCP/IP responsabil de adresare si livrarea pachetelor intre retele.",
+            "Copie intermediară a unei resurse, folosită pentru a reduce întârzierea și traficul.",
+            "Procesul de impartire a unei retele in subretele.",
+            "Dispozitiv care permite accesul la date prin infrastructura de cablu."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 97,
+        "type": "single",
+        "question": "Ce descrie corect termenul „HFC”?",
+        "points": 1,
+        "options": [
+            "Separarea retelei in grupuri logice, nu neaparat fizice.",
+            "Dispozitiv de strat 2 care foloseste adrese MAC pentru a decide transmiterea cadrelor intre segmente.",
+            "Protocol de incapsulare asociat trunk-urilor Cisco.",
+            "Arhitectura hibrida fibra-coaxial."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 98,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „CMTS”?",
+        "points": 1,
+        "options": [
+            "Interfață software identificată prin adresă IP, protocol și port, folosită de aplicații pentru comunicație.",
+            "Sursa de lumina folosita pentru transmisii optice.",
+            "Legatura principala care transporta traficul intre segmente sau zone ale retelei.",
+            "Sistem de terminare pentru modemuri de cablu la furnizor."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 99,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Downstream”?",
+        "points": 1,
+        "options": [
+            "Fibra care permite propagarea mai multor moduri ale luminii.",
+            "Stratul care furnizeaza servicii de transport intre aplicatii.",
+            "Traducerea adreselor și, de regulă, a porturilor între o rețea privată și Internet.",
+            "Directia de transmisie de la furnizor catre utilizator."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 100,
+        "type": "single",
+        "question": "Cum este definit conceptul „Upstream” în sinteză?",
+        "points": 1,
+        "options": [
+            "Protocol folosit de rutere pentru schimbul de informatii de rutare.",
+            "Ansamblul nivelurilor și protocoalelor; detaliile interfețelor și implementării nu fac parte neapărat din arhitectură.",
+            "Limită impusă de emițător volumului de date neconfirmate, pe baza stării estimate a rețelei.",
+            "Directia de transmisie de la utilizator catre furnizor."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 101,
+        "type": "single",
+        "question": "Ce descrie corect termenul „RF”?",
+        "points": 1,
+        "options": [
+            "Radio-frecventa folosita pentru transmisii wireless.",
+            "Sursa de lumina folosita in unele sisteme optice.",
+            "Protocol folosit de rutere pentru schimbul de informatii de rutare.",
+            "Zona in care se propaga mesajele de broadcast."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 102,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Frecventa”?",
+        "points": 1,
+        "options": [
+            "Tehnologie digitala de acces prin retea telefonica.",
+            "Zona a retelei in care pot aparea coliziuni intre dispozitivele care transmit.",
+            "Rata de repetare a unei unde, masurata in hertzi.",
+            "Dispozitiv care permite transmiterea datelor prin linii analogice."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 103,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Frecventa licentiata”?",
+        "points": 1,
+        "options": [
+            "Domeniu de frecvente folosit cu licenta.",
+            "Adresa care identifica o retea sau subretea si nu se atribuie unui host obisnuit.",
+            "Mediu comun pe care mai multe stații încearcă să transmită, necesitând reguli de arbitrare.",
+            "Directia de transmisie de la furnizor catre utilizator."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 104,
+        "type": "single",
+        "question": "Cum este definit conceptul „Frecventa nelicentiata” în sinteză?",
+        "points": 1,
+        "options": [
+            "Impartirea retelei in segmente pentru a reduce traficul si problemele de performanta.",
+            "Dispozitiv/legatura care conecteaza segmente de retea prin wireless.",
+            "Domeniu de frecvente care poate fi folosit fara licenta individuala, conform regulilor.",
+            "LAN wireless, adica retea locala fara fir."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 105,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Spectru extins”?",
+        "points": 1,
+        "options": [
+            "Forma obisnuita de scriere a unei adrese IP, cu patru numere zecimale separate prin puncte.",
+            "Dispozitiv/legatura care conecteaza segmente de retea prin wireless.",
+            "LAN in care mai multe dispozitive impart acelasi mediu sau aceeasi latime de banda.",
+            "Tehnologie wireless care raspandeste semnalul pe o banda mai larga."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 106,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „WLAN”?",
+        "points": 1,
+        "options": [
+            "Sistem de terminare pentru modemuri de cablu la furnizor.",
+            "Retea privata virtuala; permite comunicatii private prin infrastructuri de retea care pot fi publice.",
+            "Cantitatea maximă de date TCP într-un segment, negociată în raport cu capacitatea capetelor și MTU.",
+            "LAN wireless, adica retea locala fara fir."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 107,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Punct de acces”?",
+        "points": 1,
+        "options": [
+            "Adresă la care un proces oferă sau folosește un serviciu de transport; în Internet este asociată unui port.",
+            "Cale logica printr-o retea comutata.",
+            "Directia de transmisie de la utilizator catre furnizor.",
+            "Dispozitiv care permite dispozitivelor wireless sa se conecteze la retea."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 108,
+        "type": "single",
+        "question": "Cum este definit conceptul „Punte wireless” în sinteză?",
+        "points": 1,
+        "options": [
+            "Rutare care se ajusteaza automat la topologia retelei sau la schimbari de trafic.",
+            "Transmiterea datelor sub forma de semnale luminoase.",
+            "Procesul de impartire a unei retele in subretele.",
+            "Dispozitiv/legatura care conecteaza segmente de retea prin wireless."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 109,
+        "type": "single",
+        "question": "Ce descrie corect termenul „SSID”?",
+        "points": 1,
+        "options": [
+            "Transformarea semnalului pentru a putea fi transmis printr-un mediu.",
+            "Directia de transmisie de la utilizator catre furnizor.",
+            "Metoda prin care receptorul recunoaște începutul și sfârșitul fiecărui cadru în fluxul de biți.",
+            "Identificator al unei retele wireless."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 110,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Asociere”?",
+        "points": 1,
+        "options": [
+            "Colecție de calculatoare autonome interconectate, capabile să schimbe informații printr-o tehnologie de comunicație.",
+            "Procesul prin care un client wireless se conecteaza la un punct de acces.",
+            "Legatura care transporta trafic pentru mai multe VLAN-uri.",
+            "Partea centrala a fibrei prin care se propaga lumina."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 111,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Retea optica”?",
+        "points": 1,
+        "options": [
+            "Procesul prin care un client wireless se conecteaza la un punct de acces.",
+            "Tabela folosita de switch pentru a asocia adrese MAC cu porturi.",
+            "Retea care foloseste tehnologii optice pentru transportul datelor.",
+            "Lista protocoalelor utilizate de un sistem, câte unul sau mai multe pentru fiecare nivel."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 112,
+        "type": "single",
+        "question": "Cum este definit conceptul „Transmitator optic” în sinteză?",
+        "points": 1,
+        "options": [
+            "Componenta care transforma informatia in semnal luminos.",
+            "Tabela folosita de ruter pentru a decide unde trimite pachetele.",
+            "Roluri ale echipamentelor in conexiunile WAN, unde DTE este capatul utilizatorului, iar DCE furnizeaza sincronizare/serviciu.",
+            "Sistem de terminare pentru modemuri de cablu la furnizor."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 113,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Receptor optic”?",
+        "points": 1,
+        "options": [
+            "Protocol de autentificare prin parola.",
+            "Schimb de mesaje care sincronizează numerele inițiale de secvență și confirmă că ambele capete sunt active.",
+            "Transformarea semnalului pentru a putea fi transmis printr-un mediu.",
+            "Componenta care primeste semnalul luminos si il transforma inapoi in informatie."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 114,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „LED”?",
+        "points": 1,
+        "options": [
+            "Procesul prin care un switch transmite cadrele catre portul potrivit.",
+            "Sursa de lumina folosita in unele sisteme optice.",
+            "Stratul care inconjoara miezul fibrei.",
+            "Stratul care se ocupa de transmiterea bitilor prin mediul fizic."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 115,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Laser”?",
+        "points": 1,
+        "options": [
+            "Masca folosita pentru a identifica partea de retea/subretea si partea de host.",
+            "Sursa de lumina folosita pentru transmisii optice.",
+            "Rețea locală, metropolitană, respectiv larg răspândită geografic; clasificarea reflectă aria și tehnologiile folosite.",
+            "Specificatie care defineste caracteristici de functionare ale modemului."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 116,
+        "type": "single",
+        "question": "Cum este definit conceptul „Repetor” în sinteză?",
+        "points": 1,
+        "options": [
+            "Dispozitiv de strat 1 care regenereaza si retransmite semnalul pentru a extinde distanta de transmisie.",
+            "Model de referinta cu sapte straturi, utilizat pentru a descrie comunicarea intre sisteme deschise.",
+            "Interfață software identificată prin adresă IP, protocol și port, folosită de aplicații pentru comunicație.",
+            "Unitatea centrala de procesare; reprezinta „creierul” calculatorului si locul in care au loc majoritatea calculelor."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 117,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Hub”?",
+        "points": 1,
+        "options": [
+            "Legatura care transporta trafic pentru mai multe VLAN-uri.",
+            "Dispozitiv de strat 1 care conecteaza mai multe dispozitive intr-o retea si transmite semnalele catre porturi.",
+            "Fibra care permite propagarea mai multor moduri ale luminii.",
+            "Aplicatie care foloseste comunicarea prin retea pentru schimb de informatii sau acces la resurse."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 118,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Bridge”?",
+        "points": 1,
+        "options": [
+            "Acces cu evitarea coliziunilor, folosit când o stație nu poate detecta sigur coliziunea în timp ce transmite.",
+            "Dispozitiv de strat 2 care foloseste adrese MAC pentru a decide transmiterea cadrelor intre segmente.",
+            "Partea centrala a fibrei prin care se propaga lumina.",
+            "Procesul prin care pachetele sunt directionate de la sursa catre destinatie prin retele."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 119,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Switch”?",
+        "points": 1,
+        "options": [
+            "Sistem cu o cheie publicabilă și o cheie privată; operația realizată cu una se verifică/inversează cu cealaltă în schema corespunzătoare.",
+            "Dispozitiv de comutare folosit in LAN pentru transmiterea mai eficienta a traficului, pe baza informatiilor de strat 2.",
+            "Unitate DNS cu nume, timp de viață, clasă, tip și valoare.",
+            "Protocol de transport orientat spre conexiune, asociat comunicarii fiabile."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 120,
+        "type": "single",
+        "question": "Cum este definit conceptul „Ruter” în sinteză?",
+        "points": 1,
+        "options": [
+            "Cod detector bazat pe împărțirea polinomială modulo 2; restul calculat este transmis ca sumă de control.",
+            "Tehnologie/standard pentru transport optic sincron.",
+            "Retea privata virtuala; permite comunicatii private prin infrastructuri de retea care pot fi publice.",
+            "Dispozitiv de strat 3 care conecteaza retele si ia decizii de transmitere pe baza adreselor de retea."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 121,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Miez”?",
+        "points": 1,
+        "options": [
+            "Transportul confirmării într-un cadru de date trimis în sens invers, în locul unui cadru separat.",
+            "Partea centrala a fibrei prin care se propaga lumina.",
+            "Zona in care se propaga mesajele de broadcast.",
+            "Cablu torsadat neecranat."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 122,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Invelis / cladding”?",
+        "points": 1,
+        "options": [
+            "Mediu de transmisie cu conductor central, izolatie si ecranare.",
+            "Stratul care inconjoara miezul fibrei.",
+            "Mesajul înainte, respectiv după transformarea criptografică.",
+            "Setul numerelor de secvență pe care emițătorul le poate avea neconfirmate și pe care receptorul este dispus să le accepte."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 123,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Fibra multimod”?",
+        "points": 1,
+        "options": [
+            "Fibra care permite propagarea mai multor moduri ale luminii.",
+            "Metoda folosita in Ethernet pentru acces la mediu si detectarea coliziunilor.",
+            "Unitate asociata ratei de semnalizare.",
+            "Procesul prin care un client wireless se conecteaza la un punct de acces."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 124,
+        "type": "single",
+        "question": "Cum este definit conceptul „Fibra monomod” în sinteză?",
+        "points": 1,
+        "options": [
+            "Valoare scurtă, de lungime fixă, calculată din mesaj astfel încât modificările să fie detectabile.",
+            "Dispozitiv/legatura care conecteaza segmente de retea prin wireless.",
+            "Servicii diferite, precum voce, date si video, oferite in acelasi mediu de retea.",
+            "Fibra care permite propagarea unui singur mod principal al luminii."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 125,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Dispersie”?",
+        "points": 1,
+        "options": [
+            "Granița dintre două niveluri adiacente, definită prin operațiile și parametrii disponibili.",
+            "DSL simetric, cu rate apropiate sau egale in ambele directii.",
+            "Structură semnată de o autoritate care leagă o identitate de o cheie publică.",
+            "Raspandirea semnalului in timp, care poate afecta transmisia."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 126,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Transmisie optica”?",
+        "points": 1,
+        "options": [
+            "Componenta care transforma informatia in semnal luminos.",
+            "Stratul TCP/IP responsabil de adresare si livrarea pachetelor intre retele.",
+            "Transmiterea datelor sub forma de semnale luminoase.",
+            "Capacitatea rețelei de a oferi proprietăți controlate pentru bandă, întârziere, variația întârzierii și pierderi."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 127,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „TDM”?",
+        "points": 1,
+        "options": [
+            "Multiplexare prin divizare in timp.",
+            "Dispozitiv de strat 3 care conecteaza retele si ia decizii de transmitere pe baza adreselor de retea.",
+            "Componenta care transforma informatia in semnal luminos.",
+            "Dovadă criptografică legată de mesaj și de cheia semnatarului, folosită pentru autenticitate, integritate și nerepudiere."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 128,
+        "type": "single",
+        "question": "Cum este definit conceptul „WDM” în sinteză?",
+        "points": 1,
+        "options": [
+            "Tip de protocol de rutare care ia decizii pe baza distantei si directiei catre destinatie.",
+            "Mod de comunicare in care transmisia si receptia pot avea loc simultan.",
+            "Structură semnată de o autoritate care leagă o identitate de o cheie publică.",
+            "Multiplexare prin divizare in lungime de unda."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 129,
+        "type": "single",
+        "question": "Ce descrie corect termenul „DWDM”?",
+        "points": 1,
+        "options": [
+            "Metoda prin care receptorul recunoaște începutul și sfârșitul fiecărui cadru în fluxul de biți.",
+            "Retea de stocare, folosita pentru conectarea resurselor de stocare.",
+            "Legatura principala care transporta traficul intre segmente sau zone ale retelei.",
+            "Multiplexare densa prin divizare in lungime de unda; permite transportul mai multor lungimi de unda prin fibra."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 130,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „SDH”?",
+        "points": 1,
+        "options": [
+            "Protocol care asigura adresarea si transmiterea pachetelor la nivelul Internet.",
+            "Protocol de autentificare prin parola.",
+            "Multiplexare prin divizare in timp.",
+            "Standard international similar/asociat cu SONET pentru transport sincron."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 131,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Topologie fizica”?",
+        "points": 1,
+        "options": [
+            "Protocol cerere-răspuns folosit pentru transferul resurselor Web.",
+            "Tabela folosita de ruter pentru a decide unde trimite pachetele.",
+            "Aranjamentul fizic al dispozitivelor si cablurilor dintr-o retea.",
+            "Transformarea semnalului receptionat inapoi in date."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 132,
+        "type": "single",
+        "question": "Cum este definit conceptul „Topologie logica” în sinteză?",
+        "points": 1,
+        "options": [
+            "Modul in care circula datele prin retea, indiferent de forma fizica a cablurilor.",
+            "Topologie in care dispozitivele sunt conectate la un punct central.",
+            "Echipament de comunicatie de date; dispozitiv care furnizeaza servicii catre DTE si asigura conexiunea la retea.",
+            "Cisco Architecture for Voice, Video and Integrated Data; arhitectura Cisco pentru voce, video si date integrate."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 133,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Topologie magistrala”?",
+        "points": 1,
+        "options": [
+            "Procesul de calcul al traseelor și de alegere a liniei de ieșire pentru un pachet.",
+            "Topologie in care dispozitivele sunt conectate la un mediu comun de transmisie.",
+            "Transmiterea datelor sub forma de semnale luminoase.",
+            "Tehnologie wireless care raspandeste semnalul pe o banda mai larga."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 134,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Topologie stea”?",
+        "points": 1,
+        "options": [
+            "Topologie logică fără bucle selectată peste o rețea de punți redundantă.",
+            "Transmiterea datelor sub forma de semnale luminoase.",
+            "Adăugarea succesivă de antete și, uneori, remorci pe măsură ce datele coboară prin niveluri.",
+            "Topologie in care dispozitivele sunt conectate la un punct central."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 135,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Topologie stea extinsa”?",
+        "points": 1,
+        "options": [
+            "Serviciu furnizat pentru conectarea locatiilor prin retele extinse.",
+            "Domeniu de frecvente care poate fi folosit fara licenta individuala, conform regulilor.",
+            "Topologie formata prin conectarea mai multor stele intre ele.",
+            "Procesul de impartire a unei retele in subretele."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 136,
+        "type": "single",
+        "question": "Cum este definit conceptul „Ethernet” în sinteză?",
+        "points": 1,
+        "options": [
+            "Stratul care inconjoara miezul fibrei.",
+            "Specificatie LAN care transmite date printr-o varietate de medii si este asociata standardului IEEE 802.3.",
+            "Echipament terminal de date; dispozitiv aflat la capatul utilizator al unei interfete utilizator-retea.",
+            "Standard asociat retelelor Ethernet."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 137,
+        "type": "single",
+        "question": "Ce descrie corect termenul „IEEE 802.3”?",
+        "points": 1,
+        "options": [
+            "Tehnologie Digital Subscriber Line folosita pentru acces de date prin linia de abonat.",
+            "Standard asociat retelelor Ethernet.",
+            "Acces cu evitarea coliziunilor, folosit când o stație nu poate detecta sigur coliziunea în timp ce transmite.",
+            "Dispozitiv de strat 1 care conecteaza mai multe dispozitive intr-o retea si transmite semnalele catre porturi."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 138,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „CSMA/CD”?",
+        "points": 1,
+        "options": [
+            "Procesul de calcul al traseelor și de alegere a liniei de ieșire pentru un pachet.",
+            "Adresa care identifica o retea sau subretea si nu se atribuie unui host obisnuit.",
+            "Metoda folosita in Ethernet pentru acces la mediu si detectarea coliziunilor.",
+            "LAN virtual; grupare logica a dispozitivelor intr-o retea, indiferent de localizarea fizica."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 139,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Coliziune”?",
+        "points": 1,
+        "options": [
+            "Situatie in care doua transmisii interfereaza pe acelasi mediu partajat.",
+            "Cantitatea maximă de date TCP într-un segment, negociată în raport cu capacitatea capetelor și MTU.",
+            "Traducerea adreselor și, de regulă, a porturilor între o rețea privată și Internet.",
+            "Metoda folosita in Ethernet pentru acces la mediu si detectarea coliziunilor."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 140,
+        "type": "single",
+        "question": "Cum este definit conceptul „Domeniu de coliziune” în sinteză?",
+        "points": 1,
+        "options": [
+            "Fibra care permite propagarea unui singur mod principal al luminii.",
+            "Zona a retelei in care pot aparea coliziuni intre dispozitivele care transmit.",
+            "Adresare și rutare fără clase, bazate pe prefixe de lungime variabilă și agregare.",
+            "Protocol folosit de rutere pentru schimbul de informatii de rutare."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 141,
+        "type": "single",
+        "question": "Ce descrie corect termenul „WAN”?",
+        "points": 1,
+        "options": [
+            "DSL simetric, cu rate apropiate sau egale in ambele directii.",
+            "Serviciu furnizat pentru conectarea locatiilor prin retele extinse.",
+            "Retea extinsa care conecteaza locatii aflate la distanta.",
+            "Biti luati din partea de host pentru a crea subretele."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 142,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Furnizor de servicii”?",
+        "points": 1,
+        "options": [
+            "Standard asociat retelelor Ethernet.",
+            "Organizatie care ofera servicii de comunicatii WAN.",
+            "Echipament de nivel legătură care învață adrese și retransmite cadre selectiv între segmente.",
+            "Legatura care transporta trafic pentru mai multe VLAN-uri."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 143,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „DTE”?",
+        "points": 1,
+        "options": [
+            "Organizatie care ofera servicii de comunicatii WAN.",
+            "Echipament terminal de date; dispozitiv aflat la capatul utilizator al unei interfete utilizator-retea.",
+            "Familie de protocoale în care stația ascultă canalul înainte de transmisie.",
+            "Protocol de rutare distance-vector."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 144,
+        "type": "single",
+        "question": "Cum este definit conceptul „DCE” în sinteză?",
+        "points": 1,
+        "options": [
+            "Comutare bazata pe informatii de legatura de date, cum ar fi adresele MAC.",
+            "Echipament de comunicatie de date; dispozitiv care furnizeaza servicii catre DTE si asigura conexiunea la retea.",
+            "Servicii diferite, precum voce, date si video, oferite in acelasi mediu de retea.",
+            "Retea de continut, folosita pentru furnizarea si organizarea continutului in retea."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 145,
+        "type": "single",
+        "question": "Ce descrie corect termenul „CSU/DSU”?",
+        "points": 1,
+        "options": [
+            "Echipament folosit pentru adaptarea interfetei fizice la o linie digitala WAN si pentru coordonarea/sincronizarea semnalului.",
+            "Protocol care furnizeaza functii de control si mesaje pentru stratul retea.",
+            "Transformarea semnalului receptionat inapoi in date.",
+            "Componenta care primeste semnalul luminos si il transforma inapoi in informatie."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 146,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „MAN”?",
+        "points": 1,
+        "options": [
+            "Impartirea retelei in segmente pentru a reduce traficul si problemele de performanta.",
+            "Dispozitiv capabil sa combine functii de comutare si functii asociate straturilor superioare.",
+            "Valoare scurtă, de lungime fixă, calculată din mesaj astfel încât modificările să fie detectabile.",
+            "Retea metropolitana, folosita pentru o zona mai mare decat LAN-ul, dar mai restransa decat WAN-ul."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 147,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „SAN”?",
+        "points": 1,
+        "options": [
+            "Funcția pe care un nivel o oferă nivelului superior; descrie ce se oferă, nu cum este implementat.",
+            "Setul numerelor de secvență pe care emițătorul le poate avea neconfirmate și pe care receptorul este dispus să le accepte.",
+            "Retea de stocare, folosita pentru conectarea resurselor de stocare.",
+            "Retea privata virtuala; permite comunicatii private prin infrastructuri de retea care pot fi publice."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 148,
+        "type": "single",
+        "question": "Cum este definit conceptul „CN” în sinteză?",
+        "points": 1,
+        "options": [
+            "Echipament folosit pentru adaptarea interfetei fizice la o linie digitala WAN si pentru coordonarea/sincronizarea semnalului.",
+            "Tehnologie WAN bazata pe comutarea cadrelor.",
+            "Retea de continut, folosita pentru furnizarea si organizarea continutului in retea.",
+            "Încercarea de a obține textul sau cheia fără acces legitim, folosind informația și structura disponibile."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 149,
+        "type": "single",
+        "question": "Ce descrie corect termenul „VPN”?",
+        "points": 1,
+        "options": [
+            "Echipament terminal de date; dispozitiv aflat la capatul utilizator al unei interfete utilizator-retea.",
+            "Retea privata virtuala; permite comunicatii private prin infrastructuri de retea care pot fi publice.",
+            "Dispozitiv care permite dispozitivelor wireless sa se conecteze la retea.",
+            "Cantitatea maximă de date TCP într-un segment, negociată în raport cu capacitatea capetelor și MTU."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 150,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Intranet”?",
+        "points": 1,
+        "options": [
+            "Cale logica printr-o retea comutata.",
+            "Dispozitiv de strat 1 care regenereaza si retransmite semnalul pentru a extinde distanta de transmisie.",
+            "Sursa de lumina folosita in unele sisteme optice.",
+            "Retea interna folosita in interiorul unei organizatii."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 151,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Mediu de retea”?",
+        "points": 1,
+        "options": [
+            "Calea fizica sau fara fir prin care sunt transmise semnalele in retea.",
+            "Legatura principala care transporta traficul intre segmente sau zone ale retelei.",
+            "Comutare care foloseste informatii din mai multe straturi OSI.",
+            "Adresare și rutare fără clase, bazate pe prefixe de lungime variabilă și agregare."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 152,
+        "type": "single",
+        "question": "Cum este definit conceptul „Cablu torsadat” în sinteză?",
+        "points": 1,
+        "options": [
+            "Mediu de cupru format din perechi de fire rasucite.",
+            "Procesul prin care un switch transmite cadrele catre portul potrivit.",
+            "Informatie despre o cale catre o retea de destinatie.",
+            "Energie nedorită care se suprapune semnalului și limitează detecția corectă."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 153,
+        "type": "single",
+        "question": "Ce descrie corect termenul „UTP”?",
+        "points": 1,
+        "options": [
+            "Cablu torsadat neecranat.",
+            "Stratul care furnizeaza servicii de transport intre aplicatii.",
+            "Zona in care se propaga mesajele de broadcast.",
+            "Organizatie care ofera servicii de comunicatii WAN."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 154,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „STP”?",
+        "points": 1,
+        "options": [
+            "Cablu torsadat neecranat.",
+            "Cablu torsadat ecranat.",
+            "Transportul confirmării într-un cadru de date trimis în sens invers, în locul unui cadru separat.",
+            "Partea centrala a fibrei prin care se propaga lumina."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 155,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Cablu coaxial”?",
+        "points": 1,
+        "options": [
+            "Identificator al interfeței la nivelul legătură, transportat în antetul cadrului.",
+            "Tip de protocol de rutare care foloseste informatii despre starea legaturilor din retea.",
+            "Tip de protocol care combina proprietati ale protocoalelor distance-vector si link-state.",
+            "Mediu de transmisie cu conductor central, izolatie si ecranare."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 156,
+        "type": "single",
+        "question": "Cum este definit conceptul „Cablare LAN” în sinteză?",
+        "points": 1,
+        "options": [
+            "Extensie a formatului de poștă pentru tipuri de conținut, atașamente și codări non-ASCII.",
+            "Informatie despre o cale catre o retea de destinatie.",
+            "Ansamblul cablurilor, conectorilor si echipamentelor prin care sunt conectate dispozitivele intr-un LAN.",
+            "Agent care transferă mesajele între sisteme, în principal prin SMTP."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 157,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Retea de campus”?",
+        "points": 1,
+        "options": [
+            "Adăugarea succesivă de antete și, uneori, remorci pe măsură ce datele coboară prin niveluri.",
+            "Zona a retelei in care pot aparea coliziuni intre dispozitivele care transmit.",
+            "Retea care interconecteaza mai multe zone sau cladiri ale aceleiasi organizatii.",
+            "Masca folosita pentru a identifica partea de retea/subretea si partea de host."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 158,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Backbone”?",
+        "points": 1,
+        "options": [
+            "Stare in care traficul prea mare afecteaza performanta retelei.",
+            "LAN in care mai multe dispozitive impart acelasi mediu sau aceeasi latime de banda.",
+            "Legatura principala care transporta traficul intre segmente sau zone ale retelei.",
+            "Protocol de transport mai simplu, fara aceleasi mecanisme de fiabilitate ca TCP."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 159,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Cablare orizontala”?",
+        "points": 1,
+        "options": [
+            "Componenta care primeste semnalul luminos si il transforma inapoi in informatie.",
+            "Separarea retelei in grupuri logice, nu neaparat fizice.",
+            "Cablare care face legatura intre zona de lucru si punctul de distributie.",
+            "Dispozitiv de strat 3 care conecteaza retele si ia decizii de transmitere pe baza adreselor de retea."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 160,
+        "type": "single",
+        "question": "Cum este definit conceptul „MDF” în sinteză?",
+        "points": 1,
+        "options": [
+            "Situatie in care doua transmisii interfereaza pe acelasi mediu partajat.",
+            "Rutare care se ajusteaza automat la topologia retelei sau la schimbari de trafic.",
+            "Multiplexare densa prin divizare in lungime de unda; permite transportul mai multor lungimi de unda prin fibra.",
+            "Cadru principal de distributie, punct central al cablarii."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 161,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Rețea de calculatoare”?",
+        "points": 1,
+        "options": [
+            "Cablu torsadat ecranat.",
+            "Cablarea folosita pentru conectarea la servicii si tehnologii WAN.",
+            "Colecție de calculatoare autonome interconectate, capabile să schimbe informații printr-o tehnologie de comunicație.",
+            "Retea care foloseste tehnologii optice pentru transportul datelor."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 162,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Sistem distribuit”?",
+        "points": 1,
+        "options": [
+            "Sistem construit peste o rețea, prezentat utilizatorului ca un ansamblu unic și coerent; transparența este oferită în principal de software.",
+            "Mod de comunicare in care transmisia si receptia nu au loc simultan.",
+            "Biti luati din partea de host pentru a crea subretele.",
+            "Unitate de memorie read-only care poate citi informatiile de pe un CD-ROM."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 163,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Serviciu”?",
+        "points": 1,
+        "options": [
+            "Retea de continut, folosita pentru furnizarea si organizarea continutului in retea.",
+            "Cantitatea maximă de date TCP într-un segment, negociată în raport cu capacitatea capetelor și MTU.",
+            "Funcția pe care un nivel o oferă nivelului superior; descrie ce se oferă, nu cum este implementat.",
+            "Cablarea folosita pentru conectarea la servicii si tehnologii WAN."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 164,
+        "type": "single",
+        "question": "Cum este definit conceptul „Interfață” în sinteză?",
+        "points": 1,
+        "options": [
+            "Tip de protocol de rutare care ia decizii pe baza distantei si directiei catre destinatie.",
+            "Protocol care asigura adresarea si transmiterea pachetelor la nivelul Internet.",
+            "Retea interna folosita in interiorul unei organizatii.",
+            "Granița dintre două niveluri adiacente, definită prin operațiile și parametrii disponibili."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 165,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Arhitectură de rețea”?",
+        "points": 1,
+        "options": [
+            "Mod de comunicare in care transmisia si receptia nu au loc simultan.",
+            "Specificatie care defineste caracteristici de functionare ale modemului.",
+            "Partea centrala a fibrei prin care se propaga lumina.",
+            "Ansamblul nivelurilor și protocoalelor; detaliile interfețelor și implementării nu fac parte neapărat din arhitectură."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 166,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Stivă de protocoale”?",
+        "points": 1,
+        "options": [
+            "Metoda prin care receptorul recunoaște începutul și sfârșitul fiecărui cadru în fluxul de biți.",
+            "Lista protocoalelor utilizate de un sistem, câte unul sau mai multe pentru fiecare nivel.",
+            "Comutare bazata pe informatii de legatura de date, cum ar fi adresele MAC.",
+            "Protocol de transport orientat spre conexiune, asociat comunicarii fiabile."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 167,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Încapsulare”?",
+        "points": 1,
+        "options": [
+            "Domeniu de frecvente folosit cu licenta.",
+            "Adăugarea succesivă de antete și, uneori, remorci pe măsură ce datele coboară prin niveluri.",
+            "Energie nedorită care se suprapune semnalului și limitează detecția corectă.",
+            "Tip de protocol care combina proprietati ale protocoalelor distance-vector si link-state."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 168,
+        "type": "single",
+        "question": "Cum este definit conceptul „LAN / MAN / WAN” în sinteză?",
+        "points": 1,
+        "options": [
+            "Protocol punct-la-punct folosit pentru conexiuni seriale.",
+            "Rețea locală, metropolitană, respectiv larg răspândită geografic; clasificarea reflectă aria și tehnologiile folosite.",
+            "Stratul care se ocupa de transmiterea bitilor prin mediul fizic.",
+            "Acces la retea realizat prin stabilirea unei conexiuni la cerere."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 169,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Lățime de bandă”?",
+        "points": 1,
+        "options": [
+            "Situatie in care doua transmisii interfereaza pe acelasi mediu partajat.",
+            "Dispozitiv de comutare folosit in LAN pentru transmiterea mai eficienta a traficului, pe baza informatiilor de strat 2.",
+            "Numărul de biți transmiși pe secundă; nu este identică în mod necesar cu rata de simboluri.",
+            "Intervalul de frecvențe transmis de canal; în uzul rețelelor, termenul este folosit și pentru rata de transfer disponibilă."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 170,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Rată de biți”?",
+        "points": 1,
+        "options": [
+            "Topologie in care dispozitivele sunt conectate la un mediu comun de transmisie.",
+            "DSL simetric, cu rate apropiate sau egale in ambele directii.",
+            "Cadru principal de distributie, punct central al cablarii.",
+            "Numărul de biți transmiși pe secundă; nu este identică în mod necesar cu rata de simboluri."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 171,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Zgomot”?",
+        "points": 1,
+        "options": [
+            "Cablu folosit pentru conectarea echipamentelor WAN prin interfete seriale.",
+            "Schimb de mesaje care sincronizează numerele inițiale de secvență și confirmă că ambele capete sunt active.",
+            "Energie nedorită care se suprapune semnalului și limitează detecția corectă.",
+            "Forma obisnuita de scriere a unei adrese IP, cu patru numere zecimale separate prin puncte."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 172,
+        "type": "single",
+        "question": "Cum este definit conceptul „Cadru” în sinteză?",
+        "points": 1,
+        "options": [
+            "Componenta care primeste semnalul luminos si il transforma inapoi in informatie.",
+            "Familie de protocoale în care stația ascultă canalul înainte de transmisie.",
+            "Tip de protocol care combina proprietati ale protocoalelor distance-vector si link-state.",
+            "Unitatea de date a nivelului legătură, delimitată și însoțită de informații de control."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 173,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Încadrare”?",
+        "points": 1,
+        "options": [
+            "Metoda prin care receptorul recunoaște începutul și sfârșitul fiecărui cadru în fluxul de biți.",
+            "Sistem construit peste o rețea, prezentat utilizatorului ca un ansamblu unic și coerent; transparența este oferită în principal de software.",
+            "Protocol cerere-răspuns folosit pentru transferul resurselor Web.",
+            "Ansamblul cablurilor, conectorilor si echipamentelor prin care sunt conectate dispozitivele intr-un LAN."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 174,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Distanță Hamming”?",
+        "points": 1,
+        "options": [
+            "Organizatie care ofera servicii de comunicatii WAN.",
+            "Servicii diferite, precum voce, date si video, oferite in acelasi mediu de retea.",
+            "Tehnologie/standard pentru transport optic sincron.",
+            "Numărul pozițiilor de bit în care două cuvinte de cod diferă; determină câte erori pot fi detectate sau corectate."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 175,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „CRC”?",
+        "points": 1,
+        "options": [
+            "Dispozitiv capabil sa combine functii de comutare si functii asociate straturilor superioare.",
+            "LAN virtual; grupare logica a dispozitivelor intr-o retea, indiferent de localizarea fizica.",
+            "Cod detector bazat pe împărțirea polinomială modulo 2; restul calculat este transmis ca sumă de control.",
+            "Dispozitiv de comutare folosit in LAN pentru transmiterea mai eficienta a traficului, pe baza informatiilor de strat 2."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 176,
+        "type": "single",
+        "question": "Cum este definit conceptul „ARQ” în sinteză?",
+        "points": 1,
+        "options": [
+            "Aranjamentul fizic al dispozitivelor si cablurilor dintr-o retea.",
+            "Rutare care se ajusteaza automat la topologia retelei sau la schimbari de trafic.",
+            "Identificator al interfeței la nivelul legătură, transportat în antetul cadrului.",
+            "Corectarea prin retransmisie automată după lipsa confirmării sau recepția unei erori."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 177,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Fereastră glisantă”?",
+        "points": 1,
+        "options": [
+            "Organizatie care ofera servicii de comunicatii WAN.",
+            "Model folosit pentru organizarea si descrierea functiilor de comunicare in retea.",
+            "Setul numerelor de secvență pe care emițătorul le poate avea neconfirmate și pe care receptorul este dispus să le accepte.",
+            "Dispozitiv de strat 1 care conecteaza mai multe dispozitive intr-o retea si transmite semnalele catre porturi."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 178,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Piggybacking”?",
+        "points": 1,
+        "options": [
+            "Unitatea de date a protocolului de transport; în TCP este numită segment.",
+            "Transportul confirmării într-un cadru de date trimis în sens invers, în locul unui cadru separat.",
+            "Cablu torsadat ecranat.",
+            "Aranjamentul fizic al dispozitivelor si cablurilor dintr-o retea."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 179,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Canal cu acces multiplu”?",
+        "points": 1,
+        "options": [
+            "Timpul dus-întors dintre trimiterea unui segment și primirea confirmării; baza calculului retransmisiei TCP.",
+            "Extensie a formatului de poștă pentru tipuri de conținut, atașamente și codări non-ASCII.",
+            "Mediu comun pe care mai multe stații încearcă să transmită, necesitând reguli de arbitrare.",
+            "Dispozitiv care permite dispozitivelor wireless sa se conecteze la retea."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 180,
+        "type": "single",
+        "question": "Cum este definit conceptul „CSMA” în sinteză?",
+        "points": 1,
+        "options": [
+            "Valoare scurtă, de lungime fixă, calculată din mesaj astfel încât modificările să fie detectabile.",
+            "Retea in care serviciile de voce, date si video sunt integrate intr-o infrastructura comuna.",
+            "Familie de protocoale în care stația ascultă canalul înainte de transmisie.",
+            "Tip de protocol de rutare care foloseste informatii despre starea legaturilor din retea."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 181,
+        "type": "single",
+        "question": "Ce descrie corect termenul „CSMA/CA”?",
+        "points": 1,
+        "options": [
+            "Strat care include aplicatii si servicii de retea.",
+            "Metoda folosita in Ethernet pentru acces la mediu si detectarea coliziunilor.",
+            "Sursa de lumina folosita pentru transmisii optice.",
+            "Acces cu evitarea coliziunilor, folosit când o stație nu poate detecta sigur coliziunea în timp ce transmite."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 182,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Adresă MAC”?",
+        "points": 1,
+        "options": [
+            "Organizatie care ofera servicii de comunicatii WAN.",
+            "Zona a retelei in care pot aparea coliziuni intre dispozitivele care transmit.",
+            "Cantitatea maximă de date TCP într-un segment, negociată în raport cu capacitatea capetelor și MTU.",
+            "Identificator al interfeței la nivelul legătură, transportat în antetul cadrului."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 183,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Punte / comutator”?",
+        "points": 1,
+        "options": [
+            "Aplicatie care foloseste comunicarea prin retea pentru schimb de informatii sau acces la resurse.",
+            "Mediu comun pe care mai multe stații încearcă să transmită, necesitând reguli de arbitrare.",
+            "Protocol care pune in corespondenta o adresa IP cu o adresa MAC.",
+            "Echipament de nivel legătură care învață adrese și retransmite cadre selectiv între segmente."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 184,
+        "type": "single",
+        "question": "Cum este definit conceptul „Arbore de acoperire” în sinteză?",
+        "points": 1,
+        "options": [
+            "Interfata folosita frecvent pentru conexiuni WAN.",
+            "Tehnologie digitala de acces prin retea telefonica.",
+            "Traducerea adreselor și, de regulă, a porturilor între o rețea privată și Internet.",
+            "Topologie logică fără bucle selectată peste o rețea de punți redundantă."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 185,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Datagramă”?",
+        "points": 1,
+        "options": [
+            "Extensie a formatului de poștă pentru tipuri de conținut, atașamente și codări non-ASCII.",
+            "Directia de transmisie de la furnizor catre utilizator.",
+            "Pachet dirijat independent, fără o cale stabilită în avans și fără stare obligatorie per conexiune în rutere.",
+            "Numărul de biți transmiși pe secundă; nu este identică în mod necesar cu rata de simboluri."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 186,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Dirijare”?",
+        "points": 1,
+        "options": [
+            "Procesul de calcul al traseelor și de alegere a liniei de ieșire pentru un pachet.",
+            "Multiplexare densa prin divizare in lungime de unda; permite transportul mai multor lungimi de unda prin fibra.",
+            "Legatura care transporta trafic pentru mai multe VLAN-uri.",
+            "Mediu de cupru format din perechi de fire rasucite."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 187,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Expediere”?",
+        "points": 1,
+        "options": [
+            "Topologie formata prin conectarea mai multor stele intre ele.",
+            "Aplicarea locală a tabelei de dirijare la fiecare pachet; este distinctă de calcularea rutelor.",
+            "Dispozitiv de strat 1 care conecteaza mai multe dispozitive intr-o retea si transmite semnalele catre porturi.",
+            "Comutare care foloseste informatii din mai multe straturi OSI."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 188,
+        "type": "single",
+        "question": "Cum este definit conceptul „Congestie” în sinteză?",
+        "points": 1,
+        "options": [
+            "Stare în care traficul solicitat depășește resursele, crescând cozile și pierderile și reducând debitul util.",
+            "Strat care asigura comunicatia intre aplicatii prin servicii de transport.",
+            "Rețea locală, metropolitană, respectiv larg răspândită geografic; clasificarea reflectă aria și tehnologiile folosite.",
+            "Tehnologie wireless care raspandeste semnalul pe o banda mai larga."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 189,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Calitatea serviciului”?",
+        "points": 1,
+        "options": [
+            "Cadru principal de distributie, punct central al cablarii.",
+            "Transformarea semnalului pentru a putea fi transmis printr-un mediu.",
+            "Transportul confirmării într-un cadru de date trimis în sens invers, în locul unui cadru separat.",
+            "Capacitatea rețelei de a oferi proprietăți controlate pentru bandă, întârziere, variația întârzierii și pierderi."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 190,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Fragmentare”?",
+        "points": 1,
+        "options": [
+            "Protocol de autentificare prin provocare si raspuns.",
+            "Standard asociat retelelor Ethernet.",
+            "Metoda prin care receptorul recunoaște începutul și sfârșitul fiecărui cadru în fluxul de biți.",
+            "Împărțirea unui pachet în fragmente care încap în MTU-ul unei rețele traversate."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 191,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „CIDR”?",
+        "points": 1,
+        "options": [
+            "Cablare care face legatura intre zona de lucru si punctul de distributie.",
+            "Locul in care se introduce o placa de expansiune pentru a adauga noi capacitati calculatorului.",
+            "Adresare și rutare fără clase, bazate pe prefixe de lungime variabilă și agregare.",
+            "Situatie in care doua transmisii interfereaza pe acelasi mediu partajat."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 192,
+        "type": "single",
+        "question": "Cum este definit conceptul „NAT” în sinteză?",
+        "points": 1,
+        "options": [
+            "Unitatea de date a protocolului de transport; în TCP este numită segment.",
+            "Mod de comunicare in care transmisia si receptia nu au loc simultan.",
+            "Biti luati din partea de host pentru a crea subretele.",
+            "Traducerea adreselor și, de regulă, a porturilor între o rețea privată și Internet."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 193,
+        "type": "single",
+        "question": "Ce descrie corect termenul „TPDU / segment”?",
+        "points": 1,
+        "options": [
+            "Protocol de transport mai simplu, fara aceleasi mecanisme de fiabilitate ca TCP.",
+            "Unitatea de date a protocolului de transport; în TCP este numită segment.",
+            "Sursa de lumina folosita in unele sisteme optice.",
+            "Transportul confirmării într-un cadru de date trimis în sens invers, în locul unui cadru separat."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 194,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Punct terminal de transport”?",
+        "points": 1,
+        "options": [
+            "Protocol de autentificare prin parola.",
+            "Adresă la care un proces oferă sau folosește un serviciu de transport; în Internet este asociată unui port.",
+            "Identificator care indică schema, gazda, portul opțional și resursa accesată.",
+            "Conector asociat unor interfete seriale Cisco."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 195,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Soclu”?",
+        "points": 1,
+        "options": [
+            "Ansamblu de protocoale organizate pe straturi.",
+            "Retea care foloseste tehnologii optice pentru transportul datelor.",
+            "Model folosit pentru organizarea si descrierea functiilor de comunicare in retea.",
+            "Interfață software identificată prin adresă IP, protocol și port, folosită de aplicații pentru comunicație."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 196,
+        "type": "single",
+        "question": "Cum este definit conceptul „Înțelegere în trei pași” în sinteză?",
+        "points": 1,
+        "options": [
+            "Folosirea porturilor pentru a permite mai multor aplicatii sa comunice simultan.",
+            "Numar folosit pentru identificarea aplicatiilor sau serviciilor de retea.",
+            "Procesul prin care un switch transmite cadrele catre portul potrivit.",
+            "Schimb de mesaje care sincronizează numerele inițiale de secvență și confirmă că ambele capete sunt active."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 197,
+        "type": "single",
+        "question": "Ce descrie corect termenul „MSS”?",
+        "points": 1,
+        "options": [
+            "Multiplexare prin divizare in lungime de unda.",
+            "Set de reguli care permite dispozitivelor sa comunice.",
+            "Cantitatea maximă de date TCP într-un segment, negociată în raport cu capacitatea capetelor și MTU.",
+            "Retea interna folosita in interiorul unei organizatii."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 198,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Fereastră de congestie”?",
+        "points": 1,
+        "options": [
+            "Limită impusă de emițător volumului de date neconfirmate, pe baza stării estimate a rețelei.",
+            "Energie nedorită care se suprapune semnalului și limitează detecția corectă.",
+            "Procesul prin care pachetele sunt directionate de la sursa catre destinatie prin retele.",
+            "Dispozitiv de strat 2 care foloseste adrese MAC pentru a decide transmiterea cadrelor intre segmente."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 199,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „RTT”?",
+        "points": 1,
+        "options": [
+            "Timpul dus-întors dintre trimiterea unui segment și primirea confirmării; baza calculului retransmisiei TCP.",
+            "Stratul care furnizeaza servicii de transport intre aplicatii.",
+            "Zona a retelei in care pot aparea coliziuni intre dispozitivele care transmit.",
+            "Numărul pozițiilor de bit în care două cuvinte de cod diferă; determină câte erori pot fi detectate sau corectate."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 200,
+        "type": "single",
+        "question": "Cum este definit conceptul „DNS” în sinteză?",
+        "points": 1,
+        "options": [
+            "Calea fizica sau fara fir prin care sunt transmise semnalele in retea.",
+            "Cale logica printr-o retea comutata.",
+            "Granița dintre două niveluri adiacente, definită prin operațiile și parametrii disponibili.",
+            "Bază de date ierarhică și distribuită care asociază nume de domenii cu adrese și alte informații."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 201,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Înregistrare de resursă”?",
+        "points": 1,
+        "options": [
+            "Adresa logica folosita pentru identificarea unui dispozitiv si a retelei la care acesta este atasat.",
+            "Dispozitiv de strat 1 care conecteaza mai multe dispozitive intr-o retea si transmite semnalele catre porturi.",
+            "Tehnologie WAN bazata pe comutarea cadrelor.",
+            "Unitate DNS cu nume, timp de viață, clasă, tip și valoare."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 202,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „MUA / agent utilizator”?",
+        "points": 1,
+        "options": [
+            "Un sistem format din calculatoare si dispozitive care comunica intre ele si pot partaja informatii sau resurse.",
+            "Sistem de terminare pentru modemuri de cablu la furnizor.",
+            "Programul prin care utilizatorul compune, citește și gestionează mesajele electronice.",
+            "Retea de stocare, folosita pentru conectarea resurselor de stocare."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 203,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „MTA”?",
+        "points": 1,
+        "options": [
+            "Colectie de fire prin care datele sunt transmise dintr-o parte a calculatorului in alta; conecteaza componentele interne ale calculatorului la procesor.",
+            "Familie de protocoale în care stația ascultă canalul înainte de transmisie.",
+            "Serviciu furnizat pentru conectarea locatiilor prin retele extinse.",
+            "Agent care transferă mesajele între sisteme, în principal prin SMTP."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 204,
+        "type": "single",
+        "question": "Cum este definit conceptul „MIME” în sinteză?",
+        "points": 1,
+        "options": [
+            "Extensie a formatului de poștă pentru tipuri de conținut, atașamente și codări non-ASCII.",
+            "Corectarea prin retransmisie automată după lipsa confirmării sau recepția unei erori.",
+            "Bază de date ierarhică și distribuită care asociază nume de domenii cu adrese și alte informații.",
+            "Echipament folosit pentru adaptarea interfetei fizice la o linie digitala WAN si pentru coordonarea/sincronizarea semnalului."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 205,
+        "type": "single",
+        "question": "Ce descrie corect termenul „URL”?",
+        "points": 1,
+        "options": [
+            "Tip de protocol care combina proprietati ale protocoalelor distance-vector si link-state.",
+            "Identificator care indică schema, gazda, portul opțional și resursa accesată.",
+            "Protocol cerere-răspuns folosit pentru transferul resurselor Web.",
+            "Timpul dus-întors dintre trimiterea unui segment și primirea confirmării; baza calculului retransmisiei TCP."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 206,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „HTTP”?",
+        "points": 1,
+        "options": [
+            "Funcția pe care un nivel o oferă nivelului superior; descrie ce se oferă, nu cum este implementat.",
+            "Procesul de impartire a unei retele in subretele.",
+            "Protocol cerere-răspuns folosit pentru transferul resurselor Web.",
+            "Protocol care pune in corespondenta o adresa IP cu o adresa MAC."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 207,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Cache Web”?",
+        "points": 1,
+        "options": [
+            "Copie intermediară a unei resurse, folosită pentru a reduce întârzierea și traficul.",
+            "Lista protocoalelor utilizate de un sistem, câte unul sau mai multe pentru fiecare nivel.",
+            "Metoda de comutare in care switch-ul primeste intregul cadru inainte de a-l transmite.",
+            "Colecție de calculatoare autonome interconectate, capabile să schimbe informații printr-o tehnologie de comunicație."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 208,
+        "type": "single",
+        "question": "Cum este definit conceptul „Text clar / text cifrat” în sinteză?",
+        "points": 1,
+        "options": [
+            "Legatura dintre utilizator si furnizorul de servicii.",
+            "Mesajul înainte, respectiv după transformarea criptografică.",
+            "Placa de circuite imprimata care poate fi introdusa intr-un calculator pentru a extinde capacitatile acestuia.",
+            "Retea privata virtuala; permite comunicatii private prin infrastructuri de retea care pot fi publice."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 209,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Criptanaliză”?",
+        "points": 1,
+        "options": [
+            "Încercarea de a obține textul sau cheia fără acces legitim, folosind informația și structura disponibile.",
+            "Dispozitiv care permite dispozitivelor wireless sa se conecteze la retea.",
+            "Protocol de autentificare prin parola.",
+            "Traducerea adreselor și, de regulă, a porturilor între o rețea privată și Internet."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 210,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Cheie simetrică”?",
+        "points": 1,
+        "options": [
+            "Aceeași cheie secretă este folosită, direct sau prin transformări simple, la criptare și decriptare.",
+            "Situatie in care doua transmisii interfereaza pe acelasi mediu partajat.",
+            "Programul prin care utilizatorul compune, citește și gestionează mesajele electronice.",
+            "Legatura dintre utilizator si furnizorul de servicii."
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 211,
+        "type": "single",
+        "question": "Care definiție se potrivește pentru „Cheie publică”?",
+        "points": 1,
+        "options": [
+            "Dovadă criptografică legată de mesaj și de cheia semnatarului, folosită pentru autenticitate, integritate și nerepudiere.",
+            "Fibra care permite propagarea unui singur mod principal al luminii.",
+            "Sistem cu o cheie publicabilă și o cheie privată; operația realizată cu una se verifică/inversează cu cealaltă în schema corespunzătoare.",
+            "Copie intermediară a unei resurse, folosită pentru a reduce întârzierea și traficul."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 212,
+        "type": "single",
+        "question": "Cum este definit conceptul „Rezumat de mesaj” în sinteză?",
+        "points": 1,
+        "options": [
+            "Dispozitiv capabil sa combine functii de comutare si functii asociate straturilor superioare.",
+            "Dispozitiv de strat 3 care conecteaza retele si ia decizii de transmitere pe baza adreselor de retea.",
+            "Valoare scurtă, de lungime fixă, calculată din mesaj astfel încât modificările să fie detectabile.",
+            "Protocol cerere-răspuns folosit pentru transferul resurselor Web."
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 213,
+        "type": "single",
+        "question": "Ce descrie corect termenul „Semnătură digitală”?",
+        "points": 1,
+        "options": [
+            "Numărul pozițiilor de bit în care două cuvinte de cod diferă; determină câte erori pot fi detectate sau corectate.",
+            "Procesul de calcul al traseelor și de alegere a liniei de ieșire pentru un pachet.",
+            "Metoda prin care receptorul recunoaște începutul și sfârșitul fiecărui cadru în fluxul de biți.",
+            "Dovadă criptografică legată de mesaj și de cheia semnatarului, folosită pentru autenticitate, integritate și nerepudiere."
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 214,
+        "type": "single",
+        "question": "În rețelistică, ce înseamnă „Certificat”?",
+        "points": 1,
+        "options": [
+            "Rata de repetare a unei unde, masurata in hertzi.",
+            "Structură semnată de o autoritate care leagă o identitate de o cheie publică.",
+            "Agent care transferă mesajele între sisteme, în principal prin SMTP.",
+            "Mod de comunicare in care transmisia si receptia nu au loc simultan."
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 215,
+        "type": "single",
+        "question": "Ce se întâmplă în timpul încapsulării datelor?",
+        "points": 1,
+        "options": [
+            "Datele primesc antete și uneori remorci pe măsură ce coboară prin niveluri",
+            "Datele pierd toate informațiile de control",
+            "Se șterge adresa sursă",
+            "Se transformă automat în semnal optic"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 216,
+        "type": "single",
+        "question": "Care este ordinea corectă a nivelurilor OSI de jos în sus?",
+        "points": 1,
+        "options": [
+            "Fizic, legătură de date, rețea, transport, sesiune, prezentare, aplicație",
+            "Aplicație, fizic, transport, rețea, sesiune, prezentare, legătură",
+            "Rețea, transport, fizic, aplicație, sesiune, prezentare, legătură",
+            "Transport, rețea, aplicație, fizic, prezentare, sesiune, legătură"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 217,
+        "type": "single",
+        "question": "Ce diferențiază un protocol de un serviciu?",
+        "points": 1,
+        "options": [
+            "Protocolul descrie comunicarea între entități pereche, serviciul descrie ce oferă un nivel nivelului superior",
+            "Protocolul este întotdeauna un cablu, serviciul este întotdeauna o aplicație",
+            "Nu există diferență conceptuală",
+            "Serviciul este doar la nivel fizic"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 218,
+        "type": "multiple",
+        "question": "Ce dispozitive sunt asociate corect cu nivelurile OSI?",
+        "points": 2,
+        "options": [
+            "Repetor/hub - nivel fizic",
+            "Bridge/switch - legătură de date",
+            "Ruter - nivel rețea",
+            "DNS - nivel fizic"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 219,
+        "type": "single",
+        "question": "Ce rol are CSMA/CD în Ethernetul partajat?",
+        "points": 1,
+        "options": [
+            "Coordonează accesul la mediu și tratează coliziunile",
+            "Rezolvă nume DNS",
+            "Criptează traficul Web",
+            "Alocă adrese IP dinamic"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 220,
+        "type": "single",
+        "question": "De ce switch-ul reduce problemele mediului partajat față de hub?",
+        "points": 1,
+        "options": [
+            "Segmentează traficul și poate crea domenii de coliziune separate",
+            "Trimite fiecare bit pe toate porturile fără filtrare",
+            "Elimină adresele MAC",
+            "Funcționează numai half-duplex"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 221,
+        "type": "single",
+        "question": "Ce problemă previne Spanning Tree Protocol?",
+        "points": 1,
+        "options": [
+            "Buclele la nivelul legătură de date",
+            "Lipsa adreselor IP",
+            "Pierderea certificatelor",
+            "Eșecul compresiei video"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 222,
+        "type": "single",
+        "question": "Ce adaugă 802.1Q cadrelor Ethernet?",
+        "points": 1,
+        "options": [
+            "O etichetă VLAN",
+            "Un certificat digital",
+            "Un antet TCP complet",
+            "Un nume DNS"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 223,
+        "type": "multiple",
+        "question": "Ce afirmații despre VLAN-uri sunt corecte?",
+        "points": 2,
+        "options": [
+            "Separă logic domenii de broadcast",
+            "Pot grupa stații după funcție, nu doar după cablare",
+            "Trunk-urile pot transporta mai multe VLAN-uri",
+            "Elimină necesitatea rutării între VLAN-uri diferite"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 224,
+        "type": "single",
+        "question": "Ce face ARP într-o rețea IPv4?",
+        "points": 1,
+        "options": [
+            "Află adresa MAC asociată unei adrese IP",
+            "Află serverul MX al unui domeniu",
+            "Criptează pachetele IP",
+            "Stabilește conexiuni TCP"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 225,
+        "type": "single",
+        "question": "Ce oferă DHCP?",
+        "points": 1,
+        "options": [
+            "Configurare IP dinamică pentru gazde",
+            "Comutare de cadre după MAC",
+            "Criptare end-to-end",
+            "Compresie audio"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 226,
+        "type": "single",
+        "question": "Ce rol are masca de subrețea?",
+        "points": 1,
+        "options": [
+            "Separă partea de rețea de partea de host",
+            "Înlocuiește adresa MAC",
+            "Alege automat protocolul de transport",
+            "Definește cheia publică"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 227,
+        "type": "multiple",
+        "question": "Ce trebuie calculat când se lucrează cu subrețele IPv4?",
+        "points": 2,
+        "options": [
+            "Adresa de rețea",
+            "Adresa de broadcast",
+            "Intervalul de hosturi valide",
+            "Câmpul Subject al e-mailului"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 228,
+        "type": "single",
+        "question": "Ce diferențiază rutarea statică de cea dinamică?",
+        "points": 1,
+        "options": [
+            "Rutarea statică se configurează manual, cea dinamică se adaptează prin protocoale",
+            "Rutarea statică folosește numai UDP",
+            "Rutarea dinamică nu folosește tabele",
+            "Nu există diferență"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 229,
+        "type": "multiple",
+        "question": "Ce categorii de protocoale de rutare apar în sinteza CCNA?",
+        "points": 2,
+        "options": [
+            "Distance-vector",
+            "Link-state",
+            "Hibrid",
+            "MIME"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 230,
+        "type": "single",
+        "question": "Ce indică convergența într-o rețea rutată?",
+        "points": 1,
+        "options": [
+            "Stabilizarea rutelor după schimbări",
+            "Creșterea dimensiunii cadrului Ethernet",
+            "Eliminarea adreselor IP",
+            "Conversia din TCP în UDP"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 231,
+        "type": "single",
+        "question": "Ce caracterizează un circuit virtual?",
+        "points": 1,
+        "options": [
+            "O cale logică stabilită înaintea sau pentru transferul datelor",
+            "Un mesaj DNS fără stare",
+            "O transmisie radio fără identificator",
+            "Un fișier HTML static"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 232,
+        "type": "single",
+        "question": "Ce face PPP?",
+        "points": 1,
+        "options": [
+            "Încadrează și gestionează comunicații punct-la-punct",
+            "Rezolvă nume de domenii",
+            "Definește VLAN-uri",
+            "Comprimă video"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 233,
+        "type": "single",
+        "question": "De ce CHAP este preferabil PAP ca idee de autentificare?",
+        "points": 1,
+        "options": [
+            "Folosește provocări și nu trimite parola simplu ca mecanism de bază",
+            "Nu folosește nicio cheie",
+            "Este un protocol de nivel fizic optic",
+            "Este identic cu DNS"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 234,
+        "type": "single",
+        "question": "Ce caracterizează ADSL?",
+        "points": 1,
+        "options": [
+            "Are capacitate mai mare spre abonat decât de la abonat",
+            "Este obligatoriu simetric",
+            "Funcționează numai prin satelit",
+            "Nu folosește bucla locală"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 235,
+        "type": "single",
+        "question": "Ce limitare poate avea accesul prin cablu coaxial/HFC?",
+        "points": 1,
+        "options": [
+            "Segmentul local poate fi partajat între abonați",
+            "Nu poate transporta date digitale",
+            "Nu are canal descendent",
+            "Nu poate fi conectat la Internet"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 236,
+        "type": "multiple",
+        "question": "Ce concepte sunt relevante pentru wireless?",
+        "points": 2,
+        "options": [
+            "RF",
+            "Frecvențe licențiate și nelicențiate",
+            "DSSS/FHSS",
+            "SSID"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 237,
+        "type": "single",
+        "question": "Ce rol are un punct de acces WLAN?",
+        "points": 1,
+        "options": [
+            "Conectează clienții wireless la rețea",
+            "Calculează cheia RSA",
+            "Înlocuiește tabela de rutare",
+            "Definește un server MX"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 238,
+        "type": "single",
+        "question": "Ce face DWDM în rețele optice?",
+        "points": 1,
+        "options": [
+            "Crește capacitatea folosind mai multe lungimi de undă",
+            "Reduce toate adresele la 8 biți",
+            "Înlocuiește TCP",
+            "Elimină nevoia de receptor optic"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 239,
+        "type": "single",
+        "question": "Ce urmăresc rețelele convergente?",
+        "points": 1,
+        "options": [
+            "Integrarea serviciilor de voce, date și video",
+            "Separarea permanentă a serviciilor pe rețele incompatibile",
+            "Eliminarea traficului multimedia",
+            "Folosirea exclusivă a modemurilor analogice"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 240,
+        "type": "single",
+        "question": "Ce diferențiază serviciul orientat pe conexiune de cel fără conexiune?",
+        "points": 1,
+        "options": [
+            "Cel orientat pe conexiune are stabilire, transfer și eliberare; cel fără conexiune tratează mesajele independent",
+            "Cel fără conexiune garantează mereu ordinea",
+            "Cel orientat pe conexiune nu poate transporta date",
+            "Nu există diferență"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 241,
+        "type": "single",
+        "question": "Ce exprimă limita Shannon?",
+        "points": 1,
+        "options": [
+            "Rata maximă teoretică pe un canal cu zgomot",
+            "Numărul de niveluri OSI",
+            "Dimensiunea minimă a cadrului Ethernet",
+            "Numărul de porturi TCP"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 242,
+        "type": "single",
+        "question": "Care este diferența dintre bit/s și baud?",
+        "points": 1,
+        "options": [
+            "bit/s măsoară biți pe secundă, baud măsoară simboluri pe secundă",
+            "Sunt întotdeauna identice",
+            "Baud este o adresă IP",
+            "bit/s se folosește doar în DNS"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 243,
+        "type": "single",
+        "question": "Ce diferențiază comutarea de circuite de comutarea de pachete?",
+        "points": 1,
+        "options": [
+            "Comutarea de circuite rezervă resurse, comutarea de pachete partajează legăturile între pachete",
+            "Comutarea de pachete nu folosește antete",
+            "Comutarea de circuite este numai Web",
+            "Nu există diferență"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 244,
+        "type": "multiple",
+        "question": "Ce tehnici de multiplexare sunt importante?",
+        "points": 2,
+        "options": [
+            "FDM",
+            "TDM",
+            "WDM",
+            "PCM pentru voce digitală"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 245,
+        "type": "single",
+        "question": "Ce face CRC?",
+        "points": 1,
+        "options": [
+            "Detectează erori prin calcul polinomial modulo 2",
+            "Alege ruta cea mai scurtă",
+            "Rezolvă nume DNS",
+            "Criptează mesaje cu cheie publică"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 246,
+        "type": "single",
+        "question": "Ce diferențiază Go-Back-N de repetarea selectivă?",
+        "points": 1,
+        "options": [
+            "Go-Back-N retransmite cadrul lipsă și următoarele, repetarea selectivă retransmite doar cadrele necesare",
+            "Repetarea selectivă nu folosește ferestre",
+            "Go-Back-N nu folosește confirmări",
+            "Sunt identice"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 247,
+        "type": "single",
+        "question": "Ce este piggybacking?",
+        "points": 1,
+        "options": [
+            "Trimiterea confirmării într-un cadru de date în sens invers",
+            "Tunelarea IP prin IPv6",
+            "Criptarea unui hash",
+            "Eșantionarea audio"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 248,
+        "type": "single",
+        "question": "Ce problemă rezolvă RTS/CTS în 802.11?",
+        "points": 1,
+        "options": [
+            "Reduce efectul stațiilor ascunse prin rezervarea mediului",
+            "Elimină nevoia de adrese MAC",
+            "Alocă adrese IP",
+            "Înlocuiește autentificarea"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 249,
+        "type": "single",
+        "question": "De ce are Ethernet o dimensiune minimă a cadrului?",
+        "points": 1,
+        "options": [
+            "Pentru ca emițătorul să poată detecta coliziuni pe distanța maximă admisă",
+            "Pentru compatibilitate cu MIME",
+            "Pentru rutare BGP",
+            "Pentru compresie video"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 250,
+        "type": "single",
+        "question": "Ce diferențiază dirijarea de expedierea pachetelor?",
+        "points": 1,
+        "options": [
+            "Dirijarea calculează trasee, expedierea aplică local tabela pentru fiecare pachet",
+            "Sunt sinonime",
+            "Expedierea este doar criptografie",
+            "Dirijarea aparține nivelului aplicație"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 251,
+        "type": "single",
+        "question": "Ce problemă clasică apare la vectorii distanță?",
+        "points": 1,
+        "options": [
+            "Numărarea la infinit",
+            "Lipsa oricărei metrici",
+            "Imposibilitatea actualizării",
+            "Necesitatea DNS"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 252,
+        "type": "single",
+        "question": "Ce face tunelarea?",
+        "points": 1,
+        "options": [
+            "Încapsulează un pachet într-un alt pachet pentru traversarea unei rețele intermediare",
+            "Împarte sunetul în eșantioane",
+            "Transformă HTTP în HTML",
+            "Șterge adresa destinație"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 253,
+        "type": "single",
+        "question": "Ce rol are TTL în IPv4?",
+        "points": 1,
+        "options": [
+            "Limitează viața pachetului pentru a evita buclele",
+            "Stabilește rata audio",
+            "Definește cheia RSA",
+            "Alege metoda HTTP"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 254,
+        "type": "multiple",
+        "question": "Ce caracteristici sunt corecte pentru IPv6?",
+        "points": 2,
+        "options": [
+            "Adresă de 128 biți",
+            "Antet fix simplificat",
+            "Antete de extensie",
+            "Broadcast identic cu IPv4 ca mecanism principal"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ]
+    },
+    {
+        "id": 255,
+        "type": "single",
+        "question": "Ce diferențiază controlul congestiei de controlul fluxului?",
+        "points": 1,
+        "options": [
+            "Congestia privește resursele rețelei, fluxul privește capacitatea receptorului",
+            "Sunt identice",
+            "Fluxul se aplică doar DNS",
+            "Congestia este doar criptografie"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 256,
+        "type": "multiple",
+        "question": "Ce mecanisme sunt asociate QoS?",
+        "points": 2,
+        "options": [
+            "IntServ/RSVP",
+            "DiffServ",
+            "MPLS",
+            "Tamponare pentru jitter"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 257,
+        "type": "single",
+        "question": "Ce identifică un soclu în Internet?",
+        "points": 1,
+        "options": [
+            "Adresă IP, protocol și port",
+            "Doar o adresă MAC",
+            "Doar un VLAN",
+            "Doar o cheie publică"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 258,
+        "type": "single",
+        "question": "De ce este necesar handshake-ul TCP în trei pași?",
+        "points": 1,
+        "options": [
+            "Sincronizează numerele inițiale și evită confuzia cu duplicate întârziate",
+            "Comprimă datele",
+            "Rezolvă nume DNS",
+            "Alege VLAN-ul"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 259,
+        "type": "single",
+        "question": "Ce indică ACK-ul TCP?",
+        "points": 1,
+        "options": [
+            "Următorul octet așteptat",
+            "Ultimul domeniu DNS",
+            "Numărul de sateliți",
+            "Cheia publică"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 260,
+        "type": "single",
+        "question": "De ce există TIME_WAIT în TCP?",
+        "points": 1,
+        "options": [
+            "Pentru expirarea segmentelor vechi și posibilitatea retransmiterii ultimului ACK",
+            "Pentru a evita folosirea porturilor",
+            "Pentru DNS caching",
+            "Pentru criptare AES"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 261,
+        "type": "single",
+        "question": "Ce diferențiază UDP de TCP?",
+        "points": 1,
+        "options": [
+            "UDP este fără conexiune și nu oferă fiabilitatea/ordinea completă TCP",
+            "UDP garantează mereu flux ordonat",
+            "TCP nu folosește porturi",
+            "UDP este protocol de nivel fizic"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 262,
+        "type": "single",
+        "question": "Ce diferențiază POP3 de IMAP?",
+        "points": 1,
+        "options": [
+            "POP3 este simplu pentru descărcare, IMAP păstrează și sincronizează mesaje pe server",
+            "POP3 este rutare, IMAP switching",
+            "Sunt identice",
+            "IMAP nu folosește server"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 263,
+        "type": "single",
+        "question": "Ce face MIME?",
+        "points": 1,
+        "options": [
+            "Extinde e-mailul pentru tipuri de conținut, atașamente și codări non-ASCII",
+            "Alege rute OSPF",
+            "Etichetează VLAN-uri",
+            "Controlează coliziuni Ethernet"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 264,
+        "type": "single",
+        "question": "Ce metodă HTTP cere doar antetele resursei?",
+        "points": 1,
+        "options": [
+            "HEAD",
+            "GET",
+            "POST",
+            "DELETE"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 265,
+        "type": "single",
+        "question": "Ce efect are cache-ul Web?",
+        "points": 1,
+        "options": [
+            "Reduce întârzierea și traficul prin păstrarea copiilor intermediare",
+            "Elimină DNS",
+            "Criptează automat toate paginile",
+            "Înlocuiește TCP"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 266,
+        "type": "single",
+        "question": "Ce rol are tamponarea în streaming?",
+        "points": 1,
+        "options": [
+            "Absoarbe variația întârzierii, cu prețul unei întârzieri inițiale",
+            "Elimină complet pierderile",
+            "Înlocuiește codec-ul",
+            "Alege ruta BGP"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 267,
+        "type": "single",
+        "question": "Care este principiul lui Kerckhoff?",
+        "points": 1,
+        "options": [
+            "Algoritmul poate fi public, cheia trebuie să fie secretă",
+            "Algoritmul trebuie ascuns, cheia publicată",
+            "Nu se folosesc chei",
+            "Securitatea depinde de cablu"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 268,
+        "type": "single",
+        "question": "De ce one-time pad este greu de folosit practic?",
+        "points": 1,
+        "options": [
+            "Cheia trebuie să fie aleatoare, la fel de lungă ca mesajul și folosită o singură dată",
+            "Nu poate cripta",
+            "Nu folosește operații cu cheie",
+            "Funcționează doar în DNS"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 269,
+        "type": "single",
+        "question": "De ce modul ECB este slab pentru date repetitive?",
+        "points": 1,
+        "options": [
+            "Blocurile identice produc tipare vizibile",
+            "Nu folosește niciun algoritm",
+            "Nu permite decriptare",
+            "Este un protocol de rutare"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 270,
+        "type": "single",
+        "question": "De ce sistemele hibride combină criptografia simetrică și asimetrică?",
+        "points": 1,
+        "options": [
+            "Asimetrica ajută la schimbul cheii, simetrica criptează eficient datele",
+            "Simetrica nu poate cripta date",
+            "Asimetrica nu folosește chei",
+            "Pentru a elimina autentificarea"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 271,
+        "type": "single",
+        "question": "Ce este un certificat digital?",
+        "points": 1,
+        "options": [
+            "O structură semnată care leagă o identitate de o cheie publică",
+            "Un cadru Ethernet",
+            "O rută statică",
+            "Un segment TCP"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 272,
+        "type": "single",
+        "question": "De ce Diffie-Hellman trebuie autentificat?",
+        "points": 1,
+        "options": [
+            "Altfel este vulnerabil la atac om-din-mijloc",
+            "Altfel nu produce nicio cheie",
+            "Altfel nu funcționează pe TCP",
+            "Altfel șterge DNS"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 273,
+        "type": "single",
+        "question": "Ce rol are Kerberos?",
+        "points": 1,
+        "options": [
+            "Autentificare prin tichete și chei de sesiune",
+            "Compresie video",
+            "Adresare MAC",
+            "Comutare cut-through"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 274,
+        "type": "single",
+        "question": "Unde se plasează SSL/TLS în stiva clasică?",
+        "points": 1,
+        "options": [
+            "Între aplicație și TCP",
+            "Între cablu și semnal",
+            "În locul IP",
+            "În locul DNS"
+        ],
+        "correctAnswer": 0
+    }
+]
